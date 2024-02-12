@@ -1,0 +1,327 @@
+Watching for file changes with StatReloader
+"GET /games/heads_or_tails/ HTTP/1.1" 200 8
+"GET /games/ HTTP/1.1" 200 9
+"GET /games/ HTTP/1.1" 200 9
+"GET / HTTP/1.1" 200 21
+"GET / HTTP/1.1" 200 21
+D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 21
+"GET /games/ HTTP/1.1" 200 9
+"GET /games/ HTTP/1.1" 200 9
+D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:16:38,690 Watching for file changes with StatReloader
+INFO 2024-02-13 03:16:44,683 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:16:46,821 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 03:16:47,059 "GET / HTTP/1.1" 200 21
+WARNING 2024-02-13 03:17:20,201 Not Found: /����
+WARNING 2024-02-13 03:17:20,202 "GET /%D0%B8%D0%B3%D1%80%D1%8B HTTP/1.1" 404 2729
+INFO 2024-02-13 03:17:36,056 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:17:36,463 Watching for file changes with StatReloader
+INFO 2024-02-13 03:17:40,799 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:18:07,898 Watching for file changes with StatReloader
+WARNING 2024-02-13 03:18:12,604 Not Found: /игры
+WARNING 2024-02-13 03:18:12,605 "GET /%D0%B8%D0%B3%D1%80%D1%8B HTTP/1.1" 404 2729
+INFO 2024-02-13 03:18:22,362 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:18:22,691 "GET /games/ HTTP/1.1" 200 9
+WARNING 2024-02-13 03:18:27,146 Not Found: /игры
+WARNING 2024-02-13 03:18:27,146 "GET /%D0%B8%D0%B3%D1%80%D1%8B HTTP/1.1" 404 2729
+INFO 2024-02-13 03:19:57,188 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:20:00,402 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:20:02,937 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:20:03,509 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:21:42,902 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:21:43,328 Watching for file changes with StatReloader
+INFO 2024-02-13 03:21:56,805 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:21:57,191 Watching for file changes with StatReloader
+INFO 2024-02-13 03:21:59,484 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:21:59,877 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:21,489 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:21,878 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:34,340 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:34,726 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:37,908 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:38,303 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:39,466 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:39,856 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:42,025 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:42,406 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:44,579 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:44,958 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:46,106 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:22:46,500 Watching for file changes with StatReloader
+INFO 2024-02-13 03:22:55,245 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:22:55,751 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:23:58,117 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:23:58,527 Watching for file changes with StatReloader
+INFO 2024-02-13 03:23:59,802 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:29:13,801 Watching for file changes with StatReloader
+INFO 2024-02-13 03:29:18,935 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 03:29:19,165 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 03:29:25,601 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-13 03:29:29,920 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:29:30,753 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:29:35,416 "GET /games/random_100/ HTTP/1.1" 200 50
+WARNING 2024-02-13 03:29:49,412 Not Found: /games/def playing_dice
+WARNING 2024-02-13 03:29:49,412 "GET /games/def%20playing_dice HTTP/1.1" 404 3385
+INFO 2024-02-13 03:29:58,239 "GET /games/playing_dice HTTP/1.1" 301 0
+INFO 2024-02-13 03:29:58,242 "GET /games/playing_dice/ HTTP/1.1" 200 45
+ERROR 2024-02-13 03:30:11,952 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 13, in heads_or_tails
+    result = random.choice("Орел", "Решка")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Random.choice() takes 2 positional arguments but 3 were given
+ERROR 2024-02-13 03:30:11,954 "GET /games/heads_or_tails/ HTTP/1.1" 500 67813
+INFO 2024-02-13 03:30:16,705 "GET /games/heads_or_tails HTTP/1.1" 301 0
+ERROR 2024-02-13 03:30:16,722 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 13, in heads_or_tails
+    result = random.choice("Орел", "Решка")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Random.choice() takes 2 positional arguments but 3 were given
+ERROR 2024-02-13 03:30:16,723 "GET /games/heads_or_tails/ HTTP/1.1" 500 67813
+INFO 2024-02-13 03:30:49,951 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:30:50,342 Watching for file changes with StatReloader
+INFO 2024-02-13 03:30:54,936 "GET /games/heads_or_tails/ HTTP/1.1" 200 8
+INFO 2024-02-13 03:30:57,172 "GET /games/heads_or_tails/ HTTP/1.1" 200 8
+INFO 2024-02-13 03:30:57,907 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 03:30:58,550 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 03:31:27,733 "GET /games/ HTTP/1.1" 200 9
+INFO 2024-02-13 03:31:29,202 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 03:31:30,679 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 03:31:35,829 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:31:36,891 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:32:03,972 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:04,362 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:08,693 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:09,110 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:13,308 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:13,709 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:14,974 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:15,384 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:23,798 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:24,172 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:33,570 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:33,996 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:38,324 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:38,716 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:39,985 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:40,389 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:43,704 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:32:44,078 Watching for file changes with StatReloader
+INFO 2024-02-13 03:32:56,504 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:32:57,057 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:33:01,935 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 03:33:03,080 "GET /games/random_100/ HTTP/1.1" 200 49
+INFO 2024-02-13 03:33:08,112 "GET /games/heads_or_tails/ HTTP/1.1" 200 8
+INFO 2024-02-13 03:33:09,146 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 03:38:52,749 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:38:53,150 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:02,560 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:02,941 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:04,207 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:04,593 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:07,897 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:08,289 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:11,591 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:11,976 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:16,284 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:16,689 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:23,038 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:23,419 Watching for file changes with StatReloader
+INFO 2024-02-13 03:39:25,702 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:39:26,103 Watching for file changes with StatReloader
+INFO 2024-02-13 03:47:07,868 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:47:08,210 Watching for file changes with StatReloader
+INFO 2024-02-13 03:47:10,449 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:47:10,831 Watching for file changes with StatReloader
+INFO 2024-02-13 03:47:15,151 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-13 03:47:21,351 Watching for file changes with StatReloader
+INFO 2024-02-13 03:47:45,012 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:47:45,414 Watching for file changes with StatReloader
+INFO 2024-02-13 03:47:49,620 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:47:50,001 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:40,892 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:41,394 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:44,626 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:45,112 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:46,294 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:46,751 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:48,925 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:49,328 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:50,485 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:50,891 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:52,056 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:52,465 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:54,647 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:55,031 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:57,207 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:48:57,618 Watching for file changes with StatReloader
+INFO 2024-02-13 03:48:59,805 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:00,187 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:04,377 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:04,770 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:08,963 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:09,352 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:11,525 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:11,937 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:23,260 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:23,680 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:36,169 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:36,557 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:37,831 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:38,236 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:40,411 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:40,809 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:42,075 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:42,496 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:49,757 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:50,160 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:53,349 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:53,740 Watching for file changes with StatReloader
+INFO 2024-02-13 03:49:56,028 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:49:56,430 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:07,738 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:08,133 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:10,303 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:10,697 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:13,878 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:14,273 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:18,591 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:18,976 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:24,331 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:24,721 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:25,986 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:26,369 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:35,762 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:36,161 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:40,364 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:40,746 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:42,915 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:43,305 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:44,566 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:44,966 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:50,302 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:50,687 Watching for file changes with StatReloader
+INFO 2024-02-13 03:50:56,026 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:50:56,417 Watching for file changes with StatReloader
+INFO 2024-02-13 03:51:25,189 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:51:25,585 Watching for file changes with StatReloader
+INFO 2024-02-13 03:51:26,845 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:51:27,240 Watching for file changes with StatReloader
+INFO 2024-02-13 03:51:29,541 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:51:29,938 Watching for file changes with StatReloader
+INFO 2024-02-13 03:51:37,313 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:51:37,689 Watching for file changes with StatReloader
+INFO 2024-02-13 03:51:39,850 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:51:40,244 Watching for file changes with StatReloader
+INFO 2024-02-13 03:52:21,167 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:52:21,573 Watching for file changes with StatReloader
+INFO 2024-02-13 03:52:22,838 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:52:23,222 Watching for file changes with StatReloader
+INFO 2024-02-13 03:52:25,496 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:52:25,881 Watching for file changes with StatReloader
+INFO 2024-02-13 03:52:28,142 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:52:28,532 Watching for file changes with StatReloader
+INFO 2024-02-13 03:52:46,957 Решка
+INFO 2024-02-13 03:52:46,958 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+ERROR 2024-02-13 03:52:53,187 Internal Server Error: /games/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 10, in wrapper
+    result = func(**args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: myapp_2.views.games_index() argument after ** must be a mapping, not tuple
+ERROR 2024-02-13 03:52:53,189 "GET /games/ HTTP/1.1" 500 68254
+ERROR 2024-02-13 03:52:53,414 Internal Server Error: /games/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 10, in wrapper
+    result = func(**args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: myapp_2.views.games_index() argument after ** must be a mapping, not tuple
+ERROR 2024-02-13 03:52:53,416 "GET /games/ HTTP/1.1" 500 67980
+INFO 2024-02-13 03:53:15,787 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:53:16,186 Watching for file changes with StatReloader
+INFO 2024-02-13 03:53:25,834  -- вызвана функция games_index
+INFO 2024-02-13 03:53:25,835 <HttpResponse status_code=200, "text/html; charset=utf-8">
+ERROR 2024-02-13 03:53:25,864 Internal Server Error: /games/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp_2.views.wrapper didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-02-13 03:53:25,865 "GET /games/ HTTP/1.1" 500 68786
+INFO 2024-02-13 03:54:22,766 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:54:23,178 Watching for file changes with StatReloader
+INFO 2024-02-13 03:54:27,934  -- вызвана функция games_index
+INFO 2024-02-13 03:54:27,935 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:54:27,935 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 03:54:49,696 Случайное число от 0 до 100 = 22
+INFO 2024-02-13 03:54:49,697 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 03:55:07,297 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:07,689 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:11,001 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:11,387 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:14,678 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:15,069 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:17,352 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:17,747 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:20,033 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:20,417 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:21,684 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:22,063 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:26,366 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:26,775 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:29,050 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:29,443 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:41,895 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 03:55:42,309 Watching for file changes with StatReloader
+INFO 2024-02-13 03:55:47,176  -- вызвана функция random_100
+INFO 2024-02-13 03:55:47,177 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:55:47,177 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 03:55:53,871  -- вызвана функция playing_dice
+INFO 2024-02-13 03:55:53,871 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:55:53,872 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 03:55:59,080  -- вызвана функция heads_or_tails
+INFO 2024-02-13 03:55:59,080 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:55:59,081 "GET /games/heads_or_tails/ HTTP/1.1" 200 8
+INFO 2024-02-13 03:56:02,710  -- вызвана функция games_index
+INFO 2024-02-13 03:56:02,711 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:56:02,711 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 03:56:02,889  -- вызвана функция games_index
+INFO 2024-02-13 03:56:02,889 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 03:56:02,890 "GET /games/ HTTP/1.1" 200 27

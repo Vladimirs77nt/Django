@@ -20,8 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),
-    path('about/', include('myapp.urls')),
-    path('heads_or_tails/', include('myapp_2.urls')),
-    path('playing_dice/', include('myapp_2.urls')),
-    path('random_100/', include('myapp_2.urls')),
+    path('games/', include('myapp_2.urls')),
 ]
