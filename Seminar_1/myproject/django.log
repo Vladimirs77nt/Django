@@ -1,0 +1,88 @@
+INFO 2024-02-13 07:12:18,130 Watching for file changes with StatReloader
+INFO 2024-02-13 07:12:47,877 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-13 07:12:48,432 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-13 07:12:51,893 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:12:52,204 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:12:55,980  -- вызвана функция games_index
+INFO 2024-02-13 07:12:55,980 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:12:55,981 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 07:12:57,422  -- вызвана функция games_index
+INFO 2024-02-13 07:12:57,423 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:12:57,424 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 07:13:01,203  -- вызвана функция random_100
+INFO 2024-02-13 07:13:01,204 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:13:01,204 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 07:13:07,632  -- вызвана функция heads_or_tails
+INFO 2024-02-13 07:13:07,632 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:13:07,633 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 07:13:12,367  -- вызвана функция heads_or_tails
+INFO 2024-02-13 07:13:12,367 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:13:12,368 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 07:13:15,792  -- вызвана функция playing_dice
+INFO 2024-02-13 07:13:15,792 <HttpResponse status_code=200, "text/html; charset=utf-8">
+INFO 2024-02-13 07:13:15,793 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 07:13:42,966 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:13:43,363 Watching for file changes with StatReloader
+INFO 2024-02-13 07:13:46,671 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:13:47,057 Watching for file changes with StatReloader
+INFO 2024-02-13 07:13:48,319 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:13:48,693 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:02,191 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:14:02,576 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:03,843 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:14:04,223 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:12,625 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:14:13,019 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:18,363 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:14:18,761 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:24,105 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:14:24,489 Watching for file changes with StatReloader
+INFO 2024-02-13 07:14:29,751 На кубике выпала грань = 3
+INFO 2024-02-13 07:14:29,751  -- вызвана функция playing_dice
+INFO 2024-02-13 07:14:29,752 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 07:14:55,535 Решка
+INFO 2024-02-13 07:14:55,535  -- вызвана функция heads_or_tails
+INFO 2024-02-13 07:14:55,536 "GET /games/heads_or_tails/ HTTP/1.1" 200 10
+INFO 2024-02-13 07:14:59,767 Случайное число от 0 до 100 = 81
+INFO 2024-02-13 07:14:59,768  -- вызвана функция random_100
+INFO 2024-02-13 07:14:59,768 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-13 07:15:02,331 Index page "Games" accessed
+INFO 2024-02-13 07:15:02,332  -- вызвана функция games_index
+INFO 2024-02-13 07:15:02,332 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 07:15:02,593 Index page "Games" accessed
+INFO 2024-02-13 07:15:02,593  -- вызвана функция games_index
+INFO 2024-02-13 07:15:02,593 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 07:15:05,912 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-13 07:15:08,653 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:15:08,941 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:15:11,398 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:16:12,796 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:13,204 Watching for file changes with StatReloader
+INFO 2024-02-13 07:16:14,475 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:14,854 Watching for file changes with StatReloader
+INFO 2024-02-13 07:16:34,446 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:34,834 Watching for file changes with StatReloader
+INFO 2024-02-13 07:16:47,305 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:47,734 Watching for file changes with StatReloader
+INFO 2024-02-13 07:16:54,092 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:54,488 Watching for file changes with StatReloader
+INFO 2024-02-13 07:16:56,784 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:16:57,160 Watching for file changes with StatReloader
+INFO 2024-02-13 07:17:02,502 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:17:02,905 Watching for file changes with StatReloader
+INFO 2024-02-13 07:17:07,231 D:\codes\Seminar_1\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-13 07:17:07,618 Watching for file changes with StatReloader
+INFO 2024-02-13 07:17:12,237 "GET / HTTP/1.1" 200 21
+INFO 2024-02-13 07:17:15,939 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-13 07:17:20,689 Index page "Games" accessed
+INFO 2024-02-13 07:17:20,690  -- вызвана функция games_index
+INFO 2024-02-13 07:17:20,690 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-13 07:17:25,425  -- вызвана функция heads_or_tails
+INFO 2024-02-13 07:17:25,425 Орел
+INFO 2024-02-13 07:17:25,426 "GET /games/heads_or_tails/ HTTP/1.1" 200 8
+INFO 2024-02-13 07:17:30,422  -- вызвана функция playing_dice
+INFO 2024-02-13 07:17:30,422 На кубике выпала грань = 1
+INFO 2024-02-13 07:17:30,423 "GET /games/playing_dice/ HTTP/1.1" 200 45
+INFO 2024-02-13 07:17:36,636  -- вызвана функция random_100
+INFO 2024-02-13 07:17:36,636 Случайное число от 0 до 100 = 13
+INFO 2024-02-13 07:17:36,637 "GET /games/random_100/ HTTP/1.1" 200 50

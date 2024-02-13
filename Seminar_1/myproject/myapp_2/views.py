@@ -9,27 +9,29 @@ def my_logger (func):
     def wrapper(*args, **kwargs):
         result = func(*args, **kwargs)
         logger.info(f" -- вызвана функция {func.__name__}")
-        logger.info(result)
         return result
     return wrapper
-
 
 @my_logger
 def games_index(request):
     result = 'Index page "Games" accessed'
+    logger.info(result)
     return HttpResponse(result)
 
-@my_logger
 def heads_or_tails(request):
     result = random.choice(["Орел", "Решка"])
+    logger.info(f" -- вызвана функция {heads_or_tails.__name__}")
+    logger.info(result)
     return HttpResponse(result)
 
-@my_logger
 def playing_dice(request):
     result = f"На кубике выпала грань = {random.randint(1,6)}"
+    logger.info(f" -- вызвана функция {playing_dice.__name__}")
+    logger.info(result)
     return HttpResponse(result)
 
-@my_logger
 def random_100(request):
     result = f"Случайное число от 0 до 100 = {random.randint(0,100)}"
+    logger.info(f" -- вызвана функция {random_100.__name__}")
+    logger.info(result)
     return HttpResponse(result)
