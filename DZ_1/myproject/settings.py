@@ -10,17 +10,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4_=tlej^^ghwclqp$_xj0_-13o!l)&em$cj8&3zhagk0@wcb5i'
+SECRET_KEY = 'django-insecure-1q7$c=h4a2apv&2r=qggm@qccc-iyyuhq2)!gy_+b&ckmsra&o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp',
-    'myapp_2',
+    'myapp_dz',
 ]
 
 MIDDLEWARE = [
@@ -152,13 +151,8 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'myapp': {
+        'myapp_dz': {
             'handlers': ['console','file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'myapp_2': {
-            'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
         },
