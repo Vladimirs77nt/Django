@@ -98,6 +98,7 @@
     https://docs.djangoproject.com/en/4.2/ref/models/fields/#model-field-types
 
 Несколько примеров моделей
+
     Рассмотрим ещё пару примеров моделей
 
     class Product(models.Model):
@@ -263,8 +264,8 @@
         class Command(BaseCommand):
             help = "Print 'Hello world!' to output."
 
-        def handle(self, *args, **kwargs):
-            self.stdout.write('Hello world!')
+            def handle(self, *args, **kwargs):
+                self.stdout.write('Hello world!')
     
     Создаём класс Command как дочерний для BaseCommand.
     Переменная help выведет справку по работе команды.
@@ -300,11 +301,11 @@
         class Command(BaseCommand):
             help = "Create user."
 
-        def handle(self, *args, **kwargs):
-            user = User(name='John', email='john@example.com',
-            password='secret', age=25)
-            user.save()
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                user = User(name='John', email='john@example.com',
+                password='secret', age=25)
+                user.save()
+                self.stdout.write(f'{user}')
 
     Здесь мы создаем новый объект модели "User" с заданными значениями полей и сохраняем его в базе данных
     с помощью метода "save()". Далее выводим на печать сохранённого пользователя.
@@ -326,12 +327,12 @@
         class User(models.Model):
             name = models.CharField(max_length=100)
             email = models.EmailField()
-        password = models.CharField(max_length=100)
-        age = models.IntegerField()
+            password = models.CharField(max_length=100)
+            age = models.IntegerField()
         
-        def __str__(self):
-            return f'Username: {self.name}, email: {self.email}, age: {self.age}'
-        ...
+            def __str__(self):
+                return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+            ...
 
     Запускаем команду повторно и видим:
         >python manage.py create_user
@@ -359,9 +360,10 @@
 
         class Command(BaseCommand):
             help = "Get all users."
+            
             def handle(self, *args, **kwargs):
-            users = User.objects.all()
-            self.stdout.write(f'{users}')
+                users = User.objects.all()
+                self.stdout.write(f'{users}')
 
     А чтобы получить пользователя по его ID, мы можем использовать следующий код в файле
     myapp2/management/commands/get_user.py:
@@ -372,13 +374,13 @@
         class Command(BaseCommand):
             help = "Get user by id."
 
-        def add_arguments(self, parser):
-            parser.add_argument('id', type=int, help='User ID')
+            def add_arguments(self, parser):
+                parser.add_argument('id', type=int, help='User ID')
         
-        def handle(self, *args, **kwargs):
-            id = kwargs['id']
-            user = User.objects.get(id=id)
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                id = kwargs['id']
+                user = User.objects.get(id=id)
+                self.stdout.write(f'{user}')
 
     Метод add_arguments позволяет парсить командную строку. Мы получаем значение целого типа и сохраняем
     его по ключу id. Теперь обработчик handler может получить к идентификатору доступ через ключ словаря kwargs.
@@ -404,13 +406,13 @@
         class Command(BaseCommand):
             help = "Get user by id."
         
-        def add_arguments(self, parser):
-            parser.add_argument('pk', type=int, help='User ID')
+            def add_arguments(self, parser):
+                parser.add_argument('pk', type=int, help='User ID')
         
-        def handle(self, *args, **kwargs):
-            pk = kwargs['pk']
-            user = User.objects.filter(pk=pk).first()
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                pk = kwargs['pk']
+                user = User.objects.filter(pk=pk).first()
+                self.stdout.write(f'{user}')
 
     Во-первых обратите внимание на замену id на pk. Так команда Django ушла от конфликта между именем
     переменной и встроенной в Python функцией id().
@@ -434,13 +436,13 @@
         class Command(BaseCommand):
             help = "Get user with age greater <age>."
 
-        def add_arguments(self, parser):
-            parser.add_argument('age', type=int, help='User age')
+            def add_arguments(self, parser):
+                parser.add_argument('age', type=int, help='User age')
 
-        def handle(self, *args, **kwargs):
-            age = kwargs['age']
-            user = User.objects.filter(age__gt=age)
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                age = kwargs['age']
+                user = User.objects.filter(age__gt=age)
+                self.stdout.write(f'{user}')
 
     Здесь мы используем оператор "__gt" для сравнения значения поля "age" с заданным значением.
     Помимо оператора __gt существуют множество других.
@@ -488,17 +490,17 @@
         class Command(BaseCommand):
             help = "Update user name by id."
         
-        def add_arguments(self, parser):
-            parser.add_argument('pk', type=int, help='User ID')
-            parser.add_argument('name', type=str, help='User name')
+            def add_arguments(self, parser):
+                parser.add_argument('pk', type=int, help='User ID')
+                parser.add_argument('name', type=str, help='User name')
         
-        def handle(self, *args, **kwargs):
-            pk = kwargs.get('pk')
-            name = kwargs.get('name')
-            user = User.objects.filter(pk=pk).first()
-            user.name = name
-            user.save()
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                pk = kwargs.get('pk')
+                name = kwargs.get('name')
+                user = User.objects.filter(pk=pk).first()
+                user.name = name
+                user.save()
+                self.stdout.write(f'{user}')
 
     Выполним команду
         >python manage.py update_user 2 Smith
@@ -519,15 +521,15 @@
         class Command(BaseCommand):
             help = "Delete user by id."
         
-        def add_arguments(self, parser):
-            parser.add_argument('pk', type=int, help='User ID')
+            def add_arguments(self, parser):
+                parser.add_argument('pk', type=int, help='User ID')
         
-        def handle(self, *args, **kwargs):
-            pk = kwargs.get('pk')
-            user = User.objects.filter(pk=pk).first()
-            if user is not None:
-                user.delete()
-            self.stdout.write(f'{user}')
+            def handle(self, *args, **kwargs):
+                pk = kwargs.get('pk')
+                user = User.objects.filter(pk=pk).first()
+                if user is not None:
+                    user.delete()
+                self.stdout.write(f'{user}')
 
     Здесь мы получаем пользователя по id и удаляем его из базы данных с помощью метода "delete()".
 
@@ -552,16 +554,16 @@
             name = models.CharField(max_length=100)
             email = models.EmailField()
         
-        def __str__(self):
-            return f'Name: {self.name}, email: {self.email}'
+            def __str__(self):
+                return f'Name: {self.name}, email: {self.email}'
         
         class Post(models.Model):
             title = models.CharField(max_length=100)
             content = models.TextField()
             author = models.ForeignKey(Author, on_delete=models.CASCADE)
         
-        def __str__(self):
-            return f'Title is {self.title}'
+            def __str__(self):
+                return f'Title is {self.title}'
     
     Здесь мы создаем модели Author и Post с полями "name", "email", "title", "content" и "author".
     Поле "author" в модели Post является ForeignKey, которое ссылается на модель Author.
@@ -592,18 +594,18 @@
         class Command(BaseCommand):
             help = "Generate fake authors and posts."
         
-        def add_arguments(self, parser):
-            parser.add_argument('count', type=int, help='User ID')
+            def add_arguments(self, parser):
+                parser.add_argument('count', type=int, help='User ID')
         
-        def handle(self, *args, **kwargs):
-            count = kwargs.get('count')
-            for i in range(1, count + 1):
-                author = Author(name=f'Name{i}', email=f'mail{i}@mail.ru')
-                author.save()
+            def handle(self, *args, **kwargs):
+                count = kwargs.get('count')
+                for i in range(1, count + 1):
+                    author = Author(name=f'Name{i}', email=f'mail{i}@mail.ru')
+                    author.save()
                 
-                for j in range(1, count + 1):
-                    post = Post(title=f'Title{j}', content=f'Text from {author.name} #{j} is bla bla bla many long text', author=author)
-                    post.save()
+                    for j in range(1, count + 1):
+                        post = Post(title=f'Title{j}', content=f'Text from {author.name} #{j} is bla bla bla many long text', author=author)
+                        post.save()
 
     Запустив команду >python manage.py fake_data 10 получим 10 авторов и 100 статей.
 
@@ -620,17 +622,17 @@
         class Command(BaseCommand):
             help = "Get all posts by author id."
         
-        def add_arguments(self, parser):
-            parser.add_argument('pk', type=int, help='User ID')
+            def add_arguments(self, parser):
+                parser.add_argument('pk', type=int, help='User ID')
         
-        def handle(self, *args, **kwargs):
-            pk = kwargs.get('pk')
-            author = Author.objects.filter(pk=pk).first()
-            if author is not None:
-                posts = Post.objects.filter(author=author)
-                intro = f'All posts of {author.name}\n'
-                text = '\n'.join(post.content for post in posts)
-                self.stdout.write(f'{intro}{text}')
+            def handle(self, *args, **kwargs):
+                pk = kwargs.get('pk')
+                author = Author.objects.filter(pk=pk).first()
+                if author is not None:
+                    posts = Post.objects.filter(author=author)
+                    intro = f'All posts of {author.name}\n'
+                    text = '\n'.join(post.content for post in posts)
+                    self.stdout.write(f'{intro}{text}')
 
     Здесь мы получаем автора по его id и фильтруем все посты, чтобы получить только те,
     которые были написаны им.
@@ -658,12 +660,12 @@
             content = models.TextField()
             author = models.ForeignKey(Author, on_delete=models.CASCADE)
         
-        def __str__(self):
-            return f'Title is {self.title}'
+            def __str__(self):
+                return f'Title is {self.title}'
         
-        def get_summary(self):
-            words = self.content.split()
-            return f'{" ".join(words[:12])}...'
+            def get_summary(self):
+                words = self.content.split()
+                return f'{" ".join(words[:12])}...'
 
     Здесь мы создаем метод "get_summary", который возвращает первые 12 слов контента поста и
     добавляет многоточие в конце.
@@ -677,3 +679,4 @@
     Подобный подход, когда данные и расчёты производятся в моделях более предпочтителен,
     чем расчёты внутри представлений по выгруженным из модели данным.
     Тем более не стоит переносить расчёты в представления, о которых мы будем подробно говорить на следующей лекции.
+    
