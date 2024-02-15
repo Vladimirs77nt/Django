@@ -86,3 +86,1198 @@ INFO 2024-02-13 07:17:30,423 "GET /games/playing_dice/ HTTP/1.1" 200 45
 INFO 2024-02-13 07:17:36,636  -- вызвана функция random_100
 INFO 2024-02-13 07:17:36,636 Случайное число от 0 до 100 = 13
 INFO 2024-02-13 07:17:36,637 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-14 21:12:04,676 Watching for file changes with StatReloader
+INFO 2024-02-14 21:12:07,840 "GET / HTTP/1.1" 200 21
+WARNING 2024-02-14 21:12:08,353 Not Found: /favicon.ico
+WARNING 2024-02-14 21:12:08,353 "GET /favicon.ico HTTP/1.1" 404 2722
+WARNING 2024-02-14 21:12:08,359 Not Found: /favicon.ico
+WARNING 2024-02-14 21:12:08,360 "GET /favicon.ico HTTP/1.1" 404 2722
+INFO 2024-02-14 21:13:49,665 "GET / HTTP/1.1" 200 21
+WARNING 2024-02-14 21:13:49,721 Not Found: /favicon.ico
+WARNING 2024-02-14 21:13:49,722 "GET /favicon.ico HTTP/1.1" 404 2722
+INFO 2024-02-14 21:14:30,675 "GET /about HTTP/1.1" 301 0
+INFO 2024-02-14 21:14:30,678 "GET /about/ HTTP/1.1" 200 28
+WARNING 2024-02-14 21:14:37,716 Not Found: /game
+WARNING 2024-02-14 21:14:37,717 "GET /game HTTP/1.1" 404 2701
+WARNING 2024-02-14 21:15:12,138 Not Found: /heads_or_tails/heads_or_tails/
+WARNING 2024-02-14 21:15:12,139 "GET /heads_or_tails/heads_or_tails/ HTTP/1.1" 404 2779
+WARNING 2024-02-14 21:15:14,422 Not Found: /heads_or_tails
+WARNING 2024-02-14 21:15:14,423 "GET /heads_or_tails HTTP/1.1" 404 2731
+INFO 2024-02-14 21:15:23,052  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:15:23,053  >> результат: Решка
+ERROR 2024-02-14 21:15:23,172 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Решка'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 31, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Решка'.
+ERROR 2024-02-14 21:15:23,179 "GET /games/heads_or_tails/ HTTP/1.1" 500 145199
+INFO 2024-02-14 21:16:13,146 Index page "Games" accessed
+INFO 2024-02-14 21:16:13,146  -- вызвана функция games_index
+INFO 2024-02-14 21:16:13,147 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-14 21:16:13,304 Index page "Games" accessed
+INFO 2024-02-14 21:16:13,305  -- вызвана функция games_index
+INFO 2024-02-14 21:16:13,305 "GET /games/ HTTP/1.1" 200 27
+INFO 2024-02-14 21:16:17,596  - вызвана функция random_100
+INFO 2024-02-14 21:16:17,597  >> результат: Случайное число от 0 до 100 = 43
+INFO 2024-02-14 21:16:17,597 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-14 21:16:20,778  - вызвана функция random_100
+INFO 2024-02-14 21:16:20,778  >> результат: Случайное число от 0 до 100 = 41
+INFO 2024-02-14 21:16:20,779 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-14 21:16:26,476  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:16:26,476  >> результат: Решка
+ERROR 2024-02-14 21:16:26,504 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Решка'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 31, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Решка'.
+ERROR 2024-02-14 21:16:26,509 "GET /games/heads_or_tails/ HTTP/1.1" 500 145475
+INFO 2024-02-14 21:16:26,713  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:16:26,714  >> результат: Орел
+ERROR 2024-02-14 21:16:26,741 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Орел'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 31, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Орел'.
+ERROR 2024-02-14 21:16:26,746 "GET /games/heads_or_tails/ HTTP/1.1" 500 145143
+INFO 2024-02-14 21:16:49,466  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:16:49,466  >> результат: Орел
+ERROR 2024-02-14 21:16:49,494 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Орел'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 31, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Орел'.
+ERROR 2024-02-14 21:16:49,499 "GET /games/heads_or_tails/ HTTP/1.1" 500 145417
+INFO 2024-02-14 21:16:49,862  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:16:49,863  >> результат: Решка
+ERROR 2024-02-14 21:16:49,892 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Решка'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 31, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Решка'.
+ERROR 2024-02-14 21:16:49,897 "GET /games/heads_or_tails/ HTTP/1.1" 500 145201
+INFO 2024-02-14 21:16:53,860  - вызвана функция random_100
+INFO 2024-02-14 21:16:53,860  >> результат: Случайное число от 0 до 100 = 40
+INFO 2024-02-14 21:16:53,861 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-14 21:16:54,757  - вызвана функция random_100
+INFO 2024-02-14 21:16:54,757  >> результат: Случайное число от 0 до 100 = 40
+INFO 2024-02-14 21:16:54,758 "GET /games/random_100/ HTTP/1.1" 200 50
+INFO 2024-02-14 21:26:30,176 Watching for file changes with StatReloader
+INFO 2024-02-14 21:33:18,316 Watching for file changes with StatReloader
+INFO 2024-02-14 21:36:48,320 Watching for file changes with StatReloader
+INFO 2024-02-14 21:36:53,453 "GET / HTTP/1.1" 200 316
+INFO 2024-02-14 21:36:53,601 "GET / HTTP/1.1" 200 316
+INFO 2024-02-14 21:40:10,607 Watching for file changes with StatReloader
+INFO 2024-02-14 21:40:13,462 "GET / HTTP/1.1" 200 317
+INFO 2024-02-14 21:40:19,880 Index page "Games" accessed
+INFO 2024-02-14 21:40:19,880  -- вызвана функция games_index
+INFO 2024-02-14 21:40:19,881 "GET /games/ HTTP/1.1" 200 358
+INFO 2024-02-14 21:40:59,304 Watching for file changes with StatReloader
+INFO 2024-02-14 21:41:02,105 Index page "Games" accessed
+INFO 2024-02-14 21:41:02,106  -- вызвана функция games_index
+INFO 2024-02-14 21:41:02,106 "GET /games/ HTTP/1.1" 200 361
+INFO 2024-02-14 21:41:04,640 "GET / HTTP/1.1" 200 320
+INFO 2024-02-14 21:41:06,292 Index page "Games" accessed
+INFO 2024-02-14 21:41:06,293  -- вызвана функция games_index
+INFO 2024-02-14 21:41:06,293 "GET /games/ HTTP/1.1" 200 361
+WARNING 2024-02-14 21:41:07,749 Not Found: /heads_or_tails/
+WARNING 2024-02-14 21:41:07,749 "GET /heads_or_tails/ HTTP/1.1" 404 2734
+INFO 2024-02-14 21:41:57,121 Watching for file changes with StatReloader
+WARNING 2024-02-14 21:42:00,034 Not Found: /heads_or_tails/
+WARNING 2024-02-14 21:42:00,035 "GET /heads_or_tails/ HTTP/1.1" 404 2734
+WARNING 2024-02-14 21:42:03,673 Not Found: /heads_or_tails/
+WARNING 2024-02-14 21:42:03,674 "GET /heads_or_tails/ HTTP/1.1" 404 2734
+INFO 2024-02-14 21:42:34,400 Watching for file changes with StatReloader
+INFO 2024-02-14 21:42:38,776 "GET / HTTP/1.1" 200 320
+INFO 2024-02-14 21:42:38,905 "GET / HTTP/1.1" 200 320
+INFO 2024-02-14 21:42:40,672 Index page "Games" accessed
+INFO 2024-02-14 21:42:40,672  -- вызвана функция games_index
+INFO 2024-02-14 21:42:40,673 "GET /games/ HTTP/1.1" 200 379
+INFO 2024-02-14 21:42:42,337  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:42:42,337  >> результат: Решка
+ERROR 2024-02-14 21:42:42,379 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Решка'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 38, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Решка'.
+ERROR 2024-02-14 21:42:42,386 "GET /games/heads_or_tails/ HTTP/1.1" 500 145425
+INFO 2024-02-14 21:42:47,782  - вызвана функция playing_dice
+INFO 2024-02-14 21:42:47,783  >> результат: На кубике выпала грань = 6
+INFO 2024-02-14 21:42:47,783 "GET /games/playing_dice/ HTTP/1.1" 200 397
+INFO 2024-02-14 21:42:49,856  - вызвана функция random_100
+INFO 2024-02-14 21:42:49,857  >> результат: Случайное число от 0 до 100 = 94
+INFO 2024-02-14 21:42:49,857 "GET /games/random_100/ HTTP/1.1" 200 402
+INFO 2024-02-14 21:42:51,327  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:42:51,327  >> результат: Орел
+ERROR 2024-02-14 21:42:51,356 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Орел'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 38, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Орел'.
+ERROR 2024-02-14 21:42:51,361 "GET /games/heads_or_tails/ HTTP/1.1" 500 145378
+INFO 2024-02-14 21:45:42,477 Watching for file changes with StatReloader
+INFO 2024-02-14 21:45:47,271  - вызвана функция random_100
+INFO 2024-02-14 21:45:47,272  >> результат: Случайное число от 0 до 100 = 24
+INFO 2024-02-14 21:45:47,272 "GET /games/random_100/ HTTP/1.1" 200 402
+INFO 2024-02-14 21:45:48,570  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:48,571  >> результат: Орел
+INFO 2024-02-14 21:45:48,602 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:53,872  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:53,872  >> результат: Орел
+INFO 2024-02-14 21:45:53,909 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:54,779  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:54,780  >> результат: Орел
+INFO 2024-02-14 21:45:54,816 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:55,480  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:55,481  >> результат: Орел
+INFO 2024-02-14 21:45:55,511 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:56,127  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:56,128  >> результат: Орел
+INFO 2024-02-14 21:45:56,164 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:56,873  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:56,874  >> результат: Орел
+INFO 2024-02-14 21:45:56,910 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:57,545  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:57,546  >> результат: Орел
+INFO 2024-02-14 21:45:57,578 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:58,183  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:58,184  >> результат: Решка
+INFO 2024-02-14 21:45:58,205 "GET /games/heads_or_tails/ HTTP/1.1" 200 362
+INFO 2024-02-14 21:45:58,863  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:58,864  >> результат: Орел
+INFO 2024-02-14 21:45:58,900 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:45:59,501  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:45:59,501  >> результат: Решка
+INFO 2024-02-14 21:45:59,533 "GET /games/heads_or_tails/ HTTP/1.1" 200 362
+INFO 2024-02-14 21:46:00,016  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:46:00,017  >> результат: Решка
+INFO 2024-02-14 21:46:00,066 "GET /games/heads_or_tails/ HTTP/1.1" 200 362
+INFO 2024-02-14 21:46:00,528  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:46:00,529  >> результат: Орел
+INFO 2024-02-14 21:46:00,543 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:46:01,003  - вызвана функция heads_or_tails
+INFO 2024-02-14 21:46:01,003  >> результат: Орел
+INFO 2024-02-14 21:46:01,030 "GET /games/heads_or_tails/ HTTP/1.1" 200 360
+INFO 2024-02-14 21:49:32,434 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 21:49:32,847 Watching for file changes with StatReloader
+INFO 2024-02-14 21:49:34,113 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 21:49:34,505 Watching for file changes with StatReloader
+INFO 2024-02-14 21:49:35,824 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 21:49:36,210 Watching for file changes with StatReloader
+INFO 2024-02-14 21:49:38,445 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:10:19,897 Watching for file changes with StatReloader
+INFO 2024-02-14 22:10:27,391  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:10:27,392  >> результат: Орел
+INFO 2024-02-14 22:10:27,428 "GET /games/heads_or_tails/ HTTP/1.1" 200 507
+WARNING 2024-02-14 22:10:29,452 Not Found: /games/statistic/10/
+WARNING 2024-02-14 22:10:29,452 "GET /games/statistic/10/ HTTP/1.1" 404 3555
+INFO 2024-02-14 22:11:33,467 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:11:33,857 Watching for file changes with StatReloader
+INFO 2024-02-14 22:11:35,131 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:11:35,513 Watching for file changes with StatReloader
+INFO 2024-02-14 22:11:36,666 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:11:37,040 Watching for file changes with StatReloader
+WARNING 2024-02-14 22:11:45,073 Not Found: /games/statistic/10/
+WARNING 2024-02-14 22:11:45,074 "GET /games/statistic/10/ HTTP/1.1" 404 3555
+INFO 2024-02-14 22:11:49,493  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:11:49,494  >> результат: Орел
+INFO 2024-02-14 22:11:49,531 "GET /games/heads_or_tails/ HTTP/1.1" 200 507
+WARNING 2024-02-14 22:11:50,750 Not Found: /games/statistic/10/
+WARNING 2024-02-14 22:11:50,751 "GET /games/statistic/10/ HTTP/1.1" 404 3555
+INFO 2024-02-14 22:12:17,040 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:12:17,441 Watching for file changes with StatReloader
+WARNING 2024-02-14 22:12:19,371 Not Found: /games/statistic/10/
+WARNING 2024-02-14 22:12:19,372 "GET /games/statistic/10/ HTTP/1.1" 404 3555
+INFO 2024-02-14 22:12:23,094  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:12:23,094  >> результат: Орел
+INFO 2024-02-14 22:12:23,118 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+ERROR 2024-02-14 22:12:24,309 Internal Server Error: /games/statistic/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: statistic() missing 1 required positional argument: 'n'
+ERROR 2024-02-14 22:12:24,310 "GET /games/statistic/ HTTP/1.1" 500 63006
+INFO 2024-02-14 22:15:19,003 D:\codes\Seminar\myproject\myapp_2\urls.py changed, reloading.
+INFO 2024-02-14 22:15:19,401 Watching for file changes with StatReloader
+INFO 2024-02-14 22:15:20,666 D:\codes\Seminar\myproject\myapp_2\urls.py changed, reloading.
+INFO 2024-02-14 22:15:21,044 Watching for file changes with StatReloader
+INFO 2024-02-14 22:15:22,310 D:\codes\Seminar\myproject\myapp_2\urls.py changed, reloading.
+INFO 2024-02-14 22:15:22,678 Watching for file changes with StatReloader
+INFO 2024-02-14 22:15:30,056  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:15:30,057  >> результат: Орел
+INFO 2024-02-14 22:15:30,142 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+WARNING 2024-02-14 22:15:31,015 Not Found: /games/statistic/
+WARNING 2024-02-14 22:15:31,016 "GET /games/statistic/ HTTP/1.1" 404 3555
+WARNING 2024-02-14 22:15:41,437 Not Found: /games/statistic
+WARNING 2024-02-14 22:15:41,438 "GET /games/statistic?n-10 HTTP/1.1" 404 3557
+WARNING 2024-02-14 22:15:46,673 Not Found: /games/statistic
+WARNING 2024-02-14 22:15:46,673 "GET /games/statistic?n=10 HTTP/1.1" 404 3557
+INFO 2024-02-14 22:18:19,839 D:\codes\Seminar\myproject\myapp_2\urls.py changed, reloading.
+INFO 2024-02-14 22:18:20,225 Watching for file changes with StatReloader
+INFO 2024-02-14 22:18:25,562  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:18:25,563  >> результат: Орел
+INFO 2024-02-14 22:18:25,614 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+WARNING 2024-02-14 22:18:26,515 Not Found: /games/statistic/
+WARNING 2024-02-14 22:18:26,516 "GET /games/statistic/ HTTP/1.1" 404 3559
+ERROR 2024-02-14 22:18:29,537 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    return HttpResponse(Heads_or_tails.get_N_last_flip(n))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:18:29,539 "GET /games/statistic/10 HTTP/1.1" 500 73889
+INFO 2024-02-14 22:19:04,471 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:19:04,887 Watching for file changes with StatReloader
+ERROR 2024-02-14 22:19:07,395 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    return HttpResponse(Heads_or_tails.get_N_last_flip(n))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:19:07,398 "GET /games/statistic/10 HTTP/1.1" 500 74003
+WARNING 2024-02-14 22:19:11,043 Not Found: /games/statistic/
+WARNING 2024-02-14 22:19:11,044 "GET /games/statistic/ HTTP/1.1" 404 3559
+ERROR 2024-02-14 22:19:13,844 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    return HttpResponse(Heads_or_tails.get_N_last_flip(n))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:19:13,846 "GET /games/statistic/10 HTTP/1.1" 500 73866
+ERROR 2024-02-14 22:19:17,481 Internal Server Error: /games/statistic/5
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    return HttpResponse(Heads_or_tails.get_N_last_flip(n))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:19:17,483 "GET /games/statistic/5 HTTP/1.1" 500 73852
+ERROR 2024-02-14 22:19:19,997 Internal Server Error: /games/statistic/1
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    return HttpResponse(Heads_or_tails.get_N_last_flip(n))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:19:19,999 "GET /games/statistic/1 HTTP/1.1" 500 73852
+INFO 2024-02-14 22:19:26,593 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:19:26,983 Watching for file changes with StatReloader
+INFO 2024-02-14 22:19:28,252 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:19:28,629 Watching for file changes with StatReloader
+INFO 2024-02-14 22:19:35,874  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:19:35,875  >> результат: Орел
+INFO 2024-02-14 22:19:35,912 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+WARNING 2024-02-14 22:19:36,558 Not Found: /games/statistic/
+WARNING 2024-02-14 22:19:36,558 "GET /games/statistic/ HTTP/1.1" 404 3559
+INFO 2024-02-14 22:19:43,854 "GET /games/statistic/10 HTTP/1.1" 200 18
+INFO 2024-02-14 22:19:48,886 "GET /games/statistic/3 HTTP/1.1" 200 18
+INFO 2024-02-14 22:20:36,128 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:20:36,511 Watching for file changes with StatReloader
+INFO 2024-02-14 22:20:40,833 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:20:41,215 Watching for file changes with StatReloader
+INFO 2024-02-14 22:20:50,617 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:20:50,993 Watching for file changes with StatReloader
+INFO 2024-02-14 22:20:56,331 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:20:56,716 Watching for file changes with StatReloader
+INFO 2024-02-14 22:20:59,008 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:20:59,397 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:00,667 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:01,049 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:02,197 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:02,595 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:08,961 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:09,348 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:13,683 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:14,063 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:16,337 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:16,716 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:20,024 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:20,403 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:24,722 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:25,103 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:29,413 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:29,796 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:30,947 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:31,329 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:32,482 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:32,897 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:34,048 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:34,419 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:51,972 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:21:52,357 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:58,124  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:21:58,125  >> результат: Решка
+INFO 2024-02-14 22:21:58,160 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
+INFO 2024-02-14 22:22:00,320  - вызвана функция heads_or_tails
+INFO 2024-02-14 22:22:00,320  >> результат: Орел
+INFO 2024-02-14 22:22:00,356 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+INFO 2024-02-14 22:22:01,257  - вызвана функция playing_dice
+INFO 2024-02-14 22:22:01,257  >> результат: На кубике выпала грань = 1
+INFO 2024-02-14 22:22:01,258 "GET /games/playing_dice/ HTTP/1.1" 200 541
+INFO 2024-02-14 22:22:02,520  - вызвана функция random_100
+INFO 2024-02-14 22:22:02,520  >> результат: Случайное число от 0 до 100 = 34
+INFO 2024-02-14 22:22:02,521 "GET /games/random_100/ HTTP/1.1" 200 546
+WARNING 2024-02-14 22:22:03,520 Not Found: /games/statistic/
+WARNING 2024-02-14 22:22:03,520 "GET /games/statistic/ HTTP/1.1" 404 3559
+ERROR 2024-02-14 22:22:19,052 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = f"Статистика последних {n} бросков игрального кубика: {result}"
+                                                                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR 2024-02-14 22:22:19,053 "GET /games/statistic/10 HTTP/1.1" 500 67291
+ERROR 2024-02-14 22:22:19,251 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = f"Статистика последних {n} бросков игрального кубика: {result}"
+                                                                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR 2024-02-14 22:22:19,253 "GET /games/statistic/10 HTTP/1.1" 500 67017
+ERROR 2024-02-14 22:22:23,047 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = f"Статистика последних {n} бросков игрального кубика: {result}"
+                                                                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR 2024-02-14 22:22:23,048 "GET /games/statistic/10 HTTP/1.1" 500 67154
+ERROR 2024-02-14 22:22:25,841 Internal Server Error: /games/statistic/4
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = f"Статистика последних {n} бросков игрального кубика: {result}"
+                                                                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR 2024-02-14 22:22:25,843 "GET /games/statistic/4 HTTP/1.1" 500 67005
+INFO 2024-02-14 22:23:03,080 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:03,474 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:09,842 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:10,218 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:16,567 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:16,954 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:18,228 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:18,624 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:19,888 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:20,277 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:22,563 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:22,928 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:34,362 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:34,736 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:36,906 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:37,301 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:41,493 D:\codes\Seminar\myproject\myapp_2\views.py changed, reloading.
+INFO 2024-02-14 22:23:41,885 Watching for file changes with StatReloader
+INFO 2024-02-14 22:23:48,773  - вызвана функция random_100
+INFO 2024-02-14 22:23:48,774  >> результат: Статистика последних 4 бросков игрального кубика: {'Орел': 4, 'Решка': 0}
+INFO 2024-02-14 22:23:48,774 "GET /games/statistic/4 HTTP/1.1" 200 620
+INFO 2024-02-14 22:23:56,369  - вызвана функция random_100
+INFO 2024-02-14 22:23:56,370  >> результат: Статистика последних 10 бросков игрального кубика: {'Орел': 8, 'Решка': 2}
+INFO 2024-02-14 22:23:56,370 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-14 22:23:56,827  - вызвана функция random_100
+INFO 2024-02-14 22:23:56,827  >> результат: Статистика последних 10 бросков игрального кубика: {'Орел': 8, 'Решка': 2}
+INFO 2024-02-14 22:23:56,828 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-14 22:25:06,707 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:25:07,080 Watching for file changes with StatReloader
+INFO 2024-02-14 22:25:08,288 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:25:08,681 Watching for file changes with StatReloader
+ERROR 2024-02-14 22:25:12,974 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:-1]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:25:12,977 "GET /games/statistic/10 HTTP/1.1" 500 75232
+INFO 2024-02-14 22:27:32,672 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:27:33,054 Watching for file changes with StatReloader
+ERROR 2024-02-14 22:27:36,742 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:27:36,745 "GET /games/statistic/10 HTTP/1.1" 500 75226
+ERROR 2024-02-14 22:27:38,281 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:27:38,283 "GET /games/statistic/10 HTTP/1.1" 500 75226
+ERROR 2024-02-14 22:27:39,296 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:27:39,298 "GET /games/statistic/10 HTTP/1.1" 500 75226
+ERROR 2024-02-14 22:27:42,945 Internal Server Error: /games/statistic/5
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:27:42,947 "GET /games/statistic/5 HTTP/1.1" 500 75075
+WARNING 2024-02-14 22:27:49,645 Not Found: /games/statistic
+WARNING 2024-02-14 22:27:49,646 "GET /games/statistic HTTP/1.1" 404 3556
+INFO 2024-02-14 22:27:51,199 Index page "Games" accessed
+INFO 2024-02-14 22:27:51,199  -- вызвана функция games_index
+INFO 2024-02-14 22:27:51,199 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-14 22:27:51,416 Index page "Games" accessed
+INFO 2024-02-14 22:27:51,416  -- вызвана функция games_index
+INFO 2024-02-14 22:27:51,416 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-14 22:27:52,834  - вызвана функция random_100
+INFO 2024-02-14 22:27:52,834  >> результат: Случайное число от 0 до 100 = 57
+INFO 2024-02-14 22:27:52,835 "GET /games/random_100/ HTTP/1.1" 200 546
+WARNING 2024-02-14 22:27:53,751 Not Found: /games/statistic/
+WARNING 2024-02-14 22:27:53,752 "GET /games/statistic/ HTTP/1.1" 404 3559
+ERROR 2024-02-14 22:28:03,516 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:28:03,518 "GET /games/statistic/10 HTTP/1.1" 500 75363
+ERROR 2024-02-14 22:28:03,606 Internal Server Error: /games/statistic/10
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\views.py", line 59, in statistic
+    result = Heads_or_tails.get_N_last_flip(n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\myapp_2\models.py", line 11, in get_N_last_flip
+    flips = Heads_or_tails.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2024-02-14 22:28:03,608 "GET /games/statistic/10 HTTP/1.1" 500 75089
+INFO 2024-02-14 22:31:46,765 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:31:47,158 Watching for file changes with StatReloader
+INFO 2024-02-14 22:31:49,459 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:31:49,844 Watching for file changes with StatReloader
+INFO 2024-02-14 22:31:53,159 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:31:53,562 Watching for file changes with StatReloader
+INFO 2024-02-14 22:31:57,880 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:31:58,280 Watching for file changes with StatReloader
+INFO 2024-02-14 22:31:59,545 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:31:59,923 Watching for file changes with StatReloader
+INFO 2024-02-14 22:32:04,233 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:32:04,620 Watching for file changes with StatReloader
+INFO 2024-02-14 22:32:06,918 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:32:07,317 Watching for file changes with StatReloader
+INFO 2024-02-14 22:32:08,586 D:\codes\Seminar\myproject\myapp_2\models.py changed, reloading.
+INFO 2024-02-14 22:32:09,006 Watching for file changes with StatReloader
+INFO 2024-02-14 22:32:17,166  - вызвана функция random_100
+INFO 2024-02-14 22:32:17,167  >> результат: Статистика последних 10 бросков игрального кубика: {'Орел': 9, 'Решка': 1}
+INFO 2024-02-14 22:32:17,167 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-14 22:32:20,788  - вызвана функция random_100
+INFO 2024-02-14 22:32:20,788  >> результат: Статистика последних 10 бросков игрального кубика: {'Орел': 9, 'Решка': 1}
+INFO 2024-02-14 22:32:20,789 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-14 22:32:30,663  - вызвана функция random_100
+INFO 2024-02-14 22:32:30,664  >> результат: Статистика последних 100 бросков игрального кубика: {'Орел': 17, 'Решка': 4}
+INFO 2024-02-14 22:32:30,664 "GET /games/statistic/100 HTTP/1.1" 200 623
+INFO 2024-02-14 23:09:50,445 Watching for file changes with StatReloader
+INFO 2024-02-14 23:09:54,726 "GET / HTTP/1.1" 200 320
+INFO 2024-02-14 23:09:58,137 "GET /about/ HTTP/1.1" 200 327
+INFO 2024-02-14 23:09:59,681 "GET /supertest/ HTTP/1.1" 200 326
+INFO 2024-02-14 23:10:01,360 "GET /games/ HTTP/1.1" 200 523
+ERROR 2024-02-14 23:10:04,571 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: games_heads_or_tails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 40, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: games_heads_or_tails
+ERROR 2024-02-14 23:10:04,578 "GET /games/heads_or_tails/ HTTP/1.1" 500 146437
+INFO 2024-02-14 23:10:08,183 "GET /games/playing_dice/ HTTP/1.1" 200 541
+INFO 2024-02-14 23:10:09,632 "GET /games/random_100/ HTTP/1.1" 200 545
+WARNING 2024-02-14 23:10:10,389 Not Found: /games/statistic/
+WARNING 2024-02-14 23:10:10,390 "GET /games/statistic/ HTTP/1.1" 404 3559
+ERROR 2024-02-14 23:10:12,588 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: games_heads_or_tails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 40, in heads_or_tails
+    record.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: games_heads_or_tails
+ERROR 2024-02-14 23:10:12,593 "GET /games/heads_or_tails/ HTTP/1.1" 500 146448
+INFO 2024-02-14 23:12:12,420 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-14 23:12:12,821 Watching for file changes with StatReloader
+INFO 2024-02-14 23:12:18,153 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-14 23:12:18,551 Watching for file changes with StatReloader
+INFO 2024-02-14 23:12:21,864 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-14 23:12:22,254 Watching for file changes with StatReloader
+INFO 2024-02-14 23:13:13,205 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-14 23:13:13,592 Watching for file changes with StatReloader
+INFO 2024-02-14 23:13:15,757 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-14 23:13:16,130 Watching for file changes with StatReloader
+INFO 2024-02-14 23:14:55,350 Watching for file changes with StatReloader
+INFO 2024-02-14 23:16:49,438 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-14 23:16:49,834 Watching for file changes with StatReloader
+INFO 2024-02-14 23:17:35,722 Watching for file changes with StatReloader
+INFO 2024-02-14 23:21:35,415 Watching for file changes with StatReloader
+INFO 2024-02-14 23:22:52,130 Watching for file changes with StatReloader
+INFO 2024-02-14 23:22:56,733 "GET / HTTP/1.1" 200 320
+INFO 2024-02-14 23:23:04,291 "GET /blogs HTTP/1.1" 301 0
+INFO 2024-02-14 23:23:04,293 "GET /blogs/ HTTP/1.1" 200 34
+INFO 2024-02-14 23:23:11,959 "GET /blogs/blogs HTTP/1.1" 301 0
+INFO 2024-02-14 23:23:11,961 "GET /blogs/blogs/ HTTP/1.1" 200 28
+INFO 2024-02-14 23:23:18,098 "GET /blogs/ HTTP/1.1" 200 34
+INFO 2024-02-14 23:23:24,477 "GET /blogs/author HTTP/1.1" 301 0
+INFO 2024-02-14 23:23:24,479 "GET /blogs/author/ HTTP/1.1" 200 29
+INFO 2024-02-15 07:17:19,689 Watching for file changes with StatReloader
+INFO 2024-02-15 07:17:25,216 "GET / HTTP/1.1" 200 320
+INFO 2024-02-15 07:17:26,268 "GET /about/ HTTP/1.1" 200 327
+INFO 2024-02-15 07:17:27,014 "GET /supertest/ HTTP/1.1" 200 326
+INFO 2024-02-15 07:17:27,938 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-15 07:17:29,661 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+INFO 2024-02-15 07:17:30,565 "GET /games/playing_dice/ HTTP/1.1" 200 541
+INFO 2024-02-15 07:17:31,402 "GET /games/random_100/ HTTP/1.1" 200 546
+WARNING 2024-02-15 07:17:32,763 Not Found: /games/statistic/
+WARNING 2024-02-15 07:17:32,763 "GET /games/statistic/ HTTP/1.1" 404 3665
+INFO 2024-02-15 07:17:35,294 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-15 07:17:35,375 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-15 07:17:39,997 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+INFO 2024-02-15 07:17:40,420 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
+INFO 2024-02-15 07:17:40,823 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
+INFO 2024-02-15 07:17:41,300 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+INFO 2024-02-15 07:17:41,639 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
