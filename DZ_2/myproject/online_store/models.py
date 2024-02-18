@@ -25,7 +25,7 @@ class Client(models.Model):
     date_reg = models.DateField()
 
     def __str__(self):
-        return f'Client [id:{self.pk}]: {self.name}, email: {self.email}, age: {self.age}'
+        return f'{self.name}, email: {self.email}, date_reg: {self.date_reg}'
 
 
 """
@@ -45,7 +45,7 @@ class Product(models.Model):
     date_add = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f'Product [id:{self.pk}]: {self.name}, price: {self.price}, quantity: {self.quantity}'
+        return f'{self.name}, price: {self.price}, quantity: {self.quantity}'
 
 """
 ---------------------------------------------------------------------------------
@@ -59,7 +59,12 @@ class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
-    date_ordered = models.DateField(auto_now_add=True)
+    date_ordered = models.DateField()
 
     def __str__(self):
-        return f'Order [id:{self.pk}]: {self.client}, products: {self.products}, total_price: {self.total_price}'
+        text_out = f'{self.client.name}, date ordered: {self.date_ordered}:\n'
+        products_in_order = self.products.all()
+        for i_product in products_in_order:
+            text_out += f" > {i_product.name}, price: {i_product.price}\n"
+        text_out += f' total_price: {self.total_price}'
+        return f'Order [id: {self.pk}] {text_out}'
