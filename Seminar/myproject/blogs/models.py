@@ -71,3 +71,7 @@ class Comment(models.Model):
     def __str__(self):
         words = self.content.split()
         return f'Comment [{self.pk}], post: {self.post.title} | author: {self.author.name} |  comment: {" ".join(words[:8])}...'
+    
+    def get_summary(self):
+        words = self.content.split()
+        return f'{" ".join(words[:12])}...'

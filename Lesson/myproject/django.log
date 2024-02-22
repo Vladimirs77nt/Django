@@ -1,1 +1,623 @@
 INFO 2024-02-14 07:03:40,614 Watching for file changes with StatReloader
+INFO 2024-02-19 21:54:42,053 Watching for file changes with StatReloader
+INFO 2024-02-19 21:54:44,319 "GET / HTTP/1.1" 200 21
+WARNING 2024-02-19 21:54:44,602 Not Found: /favicon.ico
+WARNING 2024-02-19 21:54:44,603 "GET /favicon.ico HTTP/1.1" 404 2721
+INFO 2024-02-19 21:54:48,065 "GET / HTTP/1.1" 200 21
+WARNING 2024-02-19 21:54:55,970 Not Found: /les_3
+WARNING 2024-02-19 21:54:55,970 "GET /les_3 HTTP/1.1" 404 2703
+WARNING 2024-02-19 21:55:01,848 Not Found: /les3/
+WARNING 2024-02-19 21:55:01,848 "GET /les3/ HTTP/1.1" 404 2944
+INFO 2024-02-19 21:55:07,521 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-02-19 21:55:07,524 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-02-19 21:55:10,546 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2024-02-19 21:55:10,549 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-02-19 21:55:13,425 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-02-19 21:57:49,586 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:13,231 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:13,636 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:16,827 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:17,243 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:18,427 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:18,836 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:21,022 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:21,415 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:23,599 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:23,999 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:28,205 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:28,609 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:29,779 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:30,168 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:32,346 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:32,748 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:33,911 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:34,308 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:35,489 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:35,899 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:39,096 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:39,500 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:41,683 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:42,080 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:45,399 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:45,847 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:47,145 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:47,543 Watching for file changes with StatReloader
+INFO 2024-02-19 21:58:57,989 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 21:58:58,383 Watching for file changes with StatReloader
+INFO 2024-02-19 21:59:06,896 "GET /les3/hello/ HTTP/1.1" 200 26
+WARNING 2024-02-19 21:59:10,612 Not Found: /les3/
+WARNING 2024-02-19 21:59:10,613 "GET /les3/ HTTP/1.1" 404 3580
+WARNING 2024-02-19 21:59:20,837 Not Found: /les3/2003/12/3
+WARNING 2024-02-19 21:59:20,838 "GET /les3/2003/12/3 HTTP/1.1" 404 3607
+INFO 2024-02-19 21:59:37,718 "GET /les3/posts/2003/12/3 HTTP/1.1" 301 0
+INFO 2024-02-19 21:59:37,720 "GET /les3/posts/2003/12/3/ HTTP/1.1" 200 356
+INFO 2024-02-19 22:00:20,128 "GET /les3/posts/2003 HTTP/1.1" 301 0
+INFO 2024-02-19 22:00:20,130 "GET /les3/posts/2003/ HTTP/1.1" 200 19
+INFO 2024-02-19 22:00:25,543 "GET /les3/posts/2003/12 HTTP/1.1" 301 0
+INFO 2024-02-19 22:00:25,545 "GET /les3/posts/2003/12/ HTTP/1.1" 200 22
+INFO 2024-02-19 22:00:28,901 "GET /les3/posts/2003/15 HTTP/1.1" 301 0
+INFO 2024-02-19 22:00:28,903 "GET /les3/posts/2003/15/ HTTP/1.1" 200 22
+INFO 2024-02-19 22:00:32,829 "GET /les3/posts/2003/15/3 HTTP/1.1" 301 0
+INFO 2024-02-19 22:00:32,831 "GET /les3/posts/2003/15/3/ HTTP/1.1" 200 356
+INFO 2024-02-19 22:03:53,777 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:03:54,180 Watching for file changes with StatReloader
+INFO 2024-02-19 22:03:56,356 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:03:56,758 Watching for file changes with StatReloader
+INFO 2024-02-19 22:03:59,955 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:04:00,362 Watching for file changes with StatReloader
+INFO 2024-02-19 22:04:03,564 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:04:03,985 Watching for file changes with StatReloader
+INFO 2024-02-19 22:04:21,552 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:04:21,966 Watching for file changes with StatReloader
+INFO 2024-02-19 22:04:24,255 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:04:24,652 Watching for file changes with StatReloader
+INFO 2024-02-19 22:04:26,837 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:04:27,227 Watching for file changes with StatReloader
+INFO 2024-02-19 22:04:30,533 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:04:30,925 Watching for file changes with StatReloader
+ERROR 2024-02-19 22:04:44,596 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 38, in my_view
+    return render(request, "myapp3/my_template.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/my_template.html
+ERROR 2024-02-19 22:04:44,599 "GET /les3/ HTTP/1.1" 500 80611
+INFO 2024-02-19 22:05:48,036 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:05:48,464 Watching for file changes with StatReloader
+INFO 2024-02-19 22:05:51,734 "GET /les3/ HTTP/1.1" 200 205
+WARNING 2024-02-19 22:05:58,245 Not Found: /les3/wer
+WARNING 2024-02-19 22:05:58,246 "GET /les3/wer HTTP/1.1" 404 3755
+INFO 2024-02-19 22:06:01,308 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-19 22:06:02,287 "GET /les3 HTTP/1.1" 301 0
+INFO 2024-02-19 22:06:02,289 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-19 22:08:35,724 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:36,125 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:38,305 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:38,717 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:39,881 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:40,287 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:41,453 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:41,873 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:45,066 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:45,477 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:46,645 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:47,030 Watching for file changes with StatReloader
+INFO 2024-02-19 22:08:53,387 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:08:53,786 Watching for file changes with StatReloader
+INFO 2024-02-19 22:09:12,306 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:09:12,719 Watching for file changes with StatReloader
+INFO 2024-02-19 22:09:18,207 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-19 22:09:42,604 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-19 22:09:43,031 Watching for file changes with StatReloader
+INFO 2024-02-19 22:09:57,533 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-19 22:09:57,934 Watching for file changes with StatReloader
+INFO 2024-02-19 22:10:37,145 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-19 22:10:37,542 Watching for file changes with StatReloader
+INFO 2024-02-19 22:10:47,985 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:10:48,377 Watching for file changes with StatReloader
+INFO 2024-02-19 22:10:55,776 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:10:56,169 Watching for file changes with StatReloader
+INFO 2024-02-19 22:10:58,470 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:10:58,888 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:03,230 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:11:03,636 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:13,059 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:11:13,457 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:15,769 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:11:16,178 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:20,506 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:11:20,943 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:33,432 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:11:33,835 Watching for file changes with StatReloader
+INFO 2024-02-19 22:11:42,663 "GET /les3/if HTTP/1.1" 301 0
+INFO 2024-02-19 22:11:42,673 "GET /les3/if/ HTTP/1.1" 200 173
+INFO 2024-02-19 22:12:18,031 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:18,446 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:22,660 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:23,063 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:28,301 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:28,701 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:29,866 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:30,286 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:35,526 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:35,931 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:39,131 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:39,556 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:41,746 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:42,155 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:43,318 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:43,713 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:47,921 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:48,324 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:49,487 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:49,898 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:51,071 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:51,465 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:54,660 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:55,055 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:57,234 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:57,645 Watching for file changes with StatReloader
+INFO 2024-02-19 22:12:58,820 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:12:59,225 Watching for file changes with StatReloader
+INFO 2024-02-19 22:13:00,518 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:13:00,939 Watching for file changes with StatReloader
+INFO 2024-02-19 22:13:04,276 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:13:04,664 Watching for file changes with StatReloader
+INFO 2024-02-19 22:13:16,136 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:13:16,532 Watching for file changes with StatReloader
+INFO 2024-02-19 22:16:16,951 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:16:17,359 Watching for file changes with StatReloader
+INFO 2024-02-19 22:16:24,614 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-19 22:16:25,014 Watching for file changes with StatReloader
+INFO 2024-02-19 22:16:53,780 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:16:54,197 Watching for file changes with StatReloader
+INFO 2024-02-19 22:16:58,526 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:16:58,934 Watching for file changes with StatReloader
+INFO 2024-02-19 22:17:10,361 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-19 22:17:10,780 Watching for file changes with StatReloader
+INFO 2024-02-19 22:17:16,223 "GET /les3/if/ HTTP/1.1" 200 173
+INFO 2024-02-19 22:17:19,127 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-19 22:17:20,340 "GET /les3/ HTTP/1.1" 200 205
+WARNING 2024-02-19 22:17:23,362 Not Found: /les3/5
+WARNING 2024-02-19 22:17:23,362 "GET /les3/5 HTTP/1.1" 404 4095
+INFO 2024-02-19 22:17:32,734 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-19 22:17:34,041 "GET /les3/for HTTP/1.1" 301 0
+INFO 2024-02-19 22:17:34,049 "GET /les3/for/ HTTP/1.1" 200 645
+INFO 2024-02-19 22:17:47,381 "GET /les3/if/ HTTP/1.1" 200 173
+INFO 2024-02-20 07:02:22,344 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 07:02:22,756 Watching for file changes with StatReloader
+INFO 2024-02-20 07:02:25,071 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 07:02:25,487 Watching for file changes with StatReloader
+INFO 2024-02-20 07:02:32,888 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 07:02:33,282 Watching for file changes with StatReloader
+INFO 2024-02-20 07:03:57,836 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-20 07:03:58,245 Watching for file changes with StatReloader
+INFO 2024-02-20 07:06:54,593 "GET /les3/if/ HTTP/1.1" 200 173
+INFO 2024-02-20 07:07:05,882 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 07:07:07,884 "GET /les3/for/ HTTP/1.1" 200 645
+INFO 2024-02-20 07:10:27,068 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:27,471 Watching for file changes with StatReloader
+INFO 2024-02-20 07:10:30,816 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:31,254 Watching for file changes with StatReloader
+INFO 2024-02-20 07:10:45,778 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:46,178 Watching for file changes with StatReloader
+INFO 2024-02-20 07:10:49,499 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:49,901 Watching for file changes with StatReloader
+INFO 2024-02-20 07:10:56,293 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:56,713 Watching for file changes with StatReloader
+INFO 2024-02-20 07:10:58,894 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:10:59,290 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:02,495 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:02,906 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:04,071 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:04,476 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:05,639 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:06,046 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:08,228 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:08,626 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:09,815 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:10,213 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:11,511 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:11,923 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:16,266 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:16,674 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:17,972 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:18,430 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:25,827 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:26,239 Watching for file changes with StatReloader
+INFO 2024-02-20 07:11:29,569 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:11:30,015 Watching for file changes with StatReloader
+INFO 2024-02-20 07:23:52,886 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:23:53,315 Watching for file changes with StatReloader
+INFO 2024-02-20 07:23:56,652 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:23:57,068 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:01,416 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:01,815 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:11,247 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:11,699 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:16,066 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:16,476 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:17,783 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:18,198 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:22,554 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:22,959 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:26,292 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:26,700 Watching for file changes with StatReloader
+INFO 2024-02-20 07:24:31,048 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 07:24:31,466 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:20,542 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:20,952 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:24,281 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:24,677 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:28,004 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:28,433 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:31,762 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:32,163 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:35,485 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:35,879 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:38,197 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:38,619 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:51,100 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:51,502 Watching for file changes with StatReloader
+INFO 2024-02-20 07:25:54,810 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:25:55,223 Watching for file changes with StatReloader
+INFO 2024-02-20 07:26:00,565 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:26:00,966 Watching for file changes with StatReloader
+INFO 2024-02-20 07:26:07,318 D:\codes\Lesson\myproject\myapp_3\urls.py changed, reloading.
+INFO 2024-02-20 07:26:07,744 Watching for file changes with StatReloader
+INFO 2024-02-20 07:26:16,754 "GET /les3/index HTTP/1.1" 301 0
+ERROR 2024-02-20 07:26:16,850 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp3/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 72, in index
+    return render(request, "myapp_3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp3/base.html
+ERROR 2024-02-20 07:26:16,855 "GET /les3/index/ HTTP/1.1" 500 129041
+INFO 2024-02-20 07:27:06,662 Watching for file changes with StatReloader
+INFO 2024-02-20 07:27:08,990 "GET /les3/index/ HTTP/1.1" 200 242
+INFO 2024-02-20 07:27:15,985 "GET /les3/about/ HTTP/1.1" 200 253
+INFO 2024-02-20 07:27:52,420 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 07:28:11,087 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 07:28:11,414 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:19:44,156 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-20 20:19:44,640 Watching for file changes with StatReloader
+INFO 2024-02-20 20:20:02,218 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-20 20:20:02,634 Watching for file changes with StatReloader
+INFO 2024-02-20 20:20:03,944 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-20 20:20:04,344 Watching for file changes with StatReloader
+INFO 2024-02-20 20:20:05,634 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-20 20:20:06,038 Watching for file changes with StatReloader
+INFO 2024-02-20 20:23:56,518 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:24:12,949 Watching for file changes with StatReloader
+INFO 2024-02-20 20:24:16,181 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:24:17,173 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:24:24,842 "GET /about/ HTTP/1.1" 200 28
+INFO 2024-02-20 20:24:30,221 "GET /les3/ HTTP/1.1" 200 205
+WARNING 2024-02-20 20:26:02,157 Not Found: /index
+WARNING 2024-02-20 20:26:02,158 "GET /index HTTP/1.1" 404 2633
+INFO 2024-02-20 20:26:10,902 "GET /les3/index/ HTTP/1.1" 200 320
+INFO 2024-02-20 20:26:33,866 "GET /les3/index/ HTTP/1.1" 200 322
+INFO 2024-02-20 20:26:40,465 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:26:42,542 "GET /les3/about/ HTTP/1.1" 200 253
+INFO 2024-02-20 20:28:52,237 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:28:52,591 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:29:35,984 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:29:36,384 Watching for file changes with StatReloader
+INFO 2024-02-20 20:29:38,690 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:29:39,098 Watching for file changes with StatReloader
+INFO 2024-02-20 20:29:44,468 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:29:44,855 Watching for file changes with StatReloader
+INFO 2024-02-20 20:29:47,128 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:29:47,523 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:02,006 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:30:02,403 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:05,689 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:30:06,090 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:10,393 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:30:10,795 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:14,083 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:30:14,520 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:24,949 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:30:25,890 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:30:32,938 Watching for file changes with StatReloader
+INFO 2024-02-20 20:30:36,324 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:30:39,520 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:30:44,294 "GET /about/ HTTP/1.1" 200 28
+WARNING 2024-02-20 20:30:48,619 Not Found: /games/
+WARNING 2024-02-20 20:30:48,619 "GET /games/ HTTP/1.1" 404 2736
+WARNING 2024-02-20 20:30:49,541 Not Found: /games/
+WARNING 2024-02-20 20:30:49,542 "GET /games/ HTTP/1.1" 404 2736
+WARNING 2024-02-20 20:30:56,171 Not Found: /index
+WARNING 2024-02-20 20:30:56,172 "GET /index HTTP/1.1" 404 2733
+INFO 2024-02-20 20:31:01,356 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:31:03,689 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:31:04,823 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:31:05,153 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:32:24,863 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:32:25,918 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:32:28,889 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:32:33,597 "GET /les3/index/ HTTP/1.1" 200 244
+WARNING 2024-02-20 20:32:39,353 Not Found: /index/
+WARNING 2024-02-20 20:32:39,353 "GET /index/ HTTP/1.1" 404 2736
+INFO 2024-02-20 20:32:52,994 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:32:53,684 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:34:30,607 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:34:32,116 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:34:35,672 "GET /les3/index/ HTTP/1.1" 200 244
+INFO 2024-02-20 20:34:36,227 "GET /les3/index/ HTTP/1.1" 200 244
+WARNING 2024-02-20 20:34:40,533 Not Found: /index/
+WARNING 2024-02-20 20:34:40,533 "GET /index/ HTTP/1.1" 404 2736
+INFO 2024-02-20 20:34:44,550 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:34:44,743 "GET / HTTP/1.1" 200 21
+INFO 2024-02-20 20:35:59,839 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:36:00,245 Watching for file changes with StatReloader
+INFO 2024-02-20 20:36:01,552 D:\codes\Lesson\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-20 20:36:01,949 Watching for file changes with StatReloader
+INFO 2024-02-20 20:36:04,889 "GET / HTTP/1.1" 200 244
+INFO 2024-02-20 20:42:48,072 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:42:48,480 Watching for file changes with StatReloader
+INFO 2024-02-20 20:42:52,744 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:42:53,132 Watching for file changes with StatReloader
+INFO 2024-02-20 20:42:55,376 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:42:55,754 Watching for file changes with StatReloader
+INFO 2024-02-20 20:42:57,982 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:42:58,372 Watching for file changes with StatReloader
+INFO 2024-02-20 20:43:00,617 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:43:01,011 Watching for file changes with StatReloader
+INFO 2024-02-20 20:43:04,252 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:43:04,656 Watching for file changes with StatReloader
+INFO 2024-02-20 20:43:08,927 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:43:09,305 Watching for file changes with StatReloader
+INFO 2024-02-20 20:43:11,532 D:\codes\Lesson\myproject\myapp_3\models.py changed, reloading.
+INFO 2024-02-20 20:43:11,960 Watching for file changes with StatReloader
+INFO 2024-02-20 20:55:39,014 Watching for file changes with StatReloader
+INFO 2024-02-20 20:56:04,729 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 20:56:05,126 Watching for file changes with StatReloader
+INFO 2024-02-20 20:56:11,358 Watching for file changes with StatReloader
+INFO 2024-02-20 20:56:51,247 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 20:56:51,640 Watching for file changes with StatReloader
+INFO 2024-02-20 20:56:57,995 D:\codes\Lesson\myproject\myapp_3\views.py changed, reloading.
+INFO 2024-02-20 20:56:58,408 Watching for file changes with StatReloader
+INFO 2024-02-20 20:57:04,602 "GET /les3/author/3 HTTP/1.1" 301 0
+ERROR 2024-02-20 20:57:04,660 Internal Server Error: /les3/author/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 81, in author_posts
+    return render(request, 'myapp_3/author_posts.html', {'author': author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/author_posts.html
+ERROR 2024-02-20 20:57:04,663 "GET /les3/author/3/ HTTP/1.1" 500 83040
+ERROR 2024-02-20 20:57:06,496 Internal Server Error: /les3/author/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 81, in author_posts
+    return render(request, 'myapp_3/author_posts.html', {'author': author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/author_posts.html
+ERROR 2024-02-20 20:57:06,499 "GET /les3/author/3/ HTTP/1.1" 500 83040
+INFO 2024-02-20 20:57:26,141 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-20 20:57:30,918 "GET /les3/post/1 HTTP/1.1" 301 0
+ERROR 2024-02-20 20:57:30,937 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:57:30,940 "GET /les3/post/1/ HTTP/1.1" 500 81392
+ERROR 2024-02-20 20:59:33,220 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:59:33,222 "GET /les3/post/1/ HTTP/1.1" 500 81529
+ERROR 2024-02-20 20:59:34,794 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:59:34,796 "GET /les3/post/1/ HTTP/1.1" 500 81529
+ERROR 2024-02-20 20:59:35,777 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:59:35,779 "GET /les3/post/1/ HTTP/1.1" 500 81529
+ERROR 2024-02-20 20:59:36,497 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:59:36,499 "GET /les3/post/1/ HTTP/1.1" 500 81529
+ERROR 2024-02-20 20:59:38,297 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_3\views.py", line 85, in post_full
+    return render(request, 'myapp_3/post_full.html', {'post': post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_3/post_full.html
+ERROR 2024-02-20 20:59:38,299 "GET /les3/post/1/ HTTP/1.1" 500 81529
+INFO 2024-02-20 21:00:14,391 "GET /les3/author/2 HTTP/1.1" 301 0
+INFO 2024-02-20 21:00:14,408 "GET /les3/author/2/ HTTP/1.1" 200 1339
+INFO 2024-02-20 21:02:08,327 "GET /les3/post/3 HTTP/1.1" 301 0
+INFO 2024-02-20 21:02:08,336 "GET /les3/post/3/ HTTP/1.1" 200 640
+INFO 2024-02-20 21:02:12,011 "GET /les3/post/33/ HTTP/1.1" 200 654
+INFO 2024-02-20 21:21:27,805 "GET /les3/post/10/ HTTP/1.1" 200 624
+INFO 2024-02-20 21:21:32,773 "GET /les3/post/10/ HTTP/1.1" 200 624
+INFO 2024-02-20 21:25:24,319 "GET /les3/author/2/ HTTP/1.1" 200 1399

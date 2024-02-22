@@ -1281,3 +1281,2447 @@ INFO 2024-02-15 07:17:40,420 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
 INFO 2024-02-15 07:17:40,823 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
 INFO 2024-02-15 07:17:41,300 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
 INFO 2024-02-15 07:17:41,639 "GET /games/heads_or_tails/ HTTP/1.1" 200 504
+INFO 2024-02-21 07:00:43,765 Watching for file changes with StatReloader
+INFO 2024-02-21 07:00:47,867 "GET / HTTP/1.1" 200 320
+INFO 2024-02-21 07:00:51,292 "GET / HTTP/1.1" 200 320
+INFO 2024-02-21 07:00:59,516 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-21 07:01:02,158 "GET /games/playing_dice/ HTTP/1.1" 200 541
+INFO 2024-02-21 07:01:06,785 "GET /games/heads_or_tails/ HTTP/1.1" 200 506
+WARNING 2024-02-21 07:01:10,781 Not Found: /games/heads_or_tails/2
+WARNING 2024-02-21 07:01:10,781 "GET /games/heads_or_tails/2 HTTP/1.1" 404 3683
+INFO 2024-02-21 07:02:12,584 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 07:02:12,993 Watching for file changes with StatReloader
+INFO 2024-02-21 07:02:16,180 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 07:02:16,584 Watching for file changes with StatReloader
+INFO 2024-02-21 07:03:34,074 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:03:34,494 Watching for file changes with StatReloader
+INFO 2024-02-21 07:03:41,900 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:03:42,297 Watching for file changes with StatReloader
+INFO 2024-02-21 07:03:43,580 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:03:43,979 Watching for file changes with StatReloader
+INFO 2024-02-21 07:03:48,318 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:03:48,736 Watching for file changes with StatReloader
+WARNING 2024-02-21 07:03:54,810 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:03:54,811 "GET /games/heads_or_tails/ HTTP/1.1" 404 3702
+INFO 2024-02-21 07:04:15,900 "GET /games/heads_or_tails/2 HTTP/1.1" 301 0
+ERROR 2024-02-21 07:04:15,948 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'author_id'
+ERROR 2024-02-21 07:04:15,950 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63002
+INFO 2024-02-21 07:04:56,417 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:04:56,845 Watching for file changes with StatReloader
+ERROR 2024-02-21 07:05:00,005 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'author_id'
+ERROR 2024-02-21 07:05:00,007 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63139
+INFO 2024-02-21 07:05:56,229 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:05:56,644 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:00,995 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:01,386 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:09,786 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:10,216 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:18,626 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:19,015 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:22,332 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:22,737 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:27,066 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:27,479 Watching for file changes with StatReloader
+INFO 2024-02-21 07:06:29,772 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:06:30,176 Watching for file changes with StatReloader
+ERROR 2024-02-21 07:06:32,752 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'author_id'
+ERROR 2024-02-21 07:06:32,753 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63139
+ERROR 2024-02-21 07:06:33,540 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'author_id'
+ERROR 2024-02-21 07:06:33,542 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63139
+WARNING 2024-02-21 07:06:35,553 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:06:35,554 "GET /games/heads_or_tails/ HTTP/1.1" 404 3702
+WARNING 2024-02-21 07:06:35,769 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:06:35,770 "GET /games/heads_or_tails/ HTTP/1.1" 404 3702
+WARNING 2024-02-21 07:06:46,664 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:06:46,665 "GET /games/heads_or_tails/ HTTP/1.1" 404 3702
+ERROR 2024-02-21 07:06:49,138 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'author_id'
+ERROR 2024-02-21 07:06:49,139 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63002
+INFO 2024-02-21 07:08:05,148 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 07:08:05,559 Watching for file changes with StatReloader
+INFO 2024-02-21 07:08:09,897 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 07:08:10,294 Watching for file changes with StatReloader
+INFO 2024-02-21 07:08:13,602 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 07:08:14,028 Watching for file changes with StatReloader
+ERROR 2024-02-21 07:08:18,614 Internal Server Error: /games/heads_or_tails/2/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: heads_or_tails() got an unexpected keyword argument 'count'
+ERROR 2024-02-21 07:08:18,616 "GET /games/heads_or_tails/2/ HTTP/1.1" 500 63119
+INFO 2024-02-21 07:09:54,054 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:09:54,476 Watching for file changes with StatReloader
+INFO 2024-02-21 07:09:55,774 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:09:56,188 Watching for file changes with StatReloader
+INFO 2024-02-21 07:09:58,659 "GET /games/heads_or_tails/2/ HTTP/1.1" 200 506
+WARNING 2024-02-21 07:10:00,226 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:10:00,227 "GET /games/heads_or_tails/ HTTP/1.1" 404 3698
+INFO 2024-02-21 07:10:02,486 "GET /games/heads_or_tails/2/ HTTP/1.1" 200 504
+INFO 2024-02-21 07:10:06,597 "GET /games/heads_or_tails/4/ HTTP/1.1" 200 504
+INFO 2024-02-21 07:10:18,935 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:10:19,371 Watching for file changes with StatReloader
+INFO 2024-02-21 07:10:20,800 "GET /games/heads_or_tails/4/ HTTP/1.1" 200 506
+INFO 2024-02-21 07:10:21,864 "GET /games/heads_or_tails/4/ HTTP/1.1" 200 504
+INFO 2024-02-21 07:10:22,642 "GET /games/heads_or_tails/4/ HTTP/1.1" 200 504
+INFO 2024-02-21 07:10:23,381 "GET /games/heads_or_tails/4/ HTTP/1.1" 200 506
+INFO 2024-02-21 07:10:39,051 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:10:39,469 Watching for file changes with StatReloader
+INFO 2024-02-21 07:10:42,783 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:10:43,192 Watching for file changes with StatReloader
+INFO 2024-02-21 07:10:48,543 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:10:48,931 Watching for file changes with StatReloader
+INFO 2024-02-21 07:10:59,348 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:10:59,751 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:01,037 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:01,435 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:06,795 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:07,193 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:09,368 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:09,760 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:15,096 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:15,493 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:16,766 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:17,149 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:19,438 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:19,830 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:21,111 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:21,513 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:23,800 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:24,193 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:37,671 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:38,073 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:43,291 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:43,679 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:46,867 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:47,268 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:55,523 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:55,912 Watching for file changes with StatReloader
+INFO 2024-02-21 07:11:57,076 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:11:57,473 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:00,648 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:01,064 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:04,374 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:04,775 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:10,119 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:10,548 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:12,844 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:13,243 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:17,440 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:17,850 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:20,136 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:20,549 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:21,830 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:22,255 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:24,422 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:24,815 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:27,111 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:27,518 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:31,847 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:32,261 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:35,581 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:35,975 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:38,143 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:38,544 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:56,123 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:56,535 Watching for file changes with StatReloader
+INFO 2024-02-21 07:12:58,831 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:12:59,238 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:01,413 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:01,802 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:03,959 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:04,364 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:05,642 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:06,034 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:07,317 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:07,720 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:12,045 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:12,443 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:13,712 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:14,097 Watching for file changes with StatReloader
+INFO 2024-02-21 07:13:21,467 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:13:21,862 Watching for file changes with StatReloader
+INFO 2024-02-21 07:14:03,862 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:14:04,250 Watching for file changes with StatReloader
+INFO 2024-02-21 07:14:11,616 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:14:12,027 Watching for file changes with StatReloader
+INFO 2024-02-21 07:15:58,582 "GET /games/heads_or_tails/5 HTTP/1.1" 301 0
+INFO 2024-02-21 07:15:58,674 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 719
+INFO 2024-02-21 07:17:25,543 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:25,969 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:28,273 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:28,679 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:31,989 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:32,386 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:45,865 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:46,252 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:50,460 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:50,857 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:56,210 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:56,615 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:57,885 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:58,281 Watching for file changes with StatReloader
+INFO 2024-02-21 07:17:59,551 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:17:59,939 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:01,224 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:01,650 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:02,931 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:03,358 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:05,523 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 777
+INFO 2024-02-21 07:18:13,886 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:14,277 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:18,598 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:18,998 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:24,350 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:24,761 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:27,054 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:27,444 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:38,904 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:39,292 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:53,780 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:54,206 Watching for file changes with StatReloader
+INFO 2024-02-21 07:18:59,562 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:18:59,963 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:03,284 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:03,728 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:08,933 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 749
+INFO 2024-02-21 07:19:22,403 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:22,794 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:24,066 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:24,477 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:26,781 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:27,200 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:32,554 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:32,981 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:35,272 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:35,660 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:38,970 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 07:19:39,366 Watching for file changes with StatReloader
+INFO 2024-02-21 07:19:49,299 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 758
+INFO 2024-02-21 07:19:54,330 "GET /games/heads_or_tails/10/ HTTP/1.1" 200 926
+INFO 2024-02-21 07:24:15,220 Watching for file changes with StatReloader
+INFO 2024-02-21 07:24:17,450 "GET / HTTP/1.1" 200 320
+INFO 2024-02-21 07:24:19,289 "GET /games/ HTTP/1.1" 200 523
+WARNING 2024-02-21 07:24:20,858 Not Found: /games/heads_or_tails/
+WARNING 2024-02-21 07:24:20,858 "GET /games/heads_or_tails/ HTTP/1.1" 404 3698
+INFO 2024-02-21 07:24:25,733 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 758
+WARNING 2024-02-21 22:42:51,748 Not Found: /games/statistic/
+WARNING 2024-02-21 22:42:51,748 "GET /games/statistic/ HTTP/1.1" 404 3683
+INFO 2024-02-21 22:43:13,515 "GET /games/random_100/ HTTP/1.1" 200 546
+INFO 2024-02-21 23:22:39,837 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:22:44,321 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'count', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-02-21 23:22:44,329 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 172477
+INFO 2024-02-21 23:24:34,225 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:24:37,015 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'with' expected at least one variable assignment
+ERROR 2024-02-21 23:24:37,022 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 173682
+INFO 2024-02-21 23:26:03,285 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:26:05,872 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'count', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2024-02-21 23:26:05,880 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 185795
+ERROR 2024-02-21 23:26:40,310 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'count=count+1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'count=count+1', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2024-02-21 23:26:40,316 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 187420
+INFO 2024-02-21 23:32:04,822 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:32:05,225 Watching for file changes with StatReloader
+INFO 2024-02-21 23:32:07,401 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:32:07,802 Watching for file changes with StatReloader
+INFO 2024-02-21 23:32:10,981 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:32:11,382 Watching for file changes with StatReloader
+INFO 2024-02-21 23:32:16,596 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:32:16,982 Watching for file changes with StatReloader
+INFO 2024-02-21 23:32:28,283 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:32:28,678 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:33:17,346 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'result[0]'
+ERROR 2024-02-21 23:33:17,353 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 189132
+INFO 2024-02-21 23:33:40,591 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:33:42,721 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 58, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'result[0]'
+ERROR 2024-02-21 23:33:42,728 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 189158
+INFO 2024-02-21 23:34:53,308 Watching for file changes with StatReloader
+ERROR 2024-02-21 23:34:57,163 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 59, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'result[0]'
+ERROR 2024-02-21 23:34:57,171 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 189154
+ERROR 2024-02-21 23:36:47,240 Internal Server Error: /games/heads_or_tails/5/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 59, in heads_or_tails_count
+    return render(request, 'games/heads_or_tails_count.html', {'result_list': result_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-02-21 23:36:47,245 "GET /games/heads_or_tails/5/ HTTP/1.1" 500 134204
+INFO 2024-02-21 23:37:57,962 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-21 23:37:58,399 Watching for file changes with StatReloader
+INFO 2024-02-21 23:38:01,153 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1642
+INFO 2024-02-21 23:38:35,023 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1649
+INFO 2024-02-21 23:38:46,551 "GET /games/heads_or_tails/ HTTP/1.1" 200 575
+INFO 2024-02-21 23:40:01,470 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1704
+INFO 2024-02-21 23:40:11,661 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1700
+INFO 2024-02-21 23:40:40,507 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:40:40,934 Watching for file changes with StatReloader
+INFO 2024-02-21 23:40:44,255 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:40:44,670 Watching for file changes with StatReloader
+INFO 2024-02-21 23:40:47,981 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:40:48,407 Watching for file changes with StatReloader
+INFO 2024-02-21 23:40:49,689 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:40:50,121 Watching for file changes with StatReloader
+INFO 2024-02-21 23:40:52,783 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1701
+INFO 2024-02-21 23:40:59,211 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2672
+INFO 2024-02-21 23:41:12,319 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2674
+INFO 2024-02-21 23:41:27,596 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2664
+INFO 2024-02-21 23:41:45,916 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2113
+INFO 2024-02-21 23:42:11,807 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2087
+INFO 2024-02-21 23:42:34,373 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-21 23:42:57,600 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:42:58,001 Watching for file changes with StatReloader
+INFO 2024-02-21 23:42:59,273 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:42:59,684 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:05,030 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:05,432 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:12,819 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:13,202 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:23,642 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:24,040 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:26,332 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:26,727 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:33,083 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:33,493 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:34,745 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:35,173 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:36,464 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:36,912 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:46,339 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:46,731 Watching for file changes with StatReloader
+INFO 2024-02-21 23:43:48,014 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:43:48,426 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:18,169 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:18,570 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:19,851 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:20,256 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:24,584 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:24,967 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:30,303 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:30,700 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:32,872 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:33,269 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:34,427 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:34,841 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:38,029 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:38,427 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:42,623 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:43,008 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:51,405 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:51,797 Watching for file changes with StatReloader
+INFO 2024-02-21 23:44:55,120 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-21 23:44:55,533 Watching for file changes with StatReloader
+INFO 2024-02-21 23:58:57,772 Watching for file changes with StatReloader
+INFO 2024-02-21 23:58:59,947 "GET /games/heads_or_tails/15/ HTTP/1.1" 200 2076
+INFO 2024-02-21 23:59:07,900 "GET /games/random_100/ HTTP/1.1" 200 546
+WARNING 2024-02-21 23:59:14,594 Not Found: /games/random_100/4
+WARNING 2024-02-21 23:59:14,594 "GET /games/random_100/4 HTTP/1.1" 404 3886
+INFO 2024-02-21 23:59:34,782 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 23:59:35,207 Watching for file changes with StatReloader
+INFO 2024-02-21 23:59:37,515 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 23:59:37,919 Watching for file changes with StatReloader
+INFO 2024-02-21 23:59:55,450 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 23:59:55,856 Watching for file changes with StatReloader
+INFO 2024-02-21 23:59:57,147 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-21 23:59:57,552 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:04,924 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:05,344 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:07,631 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:08,053 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:16,443 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:16,846 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:19,145 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:19,552 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:20,821 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:21,213 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:23,511 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-22 00:00:23,944 Watching for file changes with StatReloader
+INFO 2024-02-22 00:00:26,393 "GET /games/random_100/4 HTTP/1.1" 301 0
+INFO 2024-02-22 00:00:26,401 "GET /games/random_100/4/ HTTP/1.1" 200 1530
+INFO 2024-02-22 00:00:32,161 "GET /games/random_100/12/ HTTP/1.1" 200 2198
+INFO 2024-02-22 00:03:52,812 "GET /games/random_100/12/ HTTP/1.1" 200 2213
+INFO 2024-02-22 00:03:58,341 "GET /games/random_100/5 HTTP/1.1" 301 0
+INFO 2024-02-22 00:03:58,343 "GET /games/random_100/5/ HTTP/1.1" 200 1628
+INFO 2024-02-22 00:04:01,636 "GET /games/random_100/ HTTP/1.1" 200 545
+INFO 2024-02-22 00:04:01,807 "GET /games/random_100/ HTTP/1.1" 200 546
+INFO 2024-02-22 00:04:04,536 "GET /games/random_100/4/ HTTP/1.1" 200 1544
+INFO 2024-02-22 00:04:08,576 "GET /games/random_100/3/ HTTP/1.1" 200 1461
+INFO 2024-02-22 00:04:11,492 "GET /games/random_100/ HTTP/1.1" 200 545
+INFO 2024-02-22 00:04:12,125 "GET /games/random_100/2 HTTP/1.1" 301 0
+INFO 2024-02-22 00:04:12,127 "GET /games/random_100/2/ HTTP/1.1" 200 1378
+INFO 2024-02-22 00:04:15,208 "GET /games/random_100/1/ HTTP/1.1" 200 1295
+WARNING 2024-02-22 00:04:32,100 Not Found: /games/heads_or_tails/<int:count>/
+WARNING 2024-02-22 00:04:32,100 "GET /games/heads_or_tails/%3Cint:count%3E/ HTTP/1.1" 404 4365
+WARNING 2024-02-22 00:04:59,591 Not Found: /games/heads_or_tails/<int:count>/
+WARNING 2024-02-22 00:04:59,592 "GET /games/heads_or_tails/%3Cint:count%3E/ HTTP/1.1" 404 4365
+WARNING 2024-02-22 00:05:03,336 Not Found: /games/heads_or_tails/<int:count>/
+WARNING 2024-02-22 00:05:03,337 "GET /games/heads_or_tails/%3Cint:count%3E/ HTTP/1.1" 404 4365
+INFO 2024-02-22 00:05:09,118 Watching for file changes with StatReloader
+WARNING 2024-02-22 00:05:12,934 Not Found: /games/statistic/
+WARNING 2024-02-22 00:05:12,935 "GET /games/statistic/ HTTP/1.1" 404 4298
+WARNING 2024-02-22 00:05:15,339 Not Found: /games/heads_or_tails/<int:count>/
+WARNING 2024-02-22 00:05:15,340 "GET /games/heads_or_tails/%3Cint:count%3E/ HTTP/1.1" 404 4365
+INFO 2024-02-22 00:05:21,947 "GET /supertest/ HTTP/1.1" 200 326
+INFO 2024-02-22 00:05:24,326 "GET /games/heads_or_tails/ HTTP/1.1" 200 575
+WARNING 2024-02-22 00:05:26,467 Not Found: /games/heads_or_tails/<int:count>/
+WARNING 2024-02-22 00:05:26,467 "GET /games/heads_or_tails/%3Cint:count%3E/ HTTP/1.1" 404 4365
+INFO 2024-02-22 00:06:16,732 Watching for file changes with StatReloader
+INFO 2024-02-22 00:06:21,705 "GET / HTTP/1.1" 200 320
+INFO 2024-02-22 00:06:21,937 "GET / HTTP/1.1" 200 320
+INFO 2024-02-22 00:06:24,414 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-22 00:06:28,994 "GET /games/random_100/ HTTP/1.1" 200 546
+INFO 2024-02-22 00:06:36,546 "GET /games/random_100/10 HTTP/1.1" 301 0
+INFO 2024-02-22 00:06:36,558 "GET /games/random_100/10/ HTTP/1.1" 200 2036
+INFO 2024-02-22 00:06:41,368 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1495
+INFO 2024-02-22 00:08:49,006 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1819
+INFO 2024-02-22 00:08:51,258 "GET /about/ HTTP/1.1" 200 327
+INFO 2024-02-22 00:08:53,855 "GET /supertest/ HTTP/1.1" 200 326
+INFO 2024-02-22 00:09:09,302 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1815
+INFO 2024-02-22 00:09:11,507 "GET /games/playing_dice/5/ HTTP/1.1" 200 1999
+INFO 2024-02-22 00:09:12,923 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1815
+INFO 2024-02-22 00:09:15,787 "GET /games/random_100/5/ HTTP/1.1" 200 1941
+INFO 2024-02-22 00:09:17,065 "GET /games/playing_dice/5/ HTTP/1.1" 200 1999
+INFO 2024-02-22 00:09:17,607 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1817
+INFO 2024-02-22 00:09:21,211 "GET /games/random_100/5/ HTTP/1.1" 200 1940
+INFO 2024-02-22 00:09:21,717 "GET /games/playing_dice/5/ HTTP/1.1" 200 1999
+INFO 2024-02-22 00:09:23,078 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1815
+INFO 2024-02-22 00:09:53,940 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1846
+INFO 2024-02-22 00:09:56,542 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1844
+INFO 2024-02-22 00:09:57,402 "GET /games/playing_dice/5/ HTTP/1.1" 200 2031
+INFO 2024-02-22 00:09:58,693 "GET /games/random_100/5/ HTTP/1.1" 200 1969
+INFO 2024-02-22 00:10:01,843 "GET /games/playing_dice/5/ HTTP/1.1" 200 2031
+INFO 2024-02-22 00:10:02,722 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1844
+INFO 2024-02-22 00:10:06,209 "GET /games/random_100/5/ HTTP/1.1" 200 1968
+INFO 2024-02-22 00:10:06,656 "GET /games/playing_dice/5/ HTTP/1.1" 200 2031
+INFO 2024-02-22 00:10:08,179 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1850
+INFO 2024-02-22 00:10:13,625 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-22 00:13:54,399 Watching for file changes with StatReloader
+INFO 2024-02-22 00:14:01,631 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1856
+INFO 2024-02-22 00:14:04,353 "GET /games/ HTTP/1.1" 200 523
+INFO 2024-02-22 00:14:10,066 "GET /games/heads_or_tails/ HTTP/1.1" 200 575
+WARNING 2024-02-22 00:14:24,820 Not Found: /games/statistic/
+WARNING 2024-02-22 00:14:24,820 "GET /games/statistic/ HTTP/1.1" 404 4298
+INFO 2024-02-22 00:14:43,045 "GET /games/statistic/10 HTTP/1.1" 200 621
+INFO 2024-02-22 00:14:43,318 "GET /games/statistic/10 HTTP/1.1" 200 621
+WARNING 2024-02-22 00:15:02,761 Not Found: /games/statistic/
+WARNING 2024-02-22 00:15:02,762 "GET /games/statistic/ HTTP/1.1" 404 4298
+INFO 2024-02-22 00:15:34,512 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:15:34,977 Watching for file changes with StatReloader
+INFO 2024-02-22 00:15:38,464 "GET /games/heads_or_tails/ HTTP/1.1" 200 575
+INFO 2024-02-22 00:15:39,326 "GET /games/statistic/10 HTTP/1.1" 200 623
+INFO 2024-02-22 00:15:41,723 "GET /games/statistic/10 HTTP/1.1" 200 623
+INFO 2024-02-22 00:15:43,909 "GET /games/statistic/100 HTTP/1.1" 200 626
+INFO 2024-02-22 00:16:02,836 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:16:03,231 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:07,676 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:08,084 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:10,250 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:10,654 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:16,008 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:16,407 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:39,048 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:39,440 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:40,732 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:41,125 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:49,542 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:49,951 Watching for file changes with StatReloader
+INFO 2024-02-22 00:19:54,286 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:19:54,685 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:00,027 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:00,478 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:07,870 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:08,263 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:10,562 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:10,975 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:14,292 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:14,716 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:23,242 "GET /games/heads_or_tails/ HTTP/1.1" 200 1547
+INFO 2024-02-22 00:20:42,562 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:42,960 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:44,237 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:44,628 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:49,989 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:50,376 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:54,718 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:55,119 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:56,396 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:56,800 Watching for file changes with StatReloader
+INFO 2024-02-22 00:20:58,073 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:20:58,469 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:00,769 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:01,167 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:07,532 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:07,934 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:11,241 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:11,659 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:26,171 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:26,593 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:28,889 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:29,287 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:38,712 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:39,127 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:44,494 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:44,893 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:48,208 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:48,606 Watching for file changes with StatReloader
+INFO 2024-02-22 00:21:59,032 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:21:59,439 Watching for file changes with StatReloader
+INFO 2024-02-22 00:22:01,737 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:22:02,139 Watching for file changes with StatReloader
+INFO 2024-02-22 00:22:03,424 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:22:03,821 Watching for file changes with StatReloader
+INFO 2024-02-22 00:22:14,253 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-22 00:22:14,641 Watching for file changes with StatReloader
+INFO 2024-02-22 00:22:38,211 "GET /games/heads_or_tails/ HTTP/1.1" 200 1545
+INFO 2024-02-22 00:22:39,734 "GET / HTTP/1.1" 200 320
+INFO 2024-02-22 00:26:18,191 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:26:18,593 Watching for file changes with StatReloader
+INFO 2024-02-22 00:26:22,936 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:26:23,337 Watching for file changes with StatReloader
+INFO 2024-02-22 00:26:28,684 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:26:29,074 Watching for file changes with StatReloader
+INFO 2024-02-22 00:26:32,398 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:26:32,819 Watching for file changes with StatReloader
+INFO 2024-02-22 00:27:03,903 "GET / HTTP/1.1" 200 1518
+INFO 2024-02-22 00:27:08,328 "GET / HTTP/1.1" 200 1518
+INFO 2024-02-22 00:29:07,134 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:29:07,536 Watching for file changes with StatReloader
+INFO 2024-02-22 00:29:08,817 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:29:09,222 Watching for file changes with StatReloader
+INFO 2024-02-22 00:29:14,534 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:29:14,953 Watching for file changes with StatReloader
+INFO 2024-02-22 00:29:21,320 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:29:21,709 Watching for file changes with StatReloader
+INFO 2024-02-22 00:29:24,884 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:29:25,307 Watching for file changes with StatReloader
+INFO 2024-02-22 00:29:41,164 "GET / HTTP/1.1" 200 1518
+WARNING 2024-02-22 00:29:45,524 Not Found: /about/
+WARNING 2024-02-22 00:29:45,524 "GET /about/ HTTP/1.1" 404 2410
+WARNING 2024-02-22 00:29:54,307 Not Found: /about/
+WARNING 2024-02-22 00:29:54,307 "GET /about/ HTTP/1.1" 404 2410
+INFO 2024-02-22 00:29:55,266 "GET / HTTP/1.1" 200 1518
+INFO 2024-02-22 00:31:40,023 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:31:40,428 Watching for file changes with StatReloader
+INFO 2024-02-22 00:31:43,746 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:31:44,158 Watching for file changes with StatReloader
+INFO 2024-02-22 00:31:48,493 D:\codes\Seminar\myproject\myapp\views.py changed, reloading.
+INFO 2024-02-22 00:31:48,888 Watching for file changes with StatReloader
+INFO 2024-02-22 00:31:51,489 "GET / HTTP/1.1" 200 1447
+INFO 2024-02-22 00:32:22,337 "GET / HTTP/1.1" 200 1432
+WARNING 2024-02-22 00:32:24,977 Not Found: /supertest/
+WARNING 2024-02-22 00:32:24,978 "GET /supertest/ HTTP/1.1" 404 2422
+WARNING 2024-02-22 00:32:27,181 Not Found: /about/
+WARNING 2024-02-22 00:32:27,181 "GET /about/ HTTP/1.1" 404 2410
+INFO 2024-02-22 00:33:27,167 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:33:27,575 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:29,737 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:33:30,134 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:35,471 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:33:35,898 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:40,229 D:\codes\Seminar\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-22 00:33:40,628 Watching for file changes with StatReloader
+INFO 2024-02-22 00:33:44,667 "GET / HTTP/1.1" 200 1432
+INFO 2024-02-22 00:33:47,761 "GET /about/ HTTP/1.1" 200 327
+INFO 2024-02-22 00:33:52,344 "GET / HTTP/1.1" 200 1432
+INFO 2024-02-22 00:33:54,719 "GET /games/playing_dice/ HTTP/1.1" 200 1573
+INFO 2024-02-22 00:33:55,620 "GET /games/heads_or_tails/ HTTP/1.1" 200 1530
+INFO 2024-02-22 00:33:57,340 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 1887
+INFO 2024-02-22 00:38:10,890 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 2069
+INFO 2024-02-22 07:03:38,494 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 2063
+INFO 2024-02-22 07:03:41,658 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 2065
+WARNING 2024-02-22 07:03:49,286 Not Found: /blogs/author/1/
+WARNING 2024-02-22 07:03:49,287 "GET /blogs/author/1/ HTTP/1.1" 404 3255
+INFO 2024-02-22 07:05:51,845 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:05:52,265 Watching for file changes with StatReloader
+INFO 2024-02-22 07:05:59,656 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:06:00,087 Watching for file changes with StatReloader
+INFO 2024-02-22 07:06:04,420 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:06:04,808 Watching for file changes with StatReloader
+INFO 2024-02-22 07:06:21,351 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:06:21,764 Watching for file changes with StatReloader
+INFO 2024-02-22 07:06:39,341 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:06:39,755 Watching for file changes with StatReloader
+INFO 2024-02-22 07:06:56,290 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:06:56,701 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:02,061 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:02,464 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:07,827 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:08,218 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:10,403 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:10,806 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:11,964 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:12,361 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:30,937 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:31,334 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:36,676 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:37,070 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:39,379 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:07:39,786 Watching for file changes with StatReloader
+INFO 2024-02-22 07:07:53,204 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 2067
+WARNING 2024-02-22 07:08:07,764 Not Found: /blocks
+WARNING 2024-02-22 07:08:07,765 "GET /blocks HTTP/1.1" 404 2813
+WARNING 2024-02-22 07:08:13,906 Not Found: /blogks
+WARNING 2024-02-22 07:08:13,907 "GET /blogks HTTP/1.1" 404 2813
+ERROR 2024-02-22 07:08:19,256 Internal Server Error: /blogs/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 10, in blogs_index
+    return render(request, 'blogs/index.html', {'text': text})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blogs/index.html
+ERROR 2024-02-22 07:08:19,258 "GET /blogs/ HTTP/1.1" 500 82348
+INFO 2024-02-22 07:10:58,799 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:10:59,223 Watching for file changes with StatReloader
+INFO 2024-02-22 07:11:02,695 "GET /blogs/ HTTP/1.1" 200 1556
+INFO 2024-02-22 07:14:02,908 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-22 07:14:03,343 Watching for file changes with StatReloader
+INFO 2024-02-22 07:14:34,135 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:14:34,568 Watching for file changes with StatReloader
+INFO 2024-02-22 07:14:35,854 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:14:36,274 Watching for file changes with StatReloader
+INFO 2024-02-22 07:14:49,766 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:14:50,193 Watching for file changes with StatReloader
+INFO 2024-02-22 07:14:56,417 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:14:56,826 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:00,014 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:00,402 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:02,578 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:02,975 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:07,183 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:07,580 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:15,858 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:16,268 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:25,569 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:25,967 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:40,499 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:40,896 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:45,243 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:45,649 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:48,964 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:49,367 Watching for file changes with StatReloader
+INFO 2024-02-22 07:15:52,682 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:15:53,066 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:26,725 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:27,116 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:29,301 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:29,699 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:36,941 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:37,331 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:41,537 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:41,935 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:45,127 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:45,525 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:52,780 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:53,178 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:55,354 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:55,765 Watching for file changes with StatReloader
+INFO 2024-02-22 07:16:56,923 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:16:57,329 Watching for file changes with StatReloader
+INFO 2024-02-22 07:17:23,881 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:17:24,310 Watching for file changes with StatReloader
+INFO 2024-02-22 07:17:25,465 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:17:25,849 Watching for file changes with StatReloader
+INFO 2024-02-22 07:17:31,054 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 07:17:31,449 Watching for file changes with StatReloader
+INFO 2024-02-22 07:20:54,269 Watching for file changes with StatReloader
+WARNING 2024-02-22 07:20:56,849 Not Found: /blogs/author/1/
+WARNING 2024-02-22 07:20:56,849 "GET /blogs/author/1/ HTTP/1.1" 404 3255
+INFO 2024-02-22 07:22:29,541 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:22:29,936 Watching for file changes with StatReloader
+INFO 2024-02-22 07:22:33,263 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:22:33,660 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:16,671 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:17,071 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:22,422 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:22,816 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:27,142 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:27,554 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:28,825 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:29,219 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:42,672 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:43,090 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:44,360 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:44,767 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:54,159 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:54,576 Watching for file changes with StatReloader
+INFO 2024-02-22 07:23:55,831 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:23:56,228 Watching for file changes with StatReloader
+INFO 2024-02-22 07:25:42,293 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 07:25:42,700 Watching for file changes with StatReloader
+INFO 2024-02-22 07:26:28,263 Watching for file changes with StatReloader
+INFO 2024-02-22 19:27:18,058 Watching for file changes with StatReloader
+INFO 2024-02-22 19:27:41,060 Watching for file changes with StatReloader
+INFO 2024-02-22 19:27:57,823 Watching for file changes with StatReloader
+INFO 2024-02-22 19:43:25,699 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:43:26,121 Watching for file changes with StatReloader
+INFO 2024-02-22 19:43:32,474 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:43:32,885 Watching for file changes with StatReloader
+INFO 2024-02-22 19:43:34,159 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:43:34,559 Watching for file changes with StatReloader
+INFO 2024-02-22 19:43:38,891 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:43:39,313 Watching for file changes with StatReloader
+INFO 2024-02-22 19:44:39,890 "GET / HTTP/1.1" 200 1837
+INFO 2024-02-22 19:47:10,423 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:47:10,825 Watching for file changes with StatReloader
+INFO 2024-02-22 19:48:01,933 "GET / HTTP/1.1" 200 1803
+INFO 2024-02-22 19:48:08,804 "GET / HTTP/1.1" 200 1803
+INFO 2024-02-22 19:48:30,529 "GET / HTTP/1.1" 200 1612
+ERROR 2024-02-22 19:48:32,139 Internal Server Error: /blogs/author/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_posts() got an unexpected keyword argument 'id_author'
+ERROR 2024-02-22 19:48:32,140 "GET /blogs/author/1/ HTTP/1.1" 500 63128
+INFO 2024-02-22 19:51:10,144 Watching for file changes with StatReloader
+WARNING 2024-02-22 19:51:10,333 Not Found: /blogs/author/
+WARNING 2024-02-22 19:51:10,333 "GET /blogs/author/ HTTP/1.1" 404 3300
+INFO 2024-02-22 19:51:21,071 "GET /blogs/author/10 HTTP/1.1" 301 0
+ERROR 2024-02-22 19:51:21,097 Internal Server Error: /blogs/author/10/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_posts() got an unexpected keyword argument 'id_author'
+ERROR 2024-02-22 19:51:21,099 "GET /blogs/author/10/ HTTP/1.1" 500 62987
+INFO 2024-02-22 19:52:21,812 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:52:24,721 Watching for file changes with StatReloader
+ERROR 2024-02-22 19:52:28,267 Internal Server Error: /blogs/author/10/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_posts() got an unexpected keyword argument 'id_author'
+ERROR 2024-02-22 19:52:28,268 "GET /blogs/author/10/ HTTP/1.1" 500 63124
+INFO 2024-02-22 19:52:58,688 Watching for file changes with StatReloader
+ERROR 2024-02-22 19:53:16,092 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: post_full() got an unexpected keyword argument 'id_post'
+ERROR 2024-02-22 19:53:16,093 "GET /blogs/post/1/ HTTP/1.1" 500 63079
+ERROR 2024-02-22 19:53:20,895 Internal Server Error: /blogs/author/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_posts() got an unexpected keyword argument 'id_author'
+ERROR 2024-02-22 19:53:20,896 "GET /blogs/author/1/ HTTP/1.1" 500 63128
+INFO 2024-02-22 19:54:41,966 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:54:42,359 Watching for file changes with StatReloader
+INFO 2024-02-22 19:54:45,694 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:54:46,103 Watching for file changes with StatReloader
+INFO 2024-02-22 19:54:47,388 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:54:47,787 Watching for file changes with StatReloader
+INFO 2024-02-22 19:54:51,105 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:54:51,498 Watching for file changes with StatReloader
+INFO 2024-02-22 19:54:53,787 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-22 19:54:54,205 Watching for file changes with StatReloader
+INFO 2024-02-22 19:55:01,098 "GET /blogs/author/1/ HTTP/1.1" 200 1874
+INFO 2024-02-22 19:55:09,107 "GET /blogs/post/1/ HTTP/1.1" 200 5500
+INFO 2024-02-22 19:55:11,870 "GET /blogs/author/1/ HTTP/1.1" 200 1874
+INFO 2024-02-22 19:55:20,081 "GET /blogs/author/2 HTTP/1.1" 301 0
+INFO 2024-02-22 19:55:20,085 "GET /blogs/author/2/ HTTP/1.1" 200 1636
+INFO 2024-02-22 19:55:24,441 "GET /blogs/author/3 HTTP/1.1" 301 0
+INFO 2024-02-22 19:55:24,445 "GET /blogs/author/3/ HTTP/1.1" 200 1640
+INFO 2024-02-22 19:55:29,756 "GET /blogs/post/1/ HTTP/1.1" 200 5500
+INFO 2024-02-22 19:55:33,349 "GET /blogs/post/3/ HTTP/1.1" 200 5263
+INFO 2024-02-22 19:56:40,447 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:56:40,858 Watching for file changes with StatReloader
+INFO 2024-02-22 19:56:42,133 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:56:42,544 Watching for file changes with StatReloader
+INFO 2024-02-22 19:56:43,827 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:56:44,225 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:03,858 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:04,247 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:10,622 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:11,034 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:13,216 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:13,622 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:14,909 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:15,296 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:17,466 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:17,866 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:20,165 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:20,559 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:22,856 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:23,248 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:25,550 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:25,947 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:54,530 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:54,936 Watching for file changes with StatReloader
+INFO 2024-02-22 19:57:56,100 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:57:56,490 Watching for file changes with StatReloader
+INFO 2024-02-22 19:58:01,840 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:58:02,246 Watching for file changes with StatReloader
+INFO 2024-02-22 19:58:03,537 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:58:03,935 Watching for file changes with StatReloader
+INFO 2024-02-22 19:58:06,234 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:58:06,621 Watching for file changes with StatReloader
+ERROR 2024-02-22 19:58:17,264 Internal Server Error: /blogs/post/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 36, in post_full
+    author = get_object_or_404(Author, pk=author_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+ERROR 2024-02-22 19:58:17,270 "GET /blogs/post/3/ HTTP/1.1" 500 135569
+INFO 2024-02-22 19:58:49,767 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:58:50,176 Watching for file changes with StatReloader
+ERROR 2024-02-22 19:58:52,840 Internal Server Error: /blogs/post/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'method'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 36, in post_full
+    author = get_object_or_404(Author, pk=author_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <bound method Author.fullname of <Author: Author [1], Петухов Ратибор, email: Petuhov_Ratibor_756@mail.ru, birthday: 1989-04-25>>.
+ERROR 2024-02-22 19:58:52,846 "GET /blogs/post/3/ HTTP/1.1" 500 138792
+INFO 2024-02-22 19:59:22,136 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:59:22,563 Watching for file changes with StatReloader
+ERROR 2024-02-22 19:59:23,985 Internal Server Error: /blogs/post/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Петухов Ратибор'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 36, in post_full
+    author = get_object_or_404(Author, pk=author_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Петухов Ратибор'.
+ERROR 2024-02-22 19:59:23,992 "GET /blogs/post/3/ HTTP/1.1" 500 136266
+INFO 2024-02-22 19:59:47,365 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:59:47,776 Watching for file changes with StatReloader
+INFO 2024-02-22 19:59:53,118 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:59:53,526 Watching for file changes with StatReloader
+INFO 2024-02-22 19:59:58,876 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 19:59:59,263 Watching for file changes with StatReloader
+INFO 2024-02-22 20:00:04,613 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:00:05,033 Watching for file changes with StatReloader
+INFO 2024-02-22 20:00:22,748 "GET /blogs/post/3/ HTTP/1.1" 200 5318
+INFO 2024-02-22 20:00:36,527 "GET /blogs/post/3/ HTTP/1.1" 200 5318
+INFO 2024-02-22 20:00:50,427 "GET /blogs/author/1/ HTTP/1.1" 200 1874
+ERROR 2024-02-22 20:01:23,174 Internal Server Error: /blogs/author/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 31, in author_posts
+    return render(request, 'blogs/author_posts.html', {'author': author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'author.fullname()'
+ERROR 2024-02-22 20:01:23,180 "GET /blogs/author/1/ HTTP/1.1" 500 177017
+INFO 2024-02-22 20:01:37,177 "GET /blogs/author/1/ HTTP/1.1" 200 1889
+INFO 2024-02-22 20:01:55,922 "GET /blogs/author/1/ HTTP/1.1" 200 1889
+INFO 2024-02-22 20:02:00,311 "GET /blogs/author/2/ HTTP/1.1" 200 1647
+INFO 2024-02-22 20:02:04,126 "GET /blogs/author/3/ HTTP/1.1" 200 1653
+INFO 2024-02-22 20:02:12,809 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:02:13,209 Watching for file changes with StatReloader
+INFO 2024-02-22 20:02:14,497 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:02:14,921 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:02,014 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:03:02,425 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:05,749 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:03:06,147 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:07,434 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:03:07,818 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:10,111 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:03:10,503 Watching for file changes with StatReloader
+INFO 2024-02-22 20:03:15,095 "GET /blogs/author/1/ HTTP/1.1" 200 1889
+INFO 2024-02-22 20:05:36,342 Watching for file changes with StatReloader
+INFO 2024-02-22 20:05:39,435 "GET /blogs/author/1/ HTTP/1.1" 200 2750
+INFO 2024-02-22 20:05:48,980 "GET /blogs/post/1/ HTTP/1.1" 200 5549
+INFO 2024-02-22 20:05:53,748 "GET /blogs/post/10/ HTTP/1.1" 200 3416
+INFO 2024-02-22 20:06:03,733 "GET /blogs/author/1/ HTTP/1.1" 200 2750
+INFO 2024-02-22 20:06:08,758 "GET /blogs/post/12/ HTTP/1.1" 200 4920
+INFO 2024-02-22 20:06:13,745 "GET /blogs/post/10/ HTTP/1.1" 200 3416
+WARNING 2024-02-22 20:06:20,178 Not Found: /blogs/author/50/
+WARNING 2024-02-22 20:06:20,178 "GET /blogs/author/50/ HTTP/1.1" 404 3275
+INFO 2024-02-22 20:08:11,613 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 20:08:12,047 Watching for file changes with StatReloader
+INFO 2024-02-22 20:08:17,613 "GET /blogs/author/1/ HTTP/1.1" 200 2966
+INFO 2024-02-22 20:08:19,665 "GET /blogs/author/1/ HTTP/1.1" 200 2966
+INFO 2024-02-22 20:08:22,141 "GET /blogs/author/1/ HTTP/1.1" 200 2966
+INFO 2024-02-22 20:08:24,893 "GET /blogs/author/2/ HTTP/1.1" 200 1855
+INFO 2024-02-22 20:08:28,577 "GET /blogs/author/3/ HTTP/1.1" 200 2494
+INFO 2024-02-22 20:08:32,314 "GET /blogs/author/4/ HTTP/1.1" 200 3157
+INFO 2024-02-22 20:08:35,700 "GET /blogs/post/5/ HTTP/1.1" 200 4991
+INFO 2024-02-22 20:08:38,718 "GET /blogs/post/23/ HTTP/1.1" 200 4969
+WARNING 2024-02-22 20:08:43,087 Not Found: /blogs/author/10/
+WARNING 2024-02-22 20:08:43,088 "GET /blogs/author/10/ HTTP/1.1" 404 3275
+INFO 2024-02-22 20:08:46,853 "GET /blogs/author/9 HTTP/1.1" 301 0
+WARNING 2024-02-22 20:08:46,860 Not Found: /blogs/author/9/
+WARNING 2024-02-22 20:08:46,860 "GET /blogs/author/9/ HTTP/1.1" 404 3272
+INFO 2024-02-22 20:08:50,085 "GET /blogs/author/8 HTTP/1.1" 301 0
+WARNING 2024-02-22 20:08:50,091 Not Found: /blogs/author/8/
+WARNING 2024-02-22 20:08:50,092 "GET /blogs/author/8/ HTTP/1.1" 404 3272
+WARNING 2024-02-22 20:08:53,311 Not Found: /blogs/author/18/
+WARNING 2024-02-22 20:08:53,311 "GET /blogs/author/18/ HTTP/1.1" 404 3275
+WARNING 2024-02-22 20:08:55,630 Not Found: /blogs/author/5/
+WARNING 2024-02-22 20:08:55,630 "GET /blogs/author/5/ HTTP/1.1" 404 3272
+INFO 2024-02-22 20:08:58,350 "GET /blogs/author/4 HTTP/1.1" 301 0
+INFO 2024-02-22 20:08:58,358 "GET /blogs/author/4/ HTTP/1.1" 200 3157
+INFO 2024-02-22 20:11:01,917 "GET /blogs/author/7/ HTTP/1.1" 200 2760
+INFO 2024-02-22 20:11:05,554 "GET /blogs/author/6/ HTTP/1.1" 200 2087
+INFO 2024-02-22 21:51:32,979 "GET /blogs/author/6/ HTTP/1.1" 200 2171
+INFO 2024-02-22 21:51:51,702 "GET /blogs/author/6/ HTTP/1.1" 200 2125
+INFO 2024-02-22 21:52:11,315 "GET /blogs/author/6/ HTTP/1.1" 200 2125
+INFO 2024-02-22 21:52:20,069 "GET /blogs/author/1 HTTP/1.1" 301 0
+INFO 2024-02-22 21:52:20,075 "GET /blogs/author/1/ HTTP/1.1" 200 3081
+INFO 2024-02-22 21:56:17,308 Watching for file changes with StatReloader
+INFO 2024-02-22 21:56:19,624 "GET /blogs/author/6/ HTTP/1.1" 200 2125
+INFO 2024-02-22 21:56:20,953 "GET /blogs/author/1/ HTTP/1.1" 200 3567
+INFO 2024-02-22 21:56:22,738 "GET /blogs/post/1/ HTTP/1.1" 200 5549
+INFO 2024-02-22 21:56:24,736 "GET /blogs/author/1/ HTTP/1.1" 200 3567
+INFO 2024-02-22 21:56:27,285 "GET /blogs/author/2/ HTTP/1.1" 200 1874
+INFO 2024-02-22 21:56:29,740 "GET /blogs/author/2/ HTTP/1.1" 200 1874
+INFO 2024-02-22 21:56:30,065 "GET /blogs/author/3/ HTTP/1.1" 200 2829
+INFO 2024-02-22 21:56:33,294 "GET /blogs/author/3/ HTTP/1.1" 200 2829
+INFO 2024-02-22 21:56:33,615 "GET /blogs/author/4/ HTTP/1.1" 200 4275
+WARNING 2024-02-22 21:56:38,158 Not Found: /blogs/author/5/
+WARNING 2024-02-22 21:56:38,159 "GET /blogs/author/5/ HTTP/1.1" 404 3272
+INFO 2024-02-22 21:56:42,730 "GET /blogs/author/6 HTTP/1.1" 301 0
+INFO 2024-02-22 21:56:42,735 "GET /blogs/author/6/ HTTP/1.1" 200 2125
+INFO 2024-02-22 21:56:46,027 "GET /blogs/author/7 HTTP/1.1" 301 0
+INFO 2024-02-22 21:56:46,035 "GET /blogs/author/7/ HTTP/1.1" 200 3582
+WARNING 2024-02-22 21:56:49,375 Not Found: /blogs/author/8/
+WARNING 2024-02-22 21:56:49,376 "GET /blogs/author/8/ HTTP/1.1" 404 3272
+INFO 2024-02-22 21:56:51,987 "GET /blogs/author/1/ HTTP/1.1" 200 3567
+INFO 2024-02-22 21:59:07,543 "GET /blogs/author/1/ HTTP/1.1" 200 2797
+INFO 2024-02-22 21:59:11,932 "GET /blogs/author/2/ HTTP/1.1" 200 1777
+INFO 2024-02-22 21:59:13,190 "GET /blogs/author/2/ HTTP/1.1" 200 1777
+INFO 2024-02-22 21:59:16,437 "GET /blogs/author/2/ HTTP/1.1" 200 1777
+INFO 2024-02-22 21:59:16,709 "GET /blogs/author/3/ HTTP/1.1" 200 2397
+INFO 2024-02-22 21:59:16,798 "GET /blogs/author/3/ HTTP/1.1" 200 2397
+INFO 2024-02-22 21:59:18,218 "GET /blogs/post/36/ HTTP/1.1" 200 4844
+INFO 2024-02-22 22:07:05,100 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:05,567 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:10,932 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:11,337 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:18,728 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:19,142 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:21,449 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:21,914 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:23,194 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:23,588 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:24,867 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:07:25,283 Watching for file changes with StatReloader
+INFO 2024-02-22 22:07:44,218 "GET /blogs/post/1/ HTTP/1.1" 200 5621
+INFO 2024-02-22 22:07:46,231 "GET /blogs/post/1/ HTTP/1.1" 200 5621
+INFO 2024-02-22 22:07:47,546 "GET /blogs/post/1/ HTTP/1.1" 200 5621
+INFO 2024-02-22 22:07:49,681 "GET /blogs/author/1/ HTTP/1.1" 200 2797
+INFO 2024-02-22 22:07:52,250 "GET /blogs/post/1/ HTTP/1.1" 200 5621
+INFO 2024-02-22 22:33:08,856 "GET /blogs/post/1/ HTTP/1.1" 200 5621
+INFO 2024-02-22 22:33:36,584 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-22 22:33:36,980 Watching for file changes with StatReloader
+INFO 2024-02-22 22:33:38,198 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-22 22:33:38,611 Watching for file changes with StatReloader
+INFO 2024-02-22 22:34:01,679 "GET /blogs/post/1/ HTTP/1.1" 200 5678
+ERROR 2024-02-22 22:36:48,254 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'language'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 37, in post_full
+    return render(request, 'blogs/post_full.html', {'post': post, 'author_name': author_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'language', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-02-22 22:36:48,261 "GET /blogs/post/1/ HTTP/1.1" 500 169004
+ERROR 2024-02-22 22:37:08,418 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'language'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 37, in post_full
+    return render(request, 'blogs/post_full.html', {'post': post, 'author_name': author_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'language', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-02-22 22:37:08,423 "GET /blogs/post/1/ HTTP/1.1" 500 169612
+ERROR 2024-02-22 22:37:24,290 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'language'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 37, in post_full
+    return render(request, 'blogs/post_full.html', {'post': post, 'author_name': author_name})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'language', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-02-22 22:37:24,296 "GET /blogs/post/1/ HTTP/1.1" 500 170177
+INFO 2024-02-22 22:38:03,786 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:38:04,187 Watching for file changes with StatReloader
+INFO 2024-02-22 22:38:10,565 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:38:11,035 Watching for file changes with StatReloader
+INFO 2024-02-22 22:38:21,482 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:38:21,893 Watching for file changes with StatReloader
+INFO 2024-02-22 22:38:27,662 "GET /blogs/post/1/ HTTP/1.1" 200 5679
+INFO 2024-02-22 22:38:29,323 "GET /blogs/post/1/ HTTP/1.1" 200 5679
+INFO 2024-02-22 22:38:30,108 "GET /blogs/post/1/ HTTP/1.1" 200 5679
+INFO 2024-02-22 22:38:37,551 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:38:37,967 Watching for file changes with StatReloader
+INFO 2024-02-22 22:38:38,655 "GET /blogs/post/1/ HTTP/1.1" 200 5686
+INFO 2024-02-22 22:38:39,808 "GET /blogs/post/1/ HTTP/1.1" 200 5686
+INFO 2024-02-22 22:38:50,496 Watching for file changes with StatReloader
+INFO 2024-02-22 22:38:52,486 "GET /blogs/post/1/ HTTP/1.1" 200 5686
+INFO 2024-02-22 22:39:29,559 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:39:29,984 Watching for file changes with StatReloader
+INFO 2024-02-22 22:39:56,732 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-22 22:39:57,212 Watching for file changes with StatReloader
+INFO 2024-02-22 22:40:01,545 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-22 22:40:01,981 Watching for file changes with StatReloader
+INFO 2024-02-22 22:40:03,265 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-22 22:40:03,708 Watching for file changes with StatReloader
+INFO 2024-02-22 22:40:06,131 "GET /blogs/post/1/ HTTP/1.1" 200 5690
+INFO 2024-02-22 22:40:13,223 D:\codes\Seminar\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-22 22:40:13,678 Watching for file changes with StatReloader
+INFO 2024-02-22 22:40:14,316 "GET /blogs/post/1/ HTTP/1.1" 200 5690
+INFO 2024-02-22 22:44:24,153 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:24,562 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:26,876 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:27,268 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:32,626 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:33,028 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:36,348 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:36,742 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:44,137 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:44,542 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:45,828 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:46,228 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:57,691 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:58,103 Watching for file changes with StatReloader
+INFO 2024-02-22 22:44:59,407 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:44:59,843 Watching for file changes with StatReloader
+INFO 2024-02-22 22:45:11,169 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:45:11,570 Watching for file changes with StatReloader
+INFO 2024-02-22 22:45:13,883 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:45:14,275 Watching for file changes with StatReloader
+INFO 2024-02-22 22:45:15,561 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:45:15,964 Watching for file changes with StatReloader
+INFO 2024-02-22 22:45:20,294 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:45:20,699 Watching for file changes with StatReloader
+INFO 2024-02-22 22:45:27,042 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:45:27,432 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:05,729 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:06,149 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:07,427 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:07,823 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:11,023 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:11,413 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:18,664 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:19,066 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:20,356 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:20,761 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:22,042 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:22,450 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:26,786 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:27,179 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:34,451 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:34,844 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:40,063 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:40,452 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:44,658 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:45,074 Watching for file changes with StatReloader
+INFO 2024-02-22 22:46:46,234 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:46:46,666 Watching for file changes with StatReloader
+INFO 2024-02-22 22:47:08,172 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:47:08,595 Watching for file changes with StatReloader
+INFO 2024-02-22 22:47:09,751 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:47:10,153 Watching for file changes with StatReloader
+INFO 2024-02-22 22:48:06,290 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:48:06,690 Watching for file changes with StatReloader
+INFO 2024-02-22 22:48:09,004 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:48:09,399 Watching for file changes with StatReloader
+INFO 2024-02-22 22:48:36,170 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:48:36,569 Watching for file changes with StatReloader
+INFO 2024-02-22 22:48:41,927 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:48:42,324 Watching for file changes with StatReloader
+INFO 2024-02-22 22:48:45,652 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:48:46,047 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:01,660 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:02,057 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:09,453 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:09,868 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:21,330 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:21,735 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:28,104 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:28,519 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:33,877 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:34,270 Watching for file changes with StatReloader
+INFO 2024-02-22 22:50:38,606 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:50:39,016 Watching for file changes with StatReloader
+INFO 2024-02-22 22:52:31,228 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:52:31,627 Watching for file changes with StatReloader
+INFO 2024-02-22 22:52:32,917 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:52:33,336 Watching for file changes with StatReloader
+INFO 2024-02-22 22:52:53,940 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 22:52:54,333 Watching for file changes with StatReloader
+ERROR 2024-02-22 22:57:31,212 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 35, in post_full
+    comments = Post.objects.filter(post=post).order_by('-date_edit')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post' into field. Choices are: author, author_id, category, comment, content, date_pub, id, ispublic, title, views_count
+ERROR 2024-02-22 22:57:31,216 "GET /blogs/post/1/ HTTP/1.1" 500 126723
+INFO 2024-02-22 23:00:28,036 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:00:28,441 Watching for file changes with StatReloader
+INFO 2024-02-22 23:00:30,614 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:00:31,020 Watching for file changes with StatReloader
+INFO 2024-02-22 23:00:33,195 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:00:33,587 Watching for file changes with StatReloader
+INFO 2024-02-22 23:00:41,850 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:00:42,249 Watching for file changes with StatReloader
+INFO 2024-02-22 23:00:53,968 "GET / HTTP/1.1" 200 1612
+ERROR 2024-02-22 23:00:56,707 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 35, in post_full
+    comments = Post.objects.filter(post=post).order_by('-date_edit')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post' into field. Choices are: author, author_id, category, comment, content, date_pub, id, ispublic, title, views_count
+ERROR 2024-02-22 23:00:56,712 "GET /blogs/post/1/ HTTP/1.1" 500 126571
+INFO 2024-02-22 23:02:12,445 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:02:12,859 Watching for file changes with StatReloader
+INFO 2024-02-22 23:02:15,050 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:02:15,442 Watching for file changes with StatReloader
+INFO 2024-02-22 23:02:21,675 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:02:22,059 Watching for file changes with StatReloader
+INFO 2024-02-22 23:02:31,482 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:02:31,881 Watching for file changes with StatReloader
+ERROR 2024-02-22 23:02:34,627 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 35, in post_full
+    comments = Post.objects.filter(post.pk==post_id).order_by('-date_edit')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+TypeError: cannot unpack non-iterable bool object
+ERROR 2024-02-22 23:02:34,631 "GET /blogs/post/1/ HTTP/1.1" 500 113484
+INFO 2024-02-22 23:03:15,024 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:03:15,446 Watching for file changes with StatReloader
+ERROR 2024-02-22 23:03:15,786 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 35, in post_full
+    comments = Post.objects.filter(post.pk==post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+TypeError: cannot unpack non-iterable bool object
+ERROR 2024-02-22 23:03:15,790 "GET /blogs/post/1/ HTTP/1.1" 500 113418
+INFO 2024-02-22 23:03:24,890 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:03:25,295 Watching for file changes with StatReloader
+INFO 2024-02-22 23:04:58,501 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:04:58,924 Watching for file changes with StatReloader
+INFO 2024-02-22 23:05:10,239 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:05:10,645 Watching for file changes with StatReloader
+INFO 2024-02-22 23:05:11,819 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:05:12,228 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:19,509 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:19,924 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:21,215 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:21,616 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:35,134 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:35,541 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:37,856 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:38,261 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:43,626 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:44,045 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:46,345 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:46,765 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:50,089 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:50,498 Watching for file changes with StatReloader
+INFO 2024-02-22 23:07:52,803 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:07:53,214 Watching for file changes with StatReloader
+ERROR 2024-02-22 23:07:58,276 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 35, in post_full
+    comments = Post.objects.filter(post=post_get).order_by('-date_edit')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'post' into field. Choices are: author, author_id, category, comment, content, date_pub, id, ispublic, title, views_count
+ERROR 2024-02-22 23:07:58,281 "GET /blogs/post/1/ HTTP/1.1" 500 126748
+INFO 2024-02-22 23:11:39,731 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:11:40,158 Watching for file changes with StatReloader
+INFO 2024-02-22 23:11:42,468 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:11:42,867 Watching for file changes with StatReloader
+ERROR 2024-02-22 23:11:46,911 Internal Server Error: /blogs/post/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 38, in post_full
+    return render(request, 'blogs/post_full.html', {'post': post_get, 'author': author, 'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2024-02-22 23:11:46,919 "GET /blogs/post/1/ HTTP/1.1" 500 199807
+INFO 2024-02-22 23:12:37,628 "GET /blogs/post/1/ HTTP/1.1" 200 6378
+INFO 2024-02-22 23:13:13,652 "GET /blogs/post/1/ HTTP/1.1" 200 6232
+INFO 2024-02-22 23:14:43,484 "GET /blogs/post/1/ HTTP/1.1" 200 8307
+INFO 2024-02-22 23:15:02,215 "GET /blogs/post/1/ HTTP/1.1" 200 8375
+INFO 2024-02-22 23:15:38,375 "GET /blogs/post/1/ HTTP/1.1" 200 8399
+INFO 2024-02-22 23:15:59,265 "GET /blogs/post/1/ HTTP/1.1" 200 8279
+INFO 2024-02-22 23:16:15,738 "GET /blogs/post/1/ HTTP/1.1" 200 8283
+INFO 2024-02-22 23:16:47,807 "GET /blogs/post/1/ HTTP/1.1" 200 8391
+INFO 2024-02-22 23:17:28,516 "GET /blogs/author/1/ HTTP/1.1" 200 2797
+INFO 2024-02-22 23:18:10,035 "GET /blogs/post/1/ HTTP/1.1" 200 8416
+INFO 2024-02-22 23:18:13,092 "GET /blogs/post/1/ HTTP/1.1" 200 8416
+INFO 2024-02-22 23:18:20,851 "GET /blogs/post/1/ HTTP/1.1" 200 8308
+INFO 2024-02-22 23:19:04,605 "GET /blogs/post/1/ HTTP/1.1" 200 8448
+INFO 2024-02-22 23:19:05,495 "GET /blogs/post/1/ HTTP/1.1" 200 8448
+INFO 2024-02-22 23:19:21,570 "GET /blogs/post/1/ HTTP/1.1" 200 8496
+INFO 2024-02-22 23:19:45,058 "GET /blogs/post/1/ HTTP/1.1" 200 8496
+INFO 2024-02-22 23:20:06,055 "GET /blogs/post/1/ HTTP/1.1" 200 8580
+INFO 2024-02-22 23:20:44,295 "GET /blogs/post/1/ HTTP/1.1" 200 8455
+INFO 2024-02-22 23:21:17,642 "GET /blogs/post/1/ HTTP/1.1" 200 8261
+INFO 2024-02-22 23:21:47,197 "GET /blogs/post/1/ HTTP/1.1" 200 8213
+INFO 2024-02-22 23:23:15,113 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-22 23:23:15,522 Watching for file changes with StatReloader
+INFO 2024-02-22 23:24:55,961 "GET /blogs/post/1/ HTTP/1.1" 200 8333
+INFO 2024-02-22 23:27:02,116 "GET /blogs/post/1/ HTTP/1.1" 200 8281
+INFO 2024-02-22 23:27:03,074 "GET /blogs/post/1/ HTTP/1.1" 200 8281
+INFO 2024-02-22 23:27:15,638 "GET /blogs/post/1/ HTTP/1.1" 200 8381
+INFO 2024-02-22 23:27:34,499 "GET /blogs/post/1/ HTTP/1.1" 200 8652
+INFO 2024-02-22 23:27:52,565 "GET /blogs/post/1/ HTTP/1.1" 200 8704
+INFO 2024-02-22 23:28:10,875 "GET /blogs/post/1/ HTTP/1.1" 200 8708
+INFO 2024-02-22 23:28:34,648 "GET /blogs/post/1/ HTTP/1.1" 200 8708
+INFO 2024-02-22 23:31:41,054 "GET /blogs/post/1/ HTTP/1.1" 200 8664
+INFO 2024-02-22 23:32:29,774 "GET /blogs/post/1/ HTTP/1.1" 200 8668
+INFO 2024-02-22 23:32:33,659 "GET /blogs/post/1/ HTTP/1.1" 200 8668
+INFO 2024-02-22 23:32:35,094 "GET /blogs/post/2/ HTTP/1.1" 200 7694
+INFO 2024-02-22 23:32:47,131 "GET /blogs/post/3/ HTTP/1.1" 200 5441
+INFO 2024-02-22 23:32:51,570 "GET /blogs/post/4 HTTP/1.1" 301 0
+INFO 2024-02-22 23:32:51,630 "GET /blogs/post/4/ HTTP/1.1" 200 6716
+INFO 2024-02-22 23:33:27,049 "GET / HTTP/1.1" 200 1612
+INFO 2024-02-22 23:33:27,235 "GET / HTTP/1.1" 200 1612
+INFO 2024-02-22 23:33:29,354 "GET /about/ HTTP/1.1" 200 327
+INFO 2024-02-22 23:33:31,025 "GET / HTTP/1.1" 200 1612
+INFO 2024-02-22 23:33:33,870 "GET /blogs/author/2/ HTTP/1.1" 200 1777
+INFO 2024-02-22 23:33:43,854 "GET /blogs/author/1/ HTTP/1.1" 200 2797
+INFO 2024-02-22 23:33:47,938 "GET /blogs/author/4/ HTTP/1.1" 200 3285
+INFO 2024-02-22 23:34:04,477 "GET /blogs/post/31/ HTTP/1.1" 200 5596
+INFO 2024-02-22 23:34:09,074 "GET /blogs/post/28/ HTTP/1.1" 200 4486
+INFO 2024-02-22 23:34:11,944 "GET /blogs/post/4/ HTTP/1.1" 200 6716

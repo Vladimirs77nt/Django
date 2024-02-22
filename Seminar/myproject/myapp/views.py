@@ -10,8 +10,7 @@ http_menu = "<h3>МЕНЮ</h3>\
 
 def index(request):
     text = "Привет, мир!"
-    http_text = text + "\n" + http_text_hand + http_menu
-    return HttpResponse(http_text)
+    return render(request, 'myapp/index.html', {'text': text})
 
 def about(request):
     text = "Страница 'О нас'"

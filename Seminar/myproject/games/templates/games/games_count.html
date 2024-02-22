@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ game }}{% endblock %}
+
+{% block content %}
+    <br>
+    <h1>ИГРЫ (приложение 'games') - {{ game }}</h1>
+    <h2>Делаем {{ count }} 
+        {% if count == 1 %}
+            бросок
+        {% elif count >= 2 and count <= 4 %}
+            броска
+        {% else %}
+            бросков
+        {% endif %}
+    </h2>
+    <ul>
+        {% for result in result_list %}
+            <li>Бросок №{{ result.0 }} {{ result.1 }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

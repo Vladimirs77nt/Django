@@ -7,4 +7,8 @@ urlpatterns = [
     path('playing_dice/', views.playing_dice, name='playing_dice'),
     path('random_100/', views.random_100, name='random_100'),
     path('statistic/<int:n>', views.statistic, name='statistic'),
+
+    path('heads_or_tails/<int:count>/', views.heads_or_tails_count, name='heads_or_tails_count'),
+    path('playing_dice/<int:count>/', views.playing_dice_count, name='playing_dice_count'),
+    path('random_100/<int:count>/', views.random_100_count, name='random_100_count'),
 ]

@@ -8,17 +8,19 @@ class Command(BaseCommand):
     help = "Create Post"
 
     def handle(self, *args, **kwargs):
-        authors = Author.objects.all()
+        author = choice(Author.objects.all())
         title = lorem_ipsum.words(5, common = False).capitalize()
         content = "\n".join(lorem_ipsum.paragraphs(7, common=False))
         date_pub = date(year=randint(2020,2023), month=randint(1,12), day=randint(1,30))
-        author = choice(authors)
         category = choice(lorem_ipsum.WORDS).capitalize()
+        ispublic = choice([True, False])
 
         post = Post(title=title,
                     content=content,
                     date_pub=date_pub,
                     author=author,
-                    category=category)
+                    category=category,
+                    ispublic=ispublic)
+        
         post.save()
         self.stdout.write(f'Create post [{post.pk}]: {post.title}')

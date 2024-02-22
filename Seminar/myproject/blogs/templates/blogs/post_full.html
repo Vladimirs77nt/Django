@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <h3>Автор: {{ author_name }}</h3>
+    <h3>Статья: {{ post.title }}</h3>
+    <h3>Дата публикации: {{ post.date_pub }}</h3>
+    <h4>Количество просмотров: {{ post.views_count }}</h4>
+    <p>{{ post.content }}</p><br>
+    {% if comments %}
+        <p>&emsp;Комментарии:</p><br>
+        {% for comment in comments %}
+            <p>&emsp; {{ comment.author.fullname }}, {{ comment.date_create }}
+                {% if comment.date_edit %}
+                     (изменено: {{ comment.date_edit }})
+                {% endif %}
+            </p>
+            <p>&emsp; {{ comment.content }} </p><br>
+        {% endfor %}
+        <br>
+    {% endif %}
+{% endblock %}
