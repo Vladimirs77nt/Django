@@ -1,3 +1,4 @@
+import datetime
 import logging
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render
@@ -57,5 +58,22 @@ def orders_by_client(request, client_id):
 """
 def orders_by_client_sort(request, client_id):
     client = get_object_or_404(Client, pk=client_id)
-    orders = Order.objects.filter(client__pk=client_id)
-    return render(request, 'online_store/orders_sort.html', {'orders': orders, 'client': client})
+    orders = Order.objects.filter(client__pk=client_id).order_by('-date_ordered')
+    orders_7 = []
+    orders_30 = []
+    orders_365 = []
+    for order in orders:
+        date_delta = datetime.date.today() - order.date_ordered
+        date_delta = int (date_delta.days)
+        print (date_delta)
+        if date_delta <= 365:
+            orders_365.append(order)
+            if date_delta <= 30:
+                orders_30.append(order)
+                if date_delta <= 7:
+                    orders_7.append(order)
+
+    return render(request, 'online_store/orders_sort.html', {'orders_7': orders_7,
+                                                             'orders_30': orders_30,
+                                                             'orders_365': orders_365,
+                                                             'client': client})

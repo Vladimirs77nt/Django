@@ -12,7 +12,7 @@ class Command(BaseCommand):
         products = Product.objects.all()
 
         for client in clients:
-            time_delta = timedelta(days=randint(0,1000))
+            time_delta = timedelta(days=randint(0,10))
             time_order = datetime.now() - time_delta
             order = Order(client=client,
                           total_price=0,

@@ -2471,3 +2471,749 @@ INFO 2024-02-25 23:36:52,016 "GET /client/1/ HTTP/1.1" 200 1152
 INFO 2024-02-25 23:36:55,600 "GET /orders_no_sort/1/ HTTP/1.1" 200 2718
 INFO 2024-02-25 23:38:35,098 Watching for file changes with StatReloader
 INFO 2024-02-25 23:38:38,102 "GET /orders_no_sort/1/ HTTP/1.1" 200 3521
+INFO 2024-02-25 23:53:26,502 Watching for file changes with StatReloader
+INFO 2024-02-25 23:53:29,635 Index page "Online Store Start" accessed
+INFO 2024-02-25 23:53:29,640 "GET / HTTP/1.1" 200 920
+INFO 2024-02-25 23:53:31,041 Index page "Client ALL" accessed
+INFO 2024-02-25 23:53:31,046 "GET /clients_all/ HTTP/1.1" 200 4162
+INFO 2024-02-25 23:53:32,825 Index page "Client" accessed
+INFO 2024-02-25 23:53:32,829 "GET /client/1/ HTTP/1.1" 200 1145
+INFO 2024-02-25 23:53:34,657 "GET /orders_no_sort/1/ HTTP/1.1" 200 2754
+INFO 2024-02-25 23:53:50,229 "GET /orders/1/ HTTP/1.1" 200 2785
+INFO 2024-02-25 23:53:51,213 "GET /orders_no_sort/1 HTTP/1.1" 301 0
+INFO 2024-02-25 23:53:51,220 "GET /orders_no_sort/1/ HTTP/1.1" 200 2754
+INFO 2024-02-25 23:53:51,647 "GET /orders/1/ HTTP/1.1" 200 2785
+INFO 2024-02-25 23:57:39,357 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:57:39,758 Watching for file changes with StatReloader
+INFO 2024-02-25 23:57:42,055 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:57:42,454 Watching for file changes with StatReloader
+INFO 2024-02-25 23:57:43,722 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:57:44,121 Watching for file changes with StatReloader
+INFO 2024-02-25 23:57:48,444 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:57:48,842 Watching for file changes with StatReloader
+INFO 2024-02-25 23:57:53,164 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:57:53,558 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:05,888 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:06,294 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:38,089 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:38,529 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:45,780 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:46,167 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:48,330 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:48,731 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:49,880 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:50,273 Watching for file changes with StatReloader
+INFO 2024-02-25 23:58:56,499 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:58:56,888 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:02,098 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:02,517 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:03,682 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:04,081 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:10,307 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:10,703 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:11,987 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:12,373 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:17,589 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:17,984 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:32,508 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:32,896 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:35,188 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:35,587 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:46,020 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:46,419 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:48,717 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:49,147 Watching for file changes with StatReloader
+INFO 2024-02-25 23:59:50,417 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-25 23:59:50,812 Watching for file changes with StatReloader
+INFO 2024-02-26 00:00:10,264 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:00:10,659 Watching for file changes with StatReloader
+INFO 2024-02-26 00:01:02,807 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:01:03,227 Watching for file changes with StatReloader
+INFO 2024-02-26 00:01:11,481 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:01:11,874 Watching for file changes with StatReloader
+INFO 2024-02-26 00:01:14,051 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:01:14,472 Watching for file changes with StatReloader
+INFO 2024-02-26 00:01:19,810 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:01:20,285 Watching for file changes with StatReloader
+INFO 2024-02-26 00:04:44,008 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:04:44,439 Watching for file changes with StatReloader
+INFO 2024-02-26 00:04:49,787 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:04:50,189 Watching for file changes with StatReloader
+INFO 2024-02-26 00:04:52,488 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:04:52,874 Watching for file changes with StatReloader
+INFO 2024-02-26 00:04:57,067 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:04:57,475 Watching for file changes with StatReloader
+INFO 2024-02-26 00:05:03,688 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:05:04,085 Watching for file changes with StatReloader
+INFO 2024-02-26 00:05:05,238 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:05:05,625 Watching for file changes with StatReloader
+INFO 2024-02-26 00:05:12,986 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:05:13,398 Watching for file changes with StatReloader
+INFO 2024-02-26 00:05:18,735 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:05:19,175 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:05:24,859 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    date_delta = datetime.datetime.now() - order.date_ordered
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-26 00:05:24,861 "GET /orders/1/ HTTP/1.1" 500 68389
+INFO 2024-02-26 00:06:21,686 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:06:22,086 Watching for file changes with StatReloader
+INFO 2024-02-26 00:06:24,381 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:06:24,778 Watching for file changes with StatReloader
+INFO 2024-02-26 00:06:27,072 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:06:27,472 Watching for file changes with StatReloader
+INFO 2024-02-26 00:06:28,621 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:06:29,046 Watching for file changes with StatReloader
+INFO 2024-02-26 00:07:04,144 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:04,550 Watching for file changes with StatReloader
+INFO 2024-02-26 00:07:05,701 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:06,132 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:07:09,708 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 64, in orders_by_client_sort
+    date_delta = datetime.datetime.now() - order.date_ordered
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-26 00:07:09,709 "GET /orders/1/ HTTP/1.1" 500 68510
+INFO 2024-02-26 00:07:25,111 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:25,520 Watching for file changes with StatReloader
+INFO 2024-02-26 00:07:33,935 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:34,344 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:07:37,426 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 65, in orders_by_client_sort
+    date_delta = datetime.datetime.now() - order.date_ordered
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-26 00:07:37,429 "GET /orders/1/ HTTP/1.1" 500 68480
+INFO 2024-02-26 00:07:46,919 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:47,335 Watching for file changes with StatReloader
+INFO 2024-02-26 00:07:50,652 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:07:51,049 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:07:53,366 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 64, in orders_by_client_sort
+    print(type(datetime.date.now()))
+               ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:07:53,368 "GET /orders/1/ HTTP/1.1" 500 68513
+INFO 2024-02-26 00:08:02,749 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:03,161 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:04,437 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:04,833 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:08:10,656 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    date_delta = datetime.date.now() - order.date_ordered
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:08:10,658 "GET /orders/1/ HTTP/1.1" 500 68398
+INFO 2024-02-26 00:08:20,460 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:20,846 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:24,156 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:24,561 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:38,032 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:38,469 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:42,786 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:43,180 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:51,564 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:51,952 Watching for file changes with StatReloader
+INFO 2024-02-26 00:08:53,230 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:08:53,660 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:08:54,597 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    date_delta = datetime.datetime.now() - order.date_ordered
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-26 00:08:54,599 "GET /orders/1/ HTTP/1.1" 500 68526
+INFO 2024-02-26 00:09:10,197 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:10,593 Watching for file changes with StatReloader
+INFO 2024-02-26 00:09:17,979 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:18,376 Watching for file changes with StatReloader
+INFO 2024-02-26 00:09:24,750 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:25,167 Watching for file changes with StatReloader
+INFO 2024-02-26 00:09:32,540 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:32,967 Watching for file changes with StatReloader
+INFO 2024-02-26 00:09:36,280 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:36,683 Watching for file changes with StatReloader
+INFO 2024-02-26 00:09:44,054 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:09:44,454 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:09:47,225 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    print (type (datetime.date.now()))
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:09:47,227 "GET /orders/1/ HTTP/1.1" 500 68694
+INFO 2024-02-26 00:10:53,058 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:10:53,493 Watching for file changes with StatReloader
+INFO 2024-02-26 00:10:54,769 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:10:55,169 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:10:58,174 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 65, in orders_by_client_sort
+    date_delta = datetime.date.now() - order.date_ordered
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:10:58,175 "GET /orders/1/ HTTP/1.1" 500 68356
+INFO 2024-02-26 00:11:32,161 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:11:32,561 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:11:35,139 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 65, in orders_by_client_sort
+    date_delta = datetime.date.now() - order.date_ordered
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:11:35,141 "GET /orders/1/ HTTP/1.1" 500 68356
+INFO 2024-02-26 00:11:45,139 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:11:45,554 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:11:48,304 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    print (type (datetime.now()))
+                 ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2024-02-26 00:11:48,306 "GET /orders/1/ HTTP/1.1" 500 68634
+INFO 2024-02-26 00:12:03,188 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:03,596 Watching for file changes with StatReloader
+INFO 2024-02-26 00:12:05,898 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:06,292 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:12:08,844 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 63, in orders_by_client_sort
+    print (type (datetime.date.now()))
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:12:08,846 "GET /orders/1/ HTTP/1.1" 500 68694
+INFO 2024-02-26 00:12:40,374 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:40,785 Watching for file changes with StatReloader
+INFO 2024-02-26 00:12:45,993 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:46,398 Watching for file changes with StatReloader
+INFO 2024-02-26 00:12:49,704 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:50,125 Watching for file changes with StatReloader
+INFO 2024-02-26 00:12:58,529 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:12:58,926 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:03,258 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:03,650 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:10,891 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:11,302 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:13,597 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:13,993 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:16,281 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:16,684 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:17,960 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:18,365 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:19,636 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:20,049 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:24,392 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:24,789 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:26,058 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:26,452 Watching for file changes with StatReloader
+INFO 2024-02-26 00:13:29,637 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:30,047 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:13:34,826 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 64, in orders_by_client_sort
+    time_now = datetime.date.now()
+               ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:13:34,828 "GET /orders/1/ HTTP/1.1" 500 68562
+INFO 2024-02-26 00:13:57,893 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:13:58,330 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:14:00,388 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 70, in orders_by_client_sort
+    date_delta = time_now - time_order
+                 ~~~~~~~~~^~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'datetime.date'
+ERROR 2024-02-26 00:14:00,390 "GET /orders/1/ HTTP/1.1" 500 68758
+INFO 2024-02-26 00:14:34,359 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:14:34,796 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:14:42,785 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 64, in orders_by_client_sort
+    time_now = datetime.date.now()
+               ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2024-02-26 00:14:42,787 "GET /orders/1/ HTTP/1.1" 500 68562
+INFO 2024-02-26 00:14:59,605 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:14:59,995 Watching for file changes with StatReloader
+INFO 2024-02-26 00:17:24,697 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:25,092 Watching for file changes with StatReloader
+INFO 2024-02-26 00:17:37,581 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:37,994 Watching for file changes with StatReloader
+INFO 2024-02-26 00:17:41,299 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:41,697 Watching for file changes with StatReloader
+INFO 2024-02-26 00:17:42,970 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:43,373 Watching for file changes with StatReloader
+INFO 2024-02-26 00:17:45,675 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:46,072 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:17:49,337 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 64, in orders_by_client_sort
+    time_now = datetime.today()
+               ^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'today'
+ERROR 2024-02-26 00:17:49,338 "GET /orders/1/ HTTP/1.1" 500 68518
+INFO 2024-02-26 00:17:58,641 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:17:59,084 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:02,393 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:02,783 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:05,793 "GET /orders/1/ HTTP/1.1" 200 2785
+INFO 2024-02-26 00:18:29,615 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:30,009 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:34,345 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:34,759 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:37,070 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:37,463 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:42,796 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:43,197 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:56,660 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:57,069 Watching for file changes with StatReloader
+INFO 2024-02-26 00:18:59,235 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:18:59,675 Watching for file changes with StatReloader
+INFO 2024-02-26 00:19:00,827 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:19:01,220 Watching for file changes with StatReloader
+INFO 2024-02-26 00:19:05,412 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:19:05,808 Watching for file changes with StatReloader
+INFO 2024-02-26 00:19:16,386 "GET /orders/1/ HTTP/1.1" 200 2785
+INFO 2024-02-26 00:20:16,400 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:20:16,807 Watching for file changes with StatReloader
+INFO 2024-02-26 00:20:18,122 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:20:18,525 Watching for file changes with StatReloader
+INFO 2024-02-26 00:20:19,799 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:20:20,194 Watching for file changes with StatReloader
+INFO 2024-02-26 00:20:22,485 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:20:22,876 Watching for file changes with StatReloader
+INFO 2024-02-26 00:20:32,146 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:20:32,538 Watching for file changes with StatReloader
+INFO 2024-02-26 00:25:54,640 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:25:55,027 Watching for file changes with StatReloader
+INFO 2024-02-26 00:25:57,196 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:25:57,593 Watching for file changes with StatReloader
+INFO 2024-02-26 00:26:03,956 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:26:04,354 Watching for file changes with StatReloader
+INFO 2024-02-26 00:26:29,016 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:26:29,413 Watching for file changes with StatReloader
+INFO 2024-02-26 00:26:32,609 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:26:32,997 Watching for file changes with StatReloader
+INFO 2024-02-26 00:26:47,472 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:26:47,862 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:23,835 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:24,230 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:27,556 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:27,941 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:30,225 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:30,627 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:31,900 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:32,296 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:36,605 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:36,996 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:38,267 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:38,688 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:43,009 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:43,410 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:46,710 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:47,104 Watching for file changes with StatReloader
+INFO 2024-02-26 00:28:48,379 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:28:48,769 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:10,392 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:10,802 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:13,094 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:13,486 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:14,762 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:15,146 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:18,323 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:18,719 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:23,928 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:24,316 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:28,518 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:28,914 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:30,070 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:30,475 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:32,637 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:33,030 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:35,190 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:35,594 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:38,776 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:39,193 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:41,481 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:41,867 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:44,152 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:44,552 Watching for file changes with StatReloader
+INFO 2024-02-26 00:29:49,903 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:29:50,316 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:01,754 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:02,157 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:04,459 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:04,851 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:07,136 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:07,521 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:11,840 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:12,236 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:21,647 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:22,033 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:26,344 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:26,739 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:32,083 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:32,476 Watching for file changes with StatReloader
+INFO 2024-02-26 00:30:56,145 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:30:56,540 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:09,041 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:09,433 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:16,821 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:17,250 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:19,409 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:19,805 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:23,109 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:23,498 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:26,826 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:27,220 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:51,918 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:52,321 Watching for file changes with StatReloader
+INFO 2024-02-26 00:31:55,633 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:31:56,037 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:04,412 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:04,808 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:06,080 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:06,488 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:07,754 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:08,158 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:09,423 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:09,867 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:11,168 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:11,579 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:18,941 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:19,345 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:22,651 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:23,044 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:25,339 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:25,725 Watching for file changes with StatReloader
+INFO 2024-02-26 00:32:33,101 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:32:33,486 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:03,521 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:03,936 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:09,288 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:09,685 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:11,969 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:12,371 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:14,663 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:15,065 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:22,428 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:22,851 Watching for file changes with StatReloader
+INFO 2024-02-26 00:33:24,131 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:33:24,526 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:35:34,956 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 67, in orders_by_client_sort
+    if date_delta <= 365:
+       ^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.timedelta' and 'int'
+ERROR 2024-02-26 00:35:34,958 "GET /orders/1/ HTTP/1.1" 500 69357
+INFO 2024-02-26 00:37:44,526 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:37:44,922 Watching for file changes with StatReloader
+INFO 2024-02-26 00:37:46,092 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:37:46,503 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:37:49,523 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 66, in orders_by_client_sort
+    date_delta = int(datetime.date.today() - order.date_ordered)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+ERROR 2024-02-26 00:37:49,525 "GET /orders/1/ HTTP/1.1" 500 69346
+INFO 2024-02-26 00:38:38,810 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:38:39,209 Watching for file changes with StatReloader
+INFO 2024-02-26 00:38:41,386 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:38:41,788 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:38:44,573 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 66, in orders_by_client_sort
+    date_delta = int((datetime.date.today() - order.date_ordered).strftime('%Y%m%d'))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+ERROR 2024-02-26 00:38:44,575 "GET /orders/1/ HTTP/1.1" 500 69338
+INFO 2024-02-26 00:40:51,626 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:40:52,045 Watching for file changes with StatReloader
+INFO 2024-02-26 00:40:55,236 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:40:55,626 Watching for file changes with StatReloader
+INFO 2024-02-26 00:40:56,900 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:40:57,300 Watching for file changes with StatReloader
+INFO 2024-02-26 00:40:58,582 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:40:59,007 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:00,279 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:00,678 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:03,988 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:04,386 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:05,659 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:06,065 Watching for file changes with StatReloader
+ERROR 2024-02-26 00:41:07,889 Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\DZ_3\myproject\online_store\views.py", line 68, in orders_by_client_sort
+    if date_delta <= 365:
+       ^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.timedelta' and 'int'
+ERROR 2024-02-26 00:41:07,891 "GET /orders/1/ HTTP/1.1" 500 69331
+INFO 2024-02-26 00:41:39,002 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:39,410 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:41,592 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:41,987 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:45,304 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:45,728 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:47,005 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:41:47,391 Watching for file changes with StatReloader
+INFO 2024-02-26 00:41:51,606 "GET /orders/1/ HTTP/1.1" 200 2919
+INFO 2024-02-26 00:42:20,724 Watching for file changes with StatReloader
+INFO 2024-02-26 00:42:23,207 "GET /orders/1/ HTTP/1.1" 200 2919
+INFO 2024-02-26 00:44:33,164 "GET /orders/1/ HTTP/1.1" 200 2919
+INFO 2024-02-26 00:44:35,287 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:44:35,288 "GET / HTTP/1.1" 200 920
+INFO 2024-02-26 00:44:36,405 Index page "Client ALL" accessed
+INFO 2024-02-26 00:44:36,411 "GET /clients_all/ HTTP/1.1" 200 4162
+INFO 2024-02-26 00:44:37,482 Index page "Client" accessed
+INFO 2024-02-26 00:44:37,489 "GET /client/5/ HTTP/1.1" 200 1303
+INFO 2024-02-26 00:44:41,244 "GET /orders/5/ HTTP/1.1" 200 2266
+INFO 2024-02-26 00:45:12,943 Watching for file changes with StatReloader
+INFO 2024-02-26 00:45:15,237 "GET /orders/5/ HTTP/1.1" 200 2266
+INFO 2024-02-26 00:45:17,949 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:45:17,951 "GET / HTTP/1.1" 200 920
+INFO 2024-02-26 00:45:19,597 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:45:19,598 "GET / HTTP/1.1" 200 920
+INFO 2024-02-26 00:45:20,221 Index page "Client ALL" accessed
+INFO 2024-02-26 00:45:20,226 "GET /clients_all/ HTTP/1.1" 200 4162
+INFO 2024-02-26 00:45:21,239 Index page "Client" accessed
+INFO 2024-02-26 00:45:21,246 "GET /client/1/ HTTP/1.1" 200 1314
+INFO 2024-02-26 00:45:24,215 "GET /orders/1/ HTTP/1.1" 200 2919
+INFO 2024-02-26 00:46:42,834 "GET /orders/1/ HTTP/1.1" 200 3034
+INFO 2024-02-26 00:47:15,807 "GET /orders/1/ HTTP/1.1" 200 3043
+INFO 2024-02-26 00:48:50,140 "GET /orders/1/ HTTP/1.1" 200 3082
+INFO 2024-02-26 00:49:49,730 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:49:49,732 "GET / HTTP/1.1" 200 920
+INFO 2024-02-26 00:49:50,508 Index page "Client ALL" accessed
+INFO 2024-02-26 00:49:50,511 "GET /clients_all/ HTTP/1.1" 200 4162
+INFO 2024-02-26 00:49:51,884 Index page "Client" accessed
+INFO 2024-02-26 00:49:51,886 "GET /client/14/ HTTP/1.1" 200 1313
+INFO 2024-02-26 00:49:54,701 "GET /orders/14/ HTTP/1.1" 200 1814
+WARNING 2024-02-26 00:50:04,521 Not Found: /order/110/
+WARNING 2024-02-26 00:50:04,521 "GET /order/110/ HTTP/1.1" 404 3190
+WARNING 2024-02-26 00:51:21,191 Not Found: /order/110/
+WARNING 2024-02-26 00:51:21,192 "GET /order/110/ HTTP/1.1" 404 3190
+INFO 2024-02-26 00:51:25,672 "GET /orders/14/ HTTP/1.1" 200 1907
+INFO 2024-02-26 00:51:29,226 "GET /client/1 HTTP/1.1" 301 0
+INFO 2024-02-26 00:51:29,230 Index page "Client" accessed
+INFO 2024-02-26 00:51:29,231 "GET /client/1/ HTTP/1.1" 200 1407
+INFO 2024-02-26 00:51:30,984 "GET /order/1/ HTTP/1.1" 200 1405
+INFO 2024-02-26 00:51:32,871 "GET /orders_no_sort/1/ HTTP/1.1" 200 2847
+INFO 2024-02-26 00:51:34,071 "GET /orders/1/ HTTP/1.1" 200 3175
+INFO 2024-02-26 00:51:39,152 Index page "Client ALL" accessed
+INFO 2024-02-26 00:51:39,156 "GET /clients_all/ HTTP/1.1" 200 4255
+INFO 2024-02-26 00:51:40,999 Index page "Client" accessed
+INFO 2024-02-26 00:51:41,000 "GET /client/9/ HTTP/1.1" 200 1443
+INFO 2024-02-26 00:51:42,492 "GET /orders/9/ HTTP/1.1" 200 2456
+INFO 2024-02-26 00:52:01,291 "GET /orders/9/ HTTP/1.1" 200 2130
+INFO 2024-02-26 00:52:04,296 Index page "Client ALL" accessed
+INFO 2024-02-26 00:52:04,299 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:52:10,380 Index page "Client ALL" accessed
+INFO 2024-02-26 00:52:10,383 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:52:13,684 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:52:13,685 "GET / HTTP/1.1" 200 687
+INFO 2024-02-26 00:52:57,337 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:52:57,344 "GET / HTTP/1.1" 200 687
+INFO 2024-02-26 00:53:01,027 Index page "Online Store Start" accessed
+INFO 2024-02-26 00:53:01,028 "GET / HTTP/1.1" 200 687
+INFO 2024-02-26 00:53:02,723 Index page "Client ALL" accessed
+INFO 2024-02-26 00:53:02,726 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:53:04,872 Index page "Client" accessed
+INFO 2024-02-26 00:53:04,874 "GET /client/3/ HTTP/1.1" 200 1078
+INFO 2024-02-26 00:53:08,137 "GET /orders/3/ HTTP/1.1" 200 1120
+INFO 2024-02-26 00:53:17,948 "GET /orders_no_sort/3/ HTTP/1.1" 200 2508
+INFO 2024-02-26 00:53:30,596 Index page "Client ALL" accessed
+INFO 2024-02-26 00:53:30,599 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:53:31,984 Index page "Client" accessed
+INFO 2024-02-26 00:53:31,985 "GET /client/2/ HTTP/1.1" 200 1099
+INFO 2024-02-26 00:53:39,230 "GET /orders/2/ HTTP/1.1" 200 1463
+INFO 2024-02-26 00:53:45,342 Index page "Client ALL" accessed
+INFO 2024-02-26 00:53:45,345 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:53:47,450 Index page "Client" accessed
+INFO 2024-02-26 00:53:47,451 "GET /client/13/ HTTP/1.1" 200 1110
+INFO 2024-02-26 00:53:49,816 "GET /orders/13/ HTTP/1.1" 200 2055
+INFO 2024-02-26 00:53:52,492 Index page "Client ALL" accessed
+INFO 2024-02-26 00:53:52,495 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:53:53,299 Index page "Client" accessed
+INFO 2024-02-26 00:53:53,301 "GET /client/1/ HTTP/1.1" 200 1081
+INFO 2024-02-26 00:53:54,718 "GET /orders/1/ HTTP/1.1" 200 2849
+INFO 2024-02-26 00:54:02,635 Index page "Client ALL" accessed
+INFO 2024-02-26 00:54:02,638 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:54:04,616 Index page "Client" accessed
+INFO 2024-02-26 00:54:04,617 "GET /client/20/ HTTP/1.1" 200 1079
+INFO 2024-02-26 00:54:05,818 "GET /orders/20/ HTTP/1.1" 200 2383
+INFO 2024-02-26 00:55:08,859 Watching for file changes with StatReloader
+INFO 2024-02-26 00:55:12,075 "GET /orders/20/ HTTP/1.1" 200 4460
+INFO 2024-02-26 00:55:18,360 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:18,365 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:19,344 Index page "Client" accessed
+INFO 2024-02-26 00:55:19,346 "GET /client/1/ HTTP/1.1" 200 1081
+INFO 2024-02-26 00:55:20,506 "GET /orders/1/ HTTP/1.1" 200 5304
+INFO 2024-02-26 00:55:24,082 Index page "Client" accessed
+INFO 2024-02-26 00:55:24,083 "GET /client/1/ HTTP/1.1" 200 1081
+INFO 2024-02-26 00:55:24,841 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:24,844 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:25,443 Index page "Client" accessed
+INFO 2024-02-26 00:55:25,444 "GET /client/7/ HTTP/1.1" 200 1095
+INFO 2024-02-26 00:55:26,653 "GET /orders/7/ HTTP/1.1" 200 3323
+INFO 2024-02-26 00:55:34,124 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:34,127 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:35,062 Index page "Client" accessed
+INFO 2024-02-26 00:55:35,064 "GET /client/2/ HTTP/1.1" 200 1099
+INFO 2024-02-26 00:55:36,250 "GET /orders/2/ HTTP/1.1" 200 2352
+INFO 2024-02-26 00:55:37,983 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:37,985 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:38,930 Index page "Client" accessed
+INFO 2024-02-26 00:55:38,931 "GET /client/3/ HTTP/1.1" 200 1078
+INFO 2024-02-26 00:55:39,931 "GET /orders/3/ HTTP/1.1" 200 2387
+INFO 2024-02-26 00:55:41,648 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:41,651 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:42,795 Index page "Client" accessed
+INFO 2024-02-26 00:55:42,797 "GET /client/4/ HTTP/1.1" 200 1074
+INFO 2024-02-26 00:55:44,242 "GET /orders/4/ HTTP/1.1" 200 2985
+INFO 2024-02-26 00:55:45,909 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:45,912 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:46,960 Index page "Client" accessed
+INFO 2024-02-26 00:55:46,961 "GET /client/5/ HTTP/1.1" 200 1078
+INFO 2024-02-26 00:55:48,855 "GET /orders/5/ HTTP/1.1" 200 3932
+INFO 2024-02-26 00:55:50,878 Index page "Client ALL" accessed
+INFO 2024-02-26 00:55:50,881 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:55:52,347 Index page "Client" accessed
+INFO 2024-02-26 00:55:52,349 "GET /client/6/ HTTP/1.1" 200 1103
+INFO 2024-02-26 00:55:53,328 "GET /orders/6/ HTTP/1.1" 200 1953
+INFO 2024-02-26 00:55:55,310 "GET /order/1/ HTTP/1.1" 200 1079
+INFO 2024-02-26 00:56:26,343 Watching for file changes with StatReloader
+INFO 2024-02-26 00:56:29,652 Index page "Client ALL" accessed
+INFO 2024-02-26 00:56:29,662 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:56:30,426 Index page "Client" accessed
+INFO 2024-02-26 00:56:30,431 "GET /client/1/ HTTP/1.1" 200 1081
+INFO 2024-02-26 00:56:32,274 "GET /orders/1/ HTTP/1.1" 200 6897
+INFO 2024-02-26 00:56:37,166 Index page "Client ALL" accessed
+INFO 2024-02-26 00:56:37,169 "GET /clients_all/ HTTP/1.1" 200 3929
+INFO 2024-02-26 00:56:37,977 Index page "Client" accessed
+INFO 2024-02-26 00:56:37,979 "GET /client/2/ HTTP/1.1" 200 1099
+INFO 2024-02-26 00:56:39,295 "GET /orders/2/ HTTP/1.1" 200 3183
+INFO 2024-02-26 00:57:57,337 D:\codes\DZ_3\myproject\online_store\views.py changed, reloading.
+INFO 2024-02-26 00:57:57,747 Watching for file changes with StatReloader
+INFO 2024-02-26 00:58:04,816 "GET /orders/2/ HTTP/1.1" 200 3183
