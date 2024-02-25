@@ -10,13 +10,13 @@ class Command(BaseCommand):
     help = "Create Products (random)"
 
     def handle(self, *args, **kwargs):
-        count = 10  # количество создаваемых товаров
+        count = 100  # количество создаваемых товаров
         for i in range(count):
             product = Product(name=f'Item_0000-{random.randint(1,1000)}',
                               description=fake.paragraph(nb_sentences=5),
                               price = random.randint(1,1000),
                               quantity = random.randint(1,100),
-                              date_add = date(year=random.randint(2020,2023), month=random.randint(1,12), day=random.randint(1,30)))
+                              date_add = date(year=random.randint(2018,2022), month=random.randint(1,12), day=random.randint(1,30)))
             product.save()
             id_latest = Product.objects.latest('pk')
             print (f'{id_latest=}')

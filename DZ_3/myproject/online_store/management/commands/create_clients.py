@@ -11,10 +11,10 @@ class Command(BaseCommand):
     help = "Create Clients (random fake)"
 
     def handle(self, *args, **kwargs):
-        count = 10  # количество создаваемых товаров
+        count = 10  # количество создаваемых фейковых клиентов
         for i in range(count):
             # random_email=f'{translit(random_name, language_code="ru", reversed=True)}_{random.randint(100,1000)}@mail.ru'
-            date_reg = date(year=random.randint(2022,2024), month=random.randint(1,12), day=random.randint(1,30))
+            date_reg = date(year=random.randint(2015,2021), month=random.randint(1,12), day=random.randint(1,30))
             client = Client(name=fake.name(),
                             email=fake.ascii_free_email(),
                             telephone=fake.phone_number(),

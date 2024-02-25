@@ -1,5 +1,4 @@
-from datetime import date
-import datetime
+from datetime import datetime, timedelta
 from random import randint, choice
 from django.core.management.base import BaseCommand
 from online_store.models import Client, Product, Order
@@ -13,12 +12,14 @@ class Command(BaseCommand):
         products = Product.objects.all()
 
         for client in clients:
+            time_delta = timedelta(days=randint(0,1000))
+            time_order = datetime.now() - time_delta
             order = Order(client=client,
                           total_price=0,
-                          date_ordered=date(year=randint(2022,2023), month=randint(1,12), day=randint(1,30)))
+                          date_ordered=time_order)
             order.save()
             total_price = 0
-            for i in range(randint(0,5)):   # от 0 до 4 товаров в заказе
+            for i in range(randint(1,6)):   # от 1 до 5 товаров в заказе
                 product = choice(products)
                 order.products.add(product)
                 order.save()

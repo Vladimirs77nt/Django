@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Онлайн-магазин{% endblock %}</title>
+</head>
+<body>
+    <h3>Онлайн-магазин интересных магазинов</h3>
+    <h4>МЕНЮ</h4>
+        <a href='/'>Главная</a><br>
+        <a href='/clients_all'>Все клиенты</a><br>
+        <a href='/order/110'>Заказ <id_order> (по умолчанию 110)</a><br>
+        <a href='/orders_no_sort/1'>Заказы по клиенту <id_client> без сортировки (по умолчанию 1)</a><br>
+        <a href='/orders/1'>Заказы по клиенту <id_client> с сортировкой по времени (по умолчанию для клиента 1)</a><br>
+
+    {% block content %}
+        Контент скоро появится...
+    {% endblock %}
+
+    <footer>
+        <h5>Базовый шаблон сайта</h5>
+    </footer>
+</body>
+</html>
