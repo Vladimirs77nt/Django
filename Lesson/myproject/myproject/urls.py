@@ -20,8 +20,9 @@ from myapp_3.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index),
     path('les1/', include('myapp.urls')),
     path('les2/', include('myapp_2.urls')),
     path('les3/', include('myapp_3.urls')),
-    path('', index),
+    path('les4/', include('myapp_4.urls')),
 ]

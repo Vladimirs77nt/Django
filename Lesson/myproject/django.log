@@ -621,3 +621,353 @@ INFO 2024-02-20 21:02:12,011 "GET /les3/post/33/ HTTP/1.1" 200 654
 INFO 2024-02-20 21:21:27,805 "GET /les3/post/10/ HTTP/1.1" 200 624
 INFO 2024-02-20 21:21:32,773 "GET /les3/post/10/ HTTP/1.1" 200 624
 INFO 2024-02-20 21:25:24,319 "GET /les3/author/2/ HTTP/1.1" 200 1399
+INFO 2024-02-26 23:09:46,433 Watching for file changes with StatReloader
+INFO 2024-02-26 23:09:50,760 "GET / HTTP/1.1" 200 244
+WARNING 2024-02-26 23:09:51,079 Not Found: /favicon.ico
+WARNING 2024-02-26 23:09:51,080 "GET /favicon.ico HTTP/1.1" 404 2633
+INFO 2024-02-26 23:10:03,924 "GET /les3/ HTTP/1.1" 200 205
+INFO 2024-02-26 23:10:10,046 "GET /les4/user/add HTTP/1.1" 301 0
+ERROR 2024-02-26 23:10:10,137 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 18, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2024-02-26 23:10:10,139 "GET /les4/user/add/ HTTP/1.1" 500 81886
+WARNING 2024-02-26 23:10:17,204 Not Found: /les4/user
+WARNING 2024-02-26 23:10:17,205 "GET /les4/user HTTP/1.1" 404 2701
+ERROR 2024-02-26 23:10:46,631 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 18, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2024-02-26 23:10:46,633 "GET /les4/user/add/ HTTP/1.1" 500 81886
+INFO 2024-02-26 23:11:43,339 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:11:43,752 Watching for file changes with StatReloader
+INFO 2024-02-26 23:11:52,222 "GET /les4/user/add/ HTTP/1.1" 200 549
+INFO 2024-02-26 23:13:16,425 "GET /les4/user/add/ HTTP/1.1" 200 787
+INFO 2024-02-26 23:13:33,092 "POST /les4/user/add/ HTTP/1.1" 200 910
+INFO 2024-02-26 23:13:42,618 Получили name='123', email='123@334.ru', age=33.
+INFO 2024-02-26 23:13:42,620 "POST /les4/user/add/ HTTP/1.1" 200 829
+INFO 2024-02-26 23:13:44,245 Получили name='123', email='123@334.ru', age=33.
+INFO 2024-02-26 23:13:44,248 "POST /les4/user/add/ HTTP/1.1" 200 829
+INFO 2024-02-26 23:14:19,216 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:14:19,643 Watching for file changes with StatReloader
+INFO 2024-02-26 23:14:22,859 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:14:23,249 Watching for file changes with StatReloader
+INFO 2024-02-26 23:14:29,504 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:14:29,891 Watching for file changes with StatReloader
+INFO 2024-02-26 23:14:32,082 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:14:32,478 Watching for file changes with StatReloader
+INFO 2024-02-26 23:16:59,932 Watching for file changes with StatReloader
+INFO 2024-02-26 23:17:41,956 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:17:42,378 Watching for file changes with StatReloader
+INFO 2024-02-26 23:17:44,981 "GET /les4/forms HTTP/1.1" 301 0
+ERROR 2024-02-26 23:17:45,008 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-26 23:17:45,011 "GET /les4/forms/ HTTP/1.1" 500 66441
+INFO 2024-02-26 23:18:04,192 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:18:04,609 Watching for file changes with StatReloader
+ERROR 2024-02-26 23:18:06,412 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp_4/many_fields_form.html', {'form': form})
+                                                                     ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-26 23:18:06,413 "GET /les4/forms/ HTTP/1.1" 500 66445
+ERROR 2024-02-26 23:18:12,477 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp_4/many_fields_form.html', {'form': form})
+                                                                     ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-26 23:18:12,478 "GET /les4/forms/ HTTP/1.1" 500 66445
+INFO 2024-02-26 23:18:44,614 Watching for file changes with StatReloader
+WARNING 2024-02-26 23:18:49,552 Not Found: /les4
+WARNING 2024-02-26 23:18:49,552 "GET /les4 HTTP/1.1" 404 2612
+INFO 2024-02-26 23:18:53,561 "GET /les4/user/add/ HTTP/1.1" 200 787
+ERROR 2024-02-26 23:18:59,054 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp_4/many_fields_form.html', {'form': form})
+                                                                     ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-26 23:18:59,055 "GET /les4/forms/ HTTP/1.1" 500 66308
+WARNING 2024-02-26 23:19:01,790 Not Found: /les4/form/
+WARNING 2024-02-26 23:19:01,791 "GET /les4/form/ HTTP/1.1" 404 2887
+ERROR 2024-02-26 23:19:04,401 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp_4/many_fields_form.html', {'form': form})
+                                                                     ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-02-26 23:19:04,403 "GET /les4/forms/ HTTP/1.1" 500 66308
+INFO 2024-02-26 23:20:18,033 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:20:18,454 Watching for file changes with StatReloader
+INFO 2024-02-26 23:20:20,799 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:20:21,229 Watching for file changes with StatReloader
+ERROR 2024-02-26 23:20:22,662 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp_4/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_4/many_fields_form.html
+ERROR 2024-02-26 23:20:22,665 "GET /les4/forms/ HTTP/1.1" 500 82269
+INFO 2024-02-26 23:22:57,060 "GET /les4/forms/ HTTP/1.1" 200 1479
+INFO 2024-02-26 23:23:32,311 Получили form.cleaned_data={'name': 'Вова', 'email': 'vlad@mail.ru', 'age': 33, 'height': 188.0, 'is_active': True, 'birthdate': datetime.date(2024, 2, 26), 'gender': 'M'}.
+INFO 2024-02-26 23:23:32,314 "POST /les4/forms/ HTTP/1.1" 200 1557
+INFO 2024-02-26 23:24:11,272 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:11,709 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:14,053 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:14,448 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:24,762 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:25,154 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:29,386 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:29,783 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:30,959 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:31,342 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:34,580 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:34,974 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:41,217 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:41,600 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:49,902 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:50,317 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:54,543 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:54,941 Watching for file changes with StatReloader
+INFO 2024-02-26 23:24:56,106 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:24:56,491 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:00,703 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:01,103 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:03,296 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:03,696 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:04,857 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:05,244 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:08,441 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:08,838 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:12,053 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:12,452 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:13,633 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:14,024 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:20,274 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:20,669 Watching for file changes with StatReloader
+INFO 2024-02-26 23:25:21,837 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:25:22,248 Watching for file changes with StatReloader
+INFO 2024-02-26 23:26:45,101 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:26:45,519 Watching for file changes with StatReloader
+INFO 2024-02-26 23:26:52,910 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:26:53,310 Watching for file changes with StatReloader
+INFO 2024-02-26 23:26:54,618 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-26 23:26:55,045 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:02,635 "POST /les4/forms/ HTTP/1.1" 200 2256
+INFO 2024-02-26 23:27:06,195 "GET /les4/forms/ HTTP/1.1" 200 2100
+INFO 2024-02-26 23:27:37,161 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:37,570 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:39,886 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:40,277 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:41,576 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:41,967 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:43,138 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:43,521 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:44,813 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:45,212 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:50,588 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:27:50,981 Watching for file changes with StatReloader
+INFO 2024-02-26 23:27:56,140 "POST /les4/forms/ HTTP/1.1" 200 2256
+INFO 2024-02-26 23:28:43,341 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:28:43,764 Watching for file changes with StatReloader
+INFO 2024-02-26 23:28:45,957 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:28:46,340 Watching for file changes with StatReloader
+INFO 2024-02-26 23:28:52,597 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:28:53,032 Watching for file changes with StatReloader
+INFO 2024-02-26 23:28:58,264 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:28:58,653 Watching for file changes with StatReloader
+INFO 2024-02-26 23:28:59,817 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:00,215 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:01,389 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:01,775 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:03,955 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:04,341 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:07,543 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:07,950 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:09,139 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:09,532 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:10,700 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:11,092 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:12,257 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:12,650 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:14,845 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:15,241 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:17,431 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:17,843 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:20,025 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:20,410 Watching for file changes with StatReloader
+INFO 2024-02-26 23:29:21,584 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:29:21,969 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:15,247 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:15,653 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:17,965 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:18,357 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:19,642 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:20,028 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:22,348 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:22,753 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:24,054 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:24,450 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:25,758 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:26,161 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:27,466 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:27,878 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:30,200 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:30,591 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:31,761 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:32,145 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:38,521 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:38,927 Watching for file changes with StatReloader
+INFO 2024-02-26 23:30:40,221 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-26 23:30:40,612 Watching for file changes with StatReloader
+INFO 2024-02-26 23:31:22,651 D:\codes\Lesson\myproject\myapp_4\models.py changed, reloading.
+INFO 2024-02-26 23:31:23,045 Watching for file changes with StatReloader
+INFO 2024-02-26 23:31:26,295 D:\codes\Lesson\myproject\myapp_4\models.py changed, reloading.
+INFO 2024-02-26 23:31:26,682 Watching for file changes with StatReloader
+INFO 2024-02-26 23:31:28,922 D:\codes\Lesson\myproject\myapp_4\models.py changed, reloading.
+INFO 2024-02-26 23:31:29,312 Watching for file changes with StatReloader
+INFO 2024-02-26 23:31:30,550 D:\codes\Lesson\myproject\myapp_4\models.py changed, reloading.
+INFO 2024-02-26 23:31:30,974 Watching for file changes with StatReloader
+INFO 2024-02-26 23:59:23,808 Watching for file changes with StatReloader
+INFO 2024-02-26 23:59:27,013 "POST /les4/forms/ HTTP/1.1" 200 2256
+INFO 2024-02-26 23:59:44,257 "GET /les4/user/add/ HTTP/1.1" 200 801
+INFO 2024-02-27 00:00:09,026 "POST /les4/user/add/ HTTP/1.1" 200 968
+INFO 2024-02-27 00:00:47,423 Получили name='Вова', email='pochta@corp.mail.ru', age=33.
+INFO 2024-02-27 00:00:47,427 "POST /les4/user/add/ HTTP/1.1" 200 857
+INFO 2024-02-27 00:01:42,808 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-27 00:01:43,252 Watching for file changes with StatReloader
+INFO 2024-02-27 00:01:44,555 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-27 00:01:44,965 Watching for file changes with StatReloader
+INFO 2024-02-27 00:01:46,258 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-27 00:01:46,672 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:07,315 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:07,730 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:08,910 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:09,295 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:12,494 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:12,908 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:17,137 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:17,522 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:22,777 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:23,162 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:25,484 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:25,895 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:41,458 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:41,882 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:45,188 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:45,582 Watching for file changes with StatReloader
+INFO 2024-02-27 00:02:58,964 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:02:59,361 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:01,666 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:03:02,064 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:04,261 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:03:04,663 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:05,962 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:03:06,360 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:18,830 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-27 00:03:19,226 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:20,501 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-27 00:03:20,897 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:32,326 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-27 00:03:32,727 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:34,908 D:\codes\Lesson\myproject\myapp_4\forms.py changed, reloading.
+INFO 2024-02-27 00:03:35,336 Watching for file changes with StatReloader
+INFO 2024-02-27 00:03:52,929 D:\codes\Lesson\myproject\myapp_4\views.py changed, reloading.
+INFO 2024-02-27 00:03:53,342 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:08,883 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:09,286 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:11,482 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:11,878 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:22,299 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:22,732 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:32,031 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:32,429 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:33,720 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:34,123 Watching for file changes with StatReloader
+INFO 2024-02-27 00:04:36,452 D:\codes\Lesson\myproject\myapp_4\urls.py changed, reloading.
+INFO 2024-02-27 00:04:36,880 Watching for file changes with StatReloader
+INFO 2024-02-27 00:06:07,920 "GET /les4/upload HTTP/1.1" 301 0
+INFO 2024-02-27 00:06:07,938 "GET /les4/upload/ HTTP/1.1" 200 602
+INFO 2024-02-27 00:06:32,257 "POST /les4/upload/ HTTP/1.1" 200 602
