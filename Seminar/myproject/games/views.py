@@ -2,11 +2,14 @@ import random
 from django.shortcuts import render
 from django.http import HttpResponse
 import logging
+
 from games.models import Heads_or_tails
 
-"""
-СЕМИНАР 2
-"""
+from .forms import RandomGames
+
+
+# ----------------------------------------------------------------------------------------------------------
+# Семинар 2
 
 logger = logging.getLogger(__name__)
 
@@ -98,3 +101,22 @@ def random_100_count(request, count):
         logger.info(f" >> бросок: {i+1}, результат: {result}")
         result_list.append ([i+1, result])
     return render(request, 'games/games_count.html', {'game': game, 'result_list': result_list, 'count': count})
+
+
+# ----------------------------------------------------------------------------------------------------------
+# Семинар 4. Задачи 1 и 2.
+def select_game(request):
+    if request.method == 'POST':
+        form = RandomGames(request.POST)
+        if form.is_valid():
+            game = form.cleaned_data['game']
+            count = form.cleaned_data['count']
+            if game == 'heads_or_tails':
+                return heads_or_tails_count(request, count)
+            elif game == 'playing_dice':
+                return playing_dice_count(request, count)
+            elif game == 'random_100':
+                return random_100_count(request, count)
+    else:
+        form = RandomGames()
+    return render(request, 'games/select_game.html', {'form':form})

@@ -3732,3 +3732,2857 @@ WARNING 2024-02-25 16:56:03,995 "GET /favicon.ico HTTP/1.1" 404 2828
 INFO 2024-02-25 16:56:14,722 "GET /blogs/author/4/ HTTP/1.1" 200 3285
 INFO 2024-02-25 16:56:25,074 "GET /blogs/post/28/ HTTP/1.1" 200 4486
 INFO 2024-02-25 16:56:28,657 "GET /blogs/post/28/ HTTP/1.1" 200 4486
+INFO 2024-02-27 22:05:25,279 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:10,646 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:11,049 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:13,250 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:13,650 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:14,815 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:15,217 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:19,434 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:19,833 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:20,989 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:21,385 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:22,536 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:22,931 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:24,091 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:24,485 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:27,682 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:28,078 Watching for file changes with StatReloader
+INFO 2024-02-27 22:10:30,250 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:10:30,662 Watching for file changes with StatReloader
+INFO 2024-02-27 22:12:41,151 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:12:41,562 Watching for file changes with StatReloader
+INFO 2024-02-27 22:12:44,851 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:12:45,242 Watching for file changes with StatReloader
+INFO 2024-02-27 22:12:47,514 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:12:47,909 Watching for file changes with StatReloader
+INFO 2024-02-27 22:12:51,212 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:12:51,602 Watching for file changes with StatReloader
+INFO 2024-02-27 22:13:12,183 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:13:12,580 Watching for file changes with StatReloader
+INFO 2024-02-27 22:14:48,578 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:14:48,984 Watching for file changes with StatReloader
+INFO 2024-02-27 22:14:52,302 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:14:52,697 Watching for file changes with StatReloader
+INFO 2024-02-27 22:14:57,705 "GET / HTTP/1.1" 200 1612
+WARNING 2024-02-27 22:14:58,185 Not Found: /favicon.ico
+WARNING 2024-02-27 22:14:58,185 "GET /favicon.ico HTTP/1.1" 404 2828
+WARNING 2024-02-27 22:14:58,191 Not Found: /favicon.ico
+WARNING 2024-02-27 22:14:58,192 "GET /favicon.ico HTTP/1.1" 404 2828
+INFO 2024-02-27 22:15:01,049 "GET /games/heads_or_tails/ HTTP/1.1" 200 1710
+INFO 2024-02-27 22:15:03,671 "GET /games/ HTTP/1.1" 200 525
+WARNING 2024-02-27 22:15:14,985 Not Found: /games/games
+WARNING 2024-02-27 22:15:14,985 "GET /games/games HTTP/1.1" 404 4461
+INFO 2024-02-27 22:15:20,934 "GET /games/game HTTP/1.1" 301 0
+ERROR 2024-02-27 22:15:20,994 Internal Server Error: /games/game/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_game() missing 1 required positional argument: 'count'
+ERROR 2024-02-27 22:15:20,995 "GET /games/game/ HTTP/1.1" 500 62920
+INFO 2024-02-27 22:15:49,189 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-27 22:15:49,599 Watching for file changes with StatReloader
+WARNING 2024-02-27 22:15:58,658 Not Found: /games/game/
+WARNING 2024-02-27 22:15:58,659 "GET /games/game/ HTTP/1.1" 404 4463
+ERROR 2024-02-27 22:16:06,023 Internal Server Error: /games/random/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_game() missing 1 required positional argument: 'count'
+ERROR 2024-02-27 22:16:06,025 "GET /games/random/ HTTP/1.1" 500 62938
+INFO 2024-02-27 22:17:17,669 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:17:18,083 Watching for file changes with StatReloader
+INFO 2024-02-27 22:17:21,431 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:17:21,821 Watching for file changes with StatReloader
+ERROR 2024-02-27 22:17:25,495 Internal Server Error: /games/random/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_game() missing 1 required positional argument: 'count'
+ERROR 2024-02-27 22:17:25,497 "GET /games/random/ HTTP/1.1" 500 63075
+INFO 2024-02-27 22:17:38,165 Watching for file changes with StatReloader
+ERROR 2024-02-27 22:17:40,994 Internal Server Error: /games/random/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_game() missing 1 required positional argument: 'count'
+ERROR 2024-02-27 22:17:40,995 "GET /games/random/ HTTP/1.1" 500 63075
+INFO 2024-02-27 22:18:59,041 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:18:59,459 Watching for file changes with StatReloader
+ERROR 2024-02-27 22:19:02,050 Internal Server Error: /games/random/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\games\views.py", line 122, in random_game
+    return render(request, 'games/games_form.html', {'form':form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+ERROR 2024-02-27 22:19:02,056 "GET /games/random/ HTTP/1.1" 500 129994
+INFO 2024-02-27 22:21:32,592 "GET /games/random/ HTTP/1.1" 200 891
+INFO 2024-02-27 22:21:54,128 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:21:54,517 Watching for file changes with StatReloader
+INFO 2024-02-27 22:21:56,699 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:21:57,095 Watching for file changes with StatReloader
+INFO 2024-02-27 22:21:59,269 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:21:59,661 Watching for file changes with StatReloader
+INFO 2024-02-27 22:22:03,996 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-27 22:22:04,386 Watching for file changes with StatReloader
+INFO 2024-02-27 22:23:11,868 Watching for file changes with StatReloader
+INFO 2024-02-27 22:23:14,997 "GET /games/random/ HTTP/1.1" 200 901
+INFO 2024-02-27 22:23:16,982 "POST /games/random/ HTTP/1.1" 200 1833
+INFO 2024-02-27 22:23:20,793 "GET /games/random/ HTTP/1.1" 200 901
+INFO 2024-02-27 22:23:24,742 "POST /games/random/ HTTP/1.1" 200 2191
+INFO 2024-02-27 22:24:39,950 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:24:40,354 Watching for file changes with StatReloader
+INFO 2024-02-27 22:24:46,110 "POST /games/random/ HTTP/1.1" 200 2191
+INFO 2024-02-27 22:25:47,903 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-27 22:25:48,296 Watching for file changes with StatReloader
+INFO 2024-02-27 22:26:44,559 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-27 22:26:44,973 Watching for file changes with StatReloader
+INFO 2024-02-27 22:26:46,257 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-27 22:26:46,680 Watching for file changes with StatReloader
+INFO 2024-02-27 22:26:47,985 D:\codes\Seminar\myproject\games\urls.py changed, reloading.
+INFO 2024-02-27 22:26:48,453 Watching for file changes with StatReloader
+INFO 2024-02-27 22:26:52,777 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:26:53,183 Watching for file changes with StatReloader
+INFO 2024-02-27 22:26:56,508 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-27 22:26:56,937 Watching for file changes with StatReloader
+WARNING 2024-02-27 22:27:25,886 Not Found: /games/random/
+WARNING 2024-02-27 22:27:25,886 "POST /games/random/ HTTP/1.1" 404 4475
+INFO 2024-02-27 22:27:33,886 "GET /games/ HTTP/1.1" 200 525
+INFO 2024-02-27 22:27:45,669 "GET / HTTP/1.1" 200 1680
+INFO 2024-02-27 22:27:49,213 "GET /games/ HTTP/1.1" 200 525
+INFO 2024-02-27 22:27:51,582 "GET /games/select_game/ HTTP/1.1" 200 901
+INFO 2024-02-27 22:27:56,188 "POST /games/select_game/ HTTP/1.1" 200 2674
+INFO 2024-02-28 06:47:52,742 Watching for file changes with StatReloader
+INFO 2024-02-28 06:47:55,791 "POST /games/select_game/ HTTP/1.1" 200 2675
+INFO 2024-02-28 06:48:08,105 "GET /games/select_game/ HTTP/1.1" 200 901
+INFO 2024-02-28 06:48:14,378 "POST /games/select_game/ HTTP/1.1" 200 2135
+INFO 2024-02-28 06:48:18,373 "GET /games/select_game/ HTTP/1.1" 200 901
+INFO 2024-02-28 06:48:23,873 "POST /games/select_game/ HTTP/1.1" 200 2425
+INFO 2024-02-28 06:48:56,867 "GET /games/select_game/ HTTP/1.1" 200 901
+INFO 2024-02-28 06:49:25,753 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:26,145 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:27,431 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:27,829 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:30,007 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:30,399 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:31,674 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:32,078 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:34,374 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:34,779 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:40,135 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:40,526 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:42,824 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:43,219 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:44,374 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:44,760 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:48,079 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:48,481 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:49,633 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:50,030 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:55,383 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:55,773 Watching for file changes with StatReloader
+INFO 2024-02-28 06:49:57,050 D:\codes\Seminar\myproject\games\forms.py changed, reloading.
+INFO 2024-02-28 06:49:57,465 Watching for file changes with StatReloader
+INFO 2024-02-28 06:50:00,498 "GET /games/select_game/ HTTP/1.1" 200 950
+INFO 2024-02-28 06:51:46,753 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-28 06:51:47,167 Watching for file changes with StatReloader
+INFO 2024-02-28 06:51:48,464 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-28 06:51:48,850 Watching for file changes with StatReloader
+INFO 2024-02-28 06:51:50,134 D:\codes\Seminar\myproject\games\views.py changed, reloading.
+INFO 2024-02-28 06:51:50,530 Watching for file changes with StatReloader
+INFO 2024-02-28 07:10:06,172 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:10:06,576 Watching for file changes with StatReloader
+INFO 2024-02-28 07:10:10,840 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:10:11,251 Watching for file changes with StatReloader
+INFO 2024-02-28 07:10:18,561 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:10:18,936 Watching for file changes with StatReloader
+INFO 2024-02-28 07:10:34,387 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:10:34,795 Watching for file changes with StatReloader
+INFO 2024-02-28 07:10:41,092 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:10:41,483 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:17,321 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:11:17,713 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:43,290 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:11:43,669 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:47,922 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:11:48,310 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:49,536 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:11:49,914 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:53,175 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:11:53,547 Watching for file changes with StatReloader
+INFO 2024-02-28 07:11:59,848 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:12:00,237 Watching for file changes with StatReloader
+INFO 2024-02-28 07:12:12,620 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:12:13,002 Watching for file changes with StatReloader
+INFO 2024-02-28 07:12:18,288 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:12:18,686 Watching for file changes with StatReloader
+INFO 2024-02-28 07:12:21,940 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:12:22,319 Watching for file changes with StatReloader
+INFO 2024-02-28 07:12:23,546 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:12:23,945 Watching for file changes with StatReloader
+INFO 2024-02-28 07:33:31,093 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:33:31,517 Watching for file changes with StatReloader
+INFO 2024-02-28 07:33:39,856 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-28 07:33:40,242 Watching for file changes with StatReloader
+INFO 2024-02-28 20:46:59,838 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:47:00,352 Watching for file changes with StatReloader
+INFO 2024-02-28 20:47:06,728 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:47:07,144 Watching for file changes with StatReloader
+INFO 2024-02-28 20:47:16,575 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:47:16,975 Watching for file changes with StatReloader
+INFO 2024-02-28 20:47:22,341 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:47:22,779 Watching for file changes with StatReloader
+INFO 2024-02-28 20:48:03,731 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:48:04,142 Watching for file changes with StatReloader
+INFO 2024-02-28 20:48:09,472 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:48:09,901 Watching for file changes with StatReloader
+INFO 2024-02-28 20:48:11,061 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:48:11,478 Watching for file changes with StatReloader
+INFO 2024-02-28 20:48:34,076 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:48:34,489 Watching for file changes with StatReloader
+INFO 2024-02-28 20:48:58,157 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:48:58,559 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:01,750 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:02,183 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:03,468 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:03,911 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:44,876 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:45,304 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:53,721 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:54,121 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:56,435 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:56,848 Watching for file changes with StatReloader
+INFO 2024-02-28 20:49:58,139 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:49:58,577 Watching for file changes with StatReloader
+INFO 2024-02-28 20:50:33,418 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:50:33,827 Watching for file changes with StatReloader
+INFO 2024-02-28 20:50:51,419 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:50:51,814 Watching for file changes with StatReloader
+INFO 2024-02-28 20:50:56,157 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 20:50:56,597 Watching for file changes with StatReloader
+INFO 2024-02-28 20:54:59,063 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:54:59,470 Watching for file changes with StatReloader
+INFO 2024-02-28 20:55:02,784 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:55:03,202 Watching for file changes with StatReloader
+INFO 2024-02-28 20:55:04,365 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:55:04,764 Watching for file changes with StatReloader
+INFO 2024-02-28 20:55:23,352 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:55:23,794 Watching for file changes with StatReloader
+INFO 2024-02-28 20:55:26,104 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:55:26,500 Watching for file changes with StatReloader
+INFO 2024-02-28 20:55:28,791 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-28 20:55:29,200 Watching for file changes with StatReloader
+INFO 2024-02-28 20:58:24,217 Watching for file changes with StatReloader
+INFO 2024-02-28 20:58:27,622 "GET /games/select_game/ HTTP/1.1" 200 950
+INFO 2024-02-28 20:58:33,108 "GET /blogs/ HTTP/1.1" 200 1624
+INFO 2024-02-28 20:58:45,990 "GET /blogs/author_form HTTP/1.1" 301 0
+INFO 2024-02-28 20:58:46,017 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:00:03,431 "POST /blogs/author_form/ HTTP/1.1" 200 1715
+INFO 2024-02-28 21:00:11,404 "POST /blogs/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-28 21:00:11,409 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:01:02,368 Watching for file changes with StatReloader
+INFO 2024-02-28 21:01:21,404 Watching for file changes with StatReloader
+INFO 2024-02-28 21:01:24,447 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:01:25,742 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:01:27,884 "GET /blogs/ HTTP/1.1" 200 1624
+INFO 2024-02-28 21:03:16,089 Watching for file changes with StatReloader
+INFO 2024-02-28 21:03:18,167 "GET /blogs/ HTTP/1.1" 200 1702
+INFO 2024-02-28 21:03:19,713 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:05:05,522 Watching for file changes with StatReloader
+INFO 2024-02-28 21:05:07,949 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:07:22,143 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:07:22,580 Watching for file changes with StatReloader
+INFO 2024-02-28 21:08:51,537 Watching for file changes with StatReloader
+INFO 2024-02-28 21:08:53,575 "GET /blogs/author_form/ HTTP/1.1" 200 1163
+INFO 2024-02-28 21:09:03,115 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:09:03,522 Watching for file changes with StatReloader
+INFO 2024-02-28 21:09:04,804 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:09:05,222 Watching for file changes with StatReloader
+INFO 2024-02-28 21:09:12,624 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-28 21:10:36,915 "POST /blogs/author_form/ HTTP/1.1" 200 1429
+INFO 2024-02-28 21:10:46,147 "POST /blogs/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-28 21:10:46,151 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-28 21:11:21,071 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:11:21,475 Watching for file changes with StatReloader
+INFO 2024-02-28 21:11:25,830 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:11:26,240 Watching for file changes with StatReloader
+INFO 2024-02-28 21:11:27,523 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:11:27,972 Watching for file changes with StatReloader
+INFO 2024-02-28 21:11:34,363 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:11:34,766 Watching for file changes with StatReloader
+INFO 2024-02-28 21:11:36,050 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:11:36,449 Watching for file changes with StatReloader
+INFO 2024-02-28 21:11:41,833 "POST /blogs/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-28 21:11:41,845 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-28 21:14:04,425 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:14:04,852 Watching for file changes with StatReloader
+INFO 2024-02-28 21:14:07,175 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:14:07,575 Watching for file changes with StatReloader
+INFO 2024-02-28 21:14:09,879 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:14:10,287 Watching for file changes with StatReloader
+INFO 2024-02-28 21:14:14,624 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:14:15,032 Watching for file changes with StatReloader
+INFO 2024-02-28 21:16:26,504 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-28 21:16:26,926 Watching for file changes with StatReloader
+INFO 2024-02-28 21:16:48,446 "POST /blogs/author_form/ HTTP/1.1" 302 0
+INFO 2024-02-28 21:16:48,460 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-28 21:18:42,667 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:18:43,067 Watching for file changes with StatReloader
+INFO 2024-02-28 21:18:44,364 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:18:44,787 Watching for file changes with StatReloader
+INFO 2024-02-28 21:18:48,118 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:18:48,535 Watching for file changes with StatReloader
+INFO 2024-02-28 21:18:53,891 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:18:54,282 Watching for file changes with StatReloader
+INFO 2024-02-28 21:18:58,610 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:18:59,022 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:03,366 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:03,758 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:11,997 "GET /blogs/author_form/ HTTP/1.1" 200 1163
+INFO 2024-02-28 21:19:21,420 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:21,840 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:26,186 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:26,581 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:29,252 "GET /blogs/author_form/ HTTP/1.1" 200 1386
+INFO 2024-02-28 21:19:49,694 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:50,118 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:51,408 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:51,815 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:53,105 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:19:53,517 Watching for file changes with StatReloader
+INFO 2024-02-28 21:19:57,004 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-28 21:20:07,126 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:20:07,528 Watching for file changes with StatReloader
+INFO 2024-02-28 21:20:09,833 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:20:10,236 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:31,189 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:31,605 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:33,929 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:34,374 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:40,757 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:41,165 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:47,549 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:47,958 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:51,273 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:51,679 Watching for file changes with StatReloader
+INFO 2024-02-28 21:24:52,963 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:24:53,434 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:01,853 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:02,268 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:05,458 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:05,854 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:13,247 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:13,642 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:19,005 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:19,426 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:21,740 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:22,132 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:24,438 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:24,834 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:30,175 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:30,583 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:34,896 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:35,304 Watching for file changes with StatReloader
+INFO 2024-02-28 21:25:58,938 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:25:59,365 Watching for file changes with StatReloader
+INFO 2024-02-28 21:26:24,075 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:26:24,505 Watching for file changes with StatReloader
+INFO 2024-02-28 21:26:57,655 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:26:58,157 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:03,494 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:03,956 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:09,294 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:09,685 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:20,093 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:20,528 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:37,040 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:37,465 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:42,808 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:43,225 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:48,572 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:48,999 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:55,352 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:55,758 Watching for file changes with StatReloader
+INFO 2024-02-28 21:27:59,060 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:27:59,467 Watching for file changes with StatReloader
+INFO 2024-02-28 21:28:01,750 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:28:02,175 Watching for file changes with StatReloader
+INFO 2024-02-28 21:28:06,489 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:28:06,884 Watching for file changes with StatReloader
+INFO 2024-02-28 21:28:09,165 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:28:09,575 Watching for file changes with StatReloader
+INFO 2024-02-28 21:28:11,843 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:28:12,253 Watching for file changes with StatReloader
+INFO 2024-02-28 21:31:48,949 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:31:49,386 Watching for file changes with StatReloader
+INFO 2024-02-28 21:31:58,787 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:31:59,192 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:04,522 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:04,950 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:08,240 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:08,636 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:10,908 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:11,327 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:17,667 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:18,085 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:22,390 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:22,793 Watching for file changes with StatReloader
+INFO 2024-02-28 21:32:56,553 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:32:56,980 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:13,506 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:13,928 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:22,311 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:22,741 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:29,110 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:29,571 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:34,903 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:35,310 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:37,602 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:37,998 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:45,342 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:45,782 Watching for file changes with StatReloader
+INFO 2024-02-28 21:33:57,212 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:33:57,669 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:04,013 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:04,451 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:32,162 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:32,584 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:36,912 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:37,319 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:40,497 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:40,923 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:42,073 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:42,468 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:43,628 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:44,036 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:46,209 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:46,631 Watching for file changes with StatReloader
+INFO 2024-02-28 21:34:51,964 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:34:52,376 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:10,813 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:11,246 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:13,424 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:13,837 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:17,170 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:17,598 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:18,764 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:19,160 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:22,453 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:22,873 Watching for file changes with StatReloader
+INFO 2024-02-28 21:37:28,203 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-28 21:37:28,599 Watching for file changes with StatReloader
+INFO 2024-02-29 06:33:51,821 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:33:52,342 Watching for file changes with StatReloader
+INFO 2024-02-29 06:33:55,657 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:33:56,047 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:45,038 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:45,445 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:48,636 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:49,049 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:51,326 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:51,734 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:54,006 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:54,411 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:56,581 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:56,988 Watching for file changes with StatReloader
+INFO 2024-02-29 06:34:59,273 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:34:59,668 Watching for file changes with StatReloader
+INFO 2024-02-29 06:35:48,013 Watching for file changes with StatReloader
+INFO 2024-02-29 06:36:20,835 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:36:21,252 Watching for file changes with StatReloader
+INFO 2024-02-29 06:36:56,089 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:36:56,486 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:07,911 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:37:08,321 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:16,697 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:37:17,085 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:21,487 "GET /blogs/author_form/ HTTP/1.1" 200 1226
+INFO 2024-02-29 06:37:34,744 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 06:37:35,147 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:39,487 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 06:37:39,898 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:44,237 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 06:37:44,640 Watching for file changes with StatReloader
+INFO 2024-02-29 06:37:58,102 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:37:58,520 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:03,866 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:04,262 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:11,661 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:12,070 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:13,372 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:13,786 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:19,146 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:19,554 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:27,961 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:28,385 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:35,797 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:36,201 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:44,638 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:45,037 Watching for file changes with StatReloader
+INFO 2024-02-29 06:38:51,415 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:38:51,806 Watching for file changes with StatReloader
+INFO 2024-02-29 06:39:01,215 "GET /blogs/post_form HTTP/1.1" 301 0
+ERROR 2024-02-29 06:39:01,260 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 63, in post_form
+    form = PostForm()
+           ^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-02-29 06:39:01,263 "GET /blogs/post_form/ HTTP/1.1" 500 71677
+INFO 2024-02-29 06:40:11,819 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:40:12,235 Watching for file changes with StatReloader
+ERROR 2024-02-29 06:40:14,931 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 63, in post_form
+    form = PostForm()
+           ^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-02-29 06:40:14,933 "GET /blogs/post_form/ HTTP/1.1" 500 71814
+INFO 2024-02-29 06:41:43,155 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:41:43,571 Watching for file changes with StatReloader
+INFO 2024-02-29 06:41:45,864 "GET /blogs/post_form/ HTTP/1.1" 200 1801
+INFO 2024-02-29 06:42:05,323 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:05,725 Watching for file changes with StatReloader
+INFO 2024-02-29 06:42:07,891 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:08,337 Watching for file changes with StatReloader
+INFO 2024-02-29 06:42:15,703 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:16,100 Watching for file changes with StatReloader
+INFO 2024-02-29 06:42:23,456 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:23,844 Watching for file changes with StatReloader
+INFO 2024-02-29 06:42:46,327 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:46,715 Watching for file changes with StatReloader
+INFO 2024-02-29 06:42:54,080 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:42:54,480 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:06,984 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:44:07,404 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:08,709 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:44:09,138 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:10,838 "GET /blogs/post_form/ HTTP/1.1" 200 1801
+INFO 2024-02-29 06:44:24,793 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:25,210 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:26,519 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:26,929 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:31,131 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:31,546 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:41,865 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:42,258 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:50,523 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:50,959 Watching for file changes with StatReloader
+INFO 2024-02-29 06:44:55,160 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:44:55,552 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:02,803 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:03,200 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:06,392 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:06,813 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:11,020 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:11,419 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:13,587 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:13,989 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:19,216 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:19,637 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:21,808 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:22,231 Watching for file changes with StatReloader
+INFO 2024-02-29 06:45:30,499 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:45:30,908 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:00,650 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:01,057 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:04,366 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:04,752 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:06,918 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:07,308 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:15,668 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:16,059 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:37,728 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:38,144 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:51,623 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:52,040 Watching for file changes with StatReloader
+INFO 2024-02-29 06:46:58,399 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:46:58,800 Watching for file changes with StatReloader
+INFO 2024-02-29 06:47:05,163 "GET /blogs/post_form/ HTTP/1.1" 200 2001
+INFO 2024-02-29 06:47:12,424 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 06:47:12,878 Watching for file changes with StatReloader
+INFO 2024-02-29 06:47:14,261 "GET /blogs/post_form/ HTTP/1.1" 200 2003
+INFO 2024-02-29 06:50:11,357 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:50:11,752 Watching for file changes with StatReloader
+INFO 2024-02-29 06:50:14,057 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:50:14,463 Watching for file changes with StatReloader
+INFO 2024-02-29 06:50:47,257 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:50:47,654 Watching for file changes with StatReloader
+INFO 2024-02-29 06:50:53,884 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:50:54,284 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:01,538 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:01,944 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:18,334 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:18,734 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:22,941 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:23,339 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:25,507 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:25,925 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:29,114 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:29,515 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:39,817 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:40,236 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:44,449 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:44,873 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:47,044 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:47,436 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:49,603 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:49,997 Watching for file changes with StatReloader
+INFO 2024-02-29 06:51:51,152 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:51:51,597 Watching for file changes with StatReloader
+INFO 2024-02-29 06:52:40,497 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:52:40,896 Watching for file changes with StatReloader
+INFO 2024-02-29 06:52:50,195 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:52:50,594 Watching for file changes with StatReloader
+INFO 2024-02-29 06:52:54,814 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:52:55,210 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:00,453 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:00,851 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:14,190 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:14,584 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:16,763 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:17,165 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:18,320 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:18,722 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:25,984 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:26,394 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:30,595 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:31,004 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:43,338 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:43,753 Watching for file changes with StatReloader
+INFO 2024-02-29 06:53:44,907 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:53:45,321 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:11,873 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:12,323 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:18,567 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:18,958 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:20,125 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:20,571 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:27,828 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:28,247 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:29,405 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:29,795 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:34,002 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:34,403 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:35,565 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:35,988 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:42,222 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:42,640 Watching for file changes with StatReloader
+INFO 2024-02-29 06:54:47,860 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:54:48,286 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:10,783 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:11,178 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:44,824 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:45,217 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:48,414 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:48,845 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:51,022 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:51,421 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:53,602 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:54,016 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:56,191 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:55:56,595 Watching for file changes with StatReloader
+INFO 2024-02-29 06:55:59,786 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:00,197 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:01,369 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:01,778 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:02,934 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:03,320 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:09,547 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:09,953 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:14,160 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:14,567 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:17,753 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:18,178 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:21,369 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:21,781 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:24,971 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:25,366 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:43,811 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:44,239 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:54,534 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:54,933 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:56,093 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:56:56,506 Watching for file changes with StatReloader
+INFO 2024-02-29 06:56:59,696 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:57:00,122 Watching for file changes with StatReloader
+INFO 2024-02-29 06:57:04,456 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:57:04,855 Watching for file changes with StatReloader
+INFO 2024-02-29 06:57:06,134 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:57:06,535 Watching for file changes with StatReloader
+INFO 2024-02-29 06:58:34,340 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:58:34,776 Watching for file changes with StatReloader
+INFO 2024-02-29 06:58:42,166 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:58:42,570 Watching for file changes with StatReloader
+INFO 2024-02-29 06:58:44,888 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:58:45,281 Watching for file changes with StatReloader
+INFO 2024-02-29 06:58:47,574 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:58:47,972 Watching for file changes with StatReloader
+INFO 2024-02-29 06:58:49,257 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:58:49,661 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:16,393 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:16,829 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:24,228 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:24,615 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:35,053 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:35,455 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:39,658 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:40,053 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:41,205 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:41,596 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:44,918 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 06:59:45,318 Watching for file changes with StatReloader
+INFO 2024-02-29 06:59:50,238 "GET /blogs/post_form/ HTTP/1.1" 200 2050
+WARNING 2024-02-29 07:00:00,100 Not Found: /blogs/authort_form/
+WARNING 2024-02-29 07:00:00,101 "GET /blogs/authort_form/ HTTP/1.1" 404 3684
+INFO 2024-02-29 07:00:03,733 "GET /blogs/author_form/ HTTP/1.1" 200 1273
+INFO 2024-02-29 07:01:33,178 "GET /blogs/post_form/ HTTP/1.1" 200 2050
+ERROR 2024-02-29 07:01:42,880 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 68, in post_form
+    post.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:01:42,886 "POST /blogs/post_form/ HTTP/1.1" 500 155088
+INFO 2024-02-29 07:03:23,986 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:03:24,395 Watching for file changes with StatReloader
+INFO 2024-02-29 07:03:26,570 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:03:26,982 Watching for file changes with StatReloader
+INFO 2024-02-29 07:03:29,305 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:03:29,696 Watching for file changes with StatReloader
+ERROR 2024-02-29 07:03:35,563 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 67, in post_form
+    post = Post.objects.create(author = author, title = title, content = content, category = category, ispublic = ispublic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:03:35,570 "POST /blogs/post_form/ HTTP/1.1" 500 167523
+INFO 2024-02-29 07:04:41,358 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:41,837 Watching for file changes with StatReloader
+INFO 2024-02-29 07:04:43,144 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:43,572 Watching for file changes with StatReloader
+INFO 2024-02-29 07:04:44,868 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:45,280 Watching for file changes with StatReloader
+INFO 2024-02-29 07:04:47,585 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:47,986 Watching for file changes with StatReloader
+INFO 2024-02-29 07:04:50,153 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:50,550 Watching for file changes with StatReloader
+INFO 2024-02-29 07:04:55,776 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:04:56,164 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:00,365 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:00,781 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:02,951 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:03,359 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:14,673 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:15,086 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:17,393 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:17,831 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:23,185 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:23,596 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:24,884 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:25,316 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:29,667 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:30,063 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:31,344 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:31,744 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:36,076 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:36,499 Watching for file changes with StatReloader
+INFO 2024-02-29 07:05:39,832 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:05:40,224 Watching for file changes with StatReloader
+ERROR 2024-02-29 07:05:44,487 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 67, in post_form
+    post = Post.objects.create(author = author, title = title, content = content, category = category, ispublic = ispublic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:05:44,494 "POST /blogs/post_form/ HTTP/1.1" 500 167526
+INFO 2024-02-29 07:06:30,544 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:06:30,959 Watching for file changes with StatReloader
+INFO 2024-02-29 07:06:41,417 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:06:41,826 Watching for file changes with StatReloader
+INFO 2024-02-29 07:06:47,197 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:06:47,606 Watching for file changes with StatReloader
+ERROR 2024-02-29 07:06:56,836 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 70, in post_form
+    post = Post.objects.create(author = author, title = title, content = content, category = category, ispublic = ispublic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:06:56,844 "POST /blogs/post_form/ HTTP/1.1" 500 167529
+INFO 2024-02-29 07:07:55,235 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:07:55,648 Watching for file changes with StatReloader
+INFO 2024-02-29 07:07:56,934 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:07:57,323 Watching for file changes with StatReloader
+INFO 2024-02-29 07:08:25,913 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:08:26,330 Watching for file changes with StatReloader
+INFO 2024-02-29 07:08:35,743 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:08:36,133 Watching for file changes with StatReloader
+INFO 2024-02-29 07:08:41,466 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:08:41,887 Watching for file changes with StatReloader
+INFO 2024-02-29 07:16:44,119 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:16:44,526 Watching for file changes with StatReloader
+INFO 2024-02-29 07:16:46,767 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:16:47,200 Watching for file changes with StatReloader
+INFO 2024-02-29 07:16:49,443 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:16:49,837 Watching for file changes with StatReloader
+INFO 2024-02-29 07:16:51,068 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:16:51,455 Watching for file changes with StatReloader
+INFO 2024-02-29 07:16:54,703 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:16:55,085 Watching for file changes with StatReloader
+INFO 2024-02-29 07:17:09,488 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:17:09,871 Watching for file changes with StatReloader
+INFO 2024-02-29 07:17:24,284 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:17:24,700 Watching for file changes with StatReloader
+INFO 2024-02-29 07:17:35,113 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:17:35,545 Watching for file changes with StatReloader
+INFO 2024-02-29 07:17:40,974 "GET /blogs/post_form/ HTTP/1.1" 200 2050
+INFO 2024-02-29 07:18:11,567 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:18:11,975 Watching for file changes with StatReloader
+INFO 2024-02-29 07:18:17,335 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:18:17,753 Watching for file changes with StatReloader
+INFO 2024-02-29 07:18:20,060 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:18:20,459 Watching for file changes with StatReloader
+ERROR 2024-02-29 07:18:24,041 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 79, in post_form
+    return render(request, 'blogs/post_form.html', {'form':form, 'message':message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\boundfield.py", line 108, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\widgets.py", line 278, in render
+    context = self.get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\widgets.py", line 764, in get_context
+    context = super().get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\widgets.py", line 715, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+                                     ^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\widgets.py", line 655, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 1423, in __iter__
+    yield self.choice(obj)
+          ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 1437, in choice
+    self.field.label_from_instance(obj),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 1523, in label_from_instance
+    return str(obj)
+           ^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 588, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+                                                  ^^^^
+  File "D:\codes\Seminar\myproject\blogs\models.py", line 28, in __str__
+    return f'{self.fullname}'
+           ^^^^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded while getting the str of an object
+ERROR 2024-02-29 07:18:24,109 "GET /blogs/post_form/ HTTP/1.1" 500 1388653
+INFO 2024-02-29 07:18:44,595 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:18:45,009 Watching for file changes with StatReloader
+INFO 2024-02-29 07:18:48,368 "GET /blogs/post_form/ HTTP/1.1" 200 1653
+ERROR 2024-02-29 07:18:57,520 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 73, in post_form
+    post.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:18:57,527 "POST /blogs/post_form/ HTTP/1.1" 500 155189
+INFO 2024-02-29 07:20:50,206 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:20:50,612 Watching for file changes with StatReloader
+INFO 2024-02-29 07:22:33,753 Watching for file changes with StatReloader
+ERROR 2024-02-29 07:22:39,114 Internal Server Error: /blogs/post_form/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 73, in post_form
+    post.save()
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\codes\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: blogs_post.date_pub
+ERROR 2024-02-29 07:22:39,122 "POST /blogs/post_form/ HTTP/1.1" 500 155189
+INFO 2024-02-29 07:23:05,932 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:23:06,355 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:09,672 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 07:23:10,100 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:19,521 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:19,918 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:33,417 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:33,841 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:38,192 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:38,603 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:45,995 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:46,427 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:49,752 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:50,155 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:53,470 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:53,872 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:56,174 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:56,600 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:57,902 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:58,299 Watching for file changes with StatReloader
+INFO 2024-02-29 07:23:59,587 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:23:59,993 Watching for file changes with StatReloader
+INFO 2024-02-29 07:24:02,292 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:24:02,711 Watching for file changes with StatReloader
+INFO 2024-02-29 07:24:05,013 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:24:05,419 Watching for file changes with StatReloader
+INFO 2024-02-29 07:24:09,153 "POST /blogs/post_form/ HTTP/1.1" 302 0
+INFO 2024-02-29 07:24:09,168 "GET /blogs/post_form/ HTTP/1.1" 200 1653
+INFO 2024-02-29 07:25:02,120 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:25:02,555 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:23,255 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 07:30:23,700 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:29,069 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 07:30:29,472 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:30,758 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 07:30:31,166 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:34,498 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 07:30:34,910 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:46,329 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:30:46,736 Watching for file changes with StatReloader
+INFO 2024-02-29 07:30:50,039 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:30:50,453 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:01,878 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:02,325 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:04,505 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:04,901 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:12,268 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:12,687 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:25,134 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:25,552 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:27,852 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:28,274 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:33,594 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:34,014 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:37,310 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:37,711 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:38,974 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:39,406 Watching for file changes with StatReloader
+INFO 2024-02-29 07:31:52,860 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:31:53,274 Watching for file changes with StatReloader
+INFO 2024-02-29 07:32:00,641 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:32:01,048 Watching for file changes with StatReloader
+INFO 2024-02-29 07:33:08,521 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:33:08,948 Watching for file changes with StatReloader
+INFO 2024-02-29 07:33:10,218 D:\codes\Seminar\myproject\blogs\forms.py changed, reloading.
+INFO 2024-02-29 07:33:10,635 Watching for file changes with StatReloader
+INFO 2024-02-29 07:43:08,664 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:43:09,100 Watching for file changes with StatReloader
+INFO 2024-02-29 07:43:10,368 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:43:10,784 Watching for file changes with StatReloader
+INFO 2024-02-29 07:43:11,950 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 07:43:12,349 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:05,633 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:06,059 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:08,239 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:08,653 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:09,923 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:10,361 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:13,656 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:14,084 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:30,594 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:31,029 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:44,496 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:44,922 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:48,123 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:48,520 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:50,793 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:51,200 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:55,522 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:55,946 Watching for file changes with StatReloader
+INFO 2024-02-29 20:46:57,207 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:46:57,643 Watching for file changes with StatReloader
+INFO 2024-02-29 20:47:20,246 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:47:20,659 Watching for file changes with StatReloader
+INFO 2024-02-29 20:47:29,049 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:47:29,486 Watching for file changes with StatReloader
+INFO 2024-02-29 20:47:38,880 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:47:39,278 Watching for file changes with StatReloader
+INFO 2024-02-29 20:47:42,463 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:47:42,902 Watching for file changes with StatReloader
+INFO 2024-02-29 20:47:44,176 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 20:47:44,615 Watching for file changes with StatReloader
+INFO 2024-02-29 20:57:08,060 Watching for file changes with StatReloader
+INFO 2024-02-29 20:57:46,010 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 20:57:46,434 Watching for file changes with StatReloader
+INFO 2024-02-29 20:57:51,971 "GET /blogs/ HTTP/1.1" 200 1702
+INFO 2024-02-29 20:57:59,562 "GET /blogs/post/4/ HTTP/1.1" 200 7168
+INFO 2024-02-29 20:58:03,198 "GET /blogs/ HTTP/1.1" 200 1702
+INFO 2024-02-29 20:58:11,563 "GET /blogs/post/4/ HTTP/1.1" 200 7168
+WARNING 2024-02-29 20:58:16,265 Not Found: /blogs/posts
+WARNING 2024-02-29 20:58:16,266 "GET /blogs/posts HTTP/1.1" 404 3660
+WARNING 2024-02-29 20:58:32,694 Not Found: /blogs/post
+WARNING 2024-02-29 20:58:32,695 "GET /blogs/post HTTP/1.1" 404 3657
+INFO 2024-02-29 20:58:38,275 "GET /blogs/post/3/ HTTP/1.1" 200 5893
+INFO 2024-02-29 20:58:47,253 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 20:58:49,391 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 20:58:58,330 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 20:59:53,159 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 20:59:53,562 Watching for file changes with StatReloader
+INFO 2024-02-29 20:59:56,819 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 20:59:57,206 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:00,466 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:00,874 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:31,724 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:32,123 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:34,377 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:34,816 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:42,198 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:42,591 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:43,813 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:44,205 Watching for file changes with StatReloader
+INFO 2024-02-29 21:00:45,431 D:\codes\Seminar\myproject\blogs\models.py changed, reloading.
+INFO 2024-02-29 21:00:45,888 Watching for file changes with StatReloader
+INFO 2024-02-29 21:01:22,448 Watching for file changes with StatReloader
+INFO 2024-02-29 21:01:26,001 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 21:01:28,606 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 21:02:35,067 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:02:35,485 Watching for file changes with StatReloader
+INFO 2024-02-29 21:02:36,673 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:02:37,128 Watching for file changes with StatReloader
+INFO 2024-02-29 21:02:38,310 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:02:38,714 Watching for file changes with StatReloader
+INFO 2024-02-29 21:02:45,114 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:02:45,536 Watching for file changes with StatReloader
+INFO 2024-02-29 21:02:56,721 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 21:03:00,405 "POST /blogs/post/3/ HTTP/1.1" 200 5892
+INFO 2024-02-29 21:03:02,479 "POST /blogs/post/3/ HTTP/1.1" 200 5893
+INFO 2024-02-29 21:04:20,730 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:21,140 Watching for file changes with StatReloader
+INFO 2024-02-29 21:04:25,519 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:25,916 Watching for file changes with StatReloader
+INFO 2024-02-29 21:04:27,099 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:27,492 Watching for file changes with StatReloader
+INFO 2024-02-29 21:04:54,273 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:54,676 Watching for file changes with StatReloader
+INFO 2024-02-29 21:04:57,006 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:57,411 Watching for file changes with StatReloader
+INFO 2024-02-29 21:04:58,733 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:04:59,144 Watching for file changes with StatReloader
+INFO 2024-02-29 21:05:00,460 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:05:00,895 Watching for file changes with StatReloader
+INFO 2024-02-29 21:05:05,121 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:05:05,515 Watching for file changes with StatReloader
+INFO 2024-02-29 21:05:06,818 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:05:07,209 Watching for file changes with StatReloader
+INFO 2024-02-29 21:05:08,525 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:05:08,969 Watching for file changes with StatReloader
+INFO 2024-02-29 21:10:07,280 Watching for file changes with StatReloader
+INFO 2024-02-29 21:10:10,459 "POST /blogs/post/3/ HTTP/1.1" 200 6786
+ERROR 2024-02-29 21:10:32,360 Internal Server Error: /blogs/post/3/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 76, in post_full
+    return redirect('post_full')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' with no arguments not found. 1 pattern(s) tried: ['blogs/post/(?P<post_id>[0-9]+)/\\Z']
+ERROR 2024-02-29 21:10:32,363 "POST /blogs/post/3/ HTTP/1.1" 500 94563
+INFO 2024-02-29 21:12:28,308 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:12:28,716 Watching for file changes with StatReloader
+INFO 2024-02-29 21:12:33,954 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:12:34,362 Watching for file changes with StatReloader
+INFO 2024-02-29 21:12:38,942 "POST /blogs/post/3/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:12:38,977 "GET /blogs/post/3/ HTTP/1.1" 200 7172
+INFO 2024-02-29 21:12:49,692 "POST /blogs/post/3/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:12:49,722 "GET /blogs/post/3/ HTTP/1.1" 200 7411
+INFO 2024-02-29 21:13:05,961 "POST /blogs/post/3/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:13:05,990 "GET /blogs/post/3/ HTTP/1.1" 200 7661
+INFO 2024-02-29 21:13:59,360 Watching for file changes with StatReloader
+INFO 2024-02-29 21:14:01,319 "GET /blogs/post/3/ HTTP/1.1" 200 7618
+INFO 2024-02-29 21:14:31,194 Watching for file changes with StatReloader
+INFO 2024-02-29 21:14:33,240 "GET /blogs/post/3/ HTTP/1.1" 200 7626
+INFO 2024-02-29 21:15:27,822 Watching for file changes with StatReloader
+INFO 2024-02-29 21:15:30,199 "GET /blogs/post/3/ HTTP/1.1" 200 7610
+INFO 2024-02-29 21:16:23,601 Watching for file changes with StatReloader
+INFO 2024-02-29 21:16:25,759 "GET /blogs/post/3/ HTTP/1.1" 200 7610
+INFO 2024-02-29 21:16:47,057 Watching for file changes with StatReloader
+INFO 2024-02-29 21:16:48,602 "GET /blogs/post/3/ HTTP/1.1" 200 7606
+INFO 2024-02-29 21:17:37,486 Watching for file changes with StatReloader
+INFO 2024-02-29 21:17:39,389 "GET /blogs/post/3/ HTTP/1.1" 200 7612
+INFO 2024-02-29 21:19:02,392 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:02,823 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:07,186 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:07,590 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:09,906 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:10,318 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:13,654 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:14,054 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:15,229 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:15,644 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:18,993 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:19,402 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:22,748 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:23,161 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:24,454 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:24,871 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:30,257 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:30,667 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:32,992 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:33,398 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:44,900 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:45,296 Watching for file changes with StatReloader
+INFO 2024-02-29 21:19:58,821 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:19:59,229 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:32,242 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:32,650 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:33,971 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:34,406 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:35,702 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:36,111 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:39,442 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:39,841 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:42,143 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:42,579 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:44,859 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:45,267 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:48,588 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:22:48,996 Watching for file changes with StatReloader
+INFO 2024-02-29 21:22:58,419 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:22:58,821 Watching for file changes with StatReloader
+INFO 2024-02-29 21:23:33,486 Watching for file changes with StatReloader
+INFO 2024-02-29 21:23:36,621 "GET /blogs/post/3/ HTTP/1.1" 200 7678
+INFO 2024-02-29 21:23:37,911 "GET /blogs/posts_all/ HTTP/1.1" 200 7166
+INFO 2024-02-29 21:23:42,600 "GET /blogs/post/37/ HTTP/1.1" 200 2906
+INFO 2024-02-29 21:23:50,577 "POST /blogs/post/37/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:23:50,601 "GET /blogs/post/37/ HTTP/1.1" 200 3225
+INFO 2024-02-29 21:24:03,537 "GET /blogs/posts_all/ HTTP/1.1" 200 7166
+INFO 2024-02-29 21:26:02,950 "GET /blogs/posts_all/ HTTP/1.1" 200 7234
+INFO 2024-02-29 21:26:04,298 "GET /blogs/author/4/ HTTP/1.1" 200 3565
+INFO 2024-02-29 21:26:09,050 "GET /blogs/post/4/ HTTP/1.1" 200 7965
+INFO 2024-02-29 21:29:05,156 Watching for file changes with StatReloader
+INFO 2024-02-29 21:29:13,208 "GET /blogs/post/4/ HTTP/1.1" 200 7965
+WARNING 2024-02-29 21:29:16,251 Not Found: /blogs/authors_all/
+WARNING 2024-02-29 21:29:16,251 "GET /blogs/authors_all/ HTTP/1.1" 404 3862
+INFO 2024-02-29 21:29:34,059 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:29:34,500 Watching for file changes with StatReloader
+INFO 2024-02-29 21:29:36,810 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:29:37,210 Watching for file changes with StatReloader
+INFO 2024-02-29 21:29:38,483 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:29:38,889 Watching for file changes with StatReloader
+INFO 2024-02-29 21:29:40,173 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:29:40,584 Watching for file changes with StatReloader
+INFO 2024-02-29 21:29:44,945 D:\codes\Seminar\myproject\blogs\urls.py changed, reloading.
+INFO 2024-02-29 21:29:45,361 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:09,022 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:09,427 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:14,801 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:15,204 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:23,637 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:24,044 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:34,533 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:34,975 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:37,318 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:37,728 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:43,108 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:43,526 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:44,836 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:45,265 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:51,660 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:30:52,082 Watching for file changes with StatReloader
+INFO 2024-02-29 21:30:55,095 "GET /blogs/authors_all/ HTTP/1.1" 200 1878
+INFO 2024-02-29 21:30:57,750 "GET /blogs/authors_all/ HTTP/1.1" 200 1878
+INFO 2024-02-29 21:32:32,683 Watching for file changes with StatReloader
+INFO 2024-02-29 21:32:37,577 "GET / HTTP/1.1" 200 1892
+WARNING 2024-02-29 21:32:37,941 Not Found: /favicon.ico
+WARNING 2024-02-29 21:32:37,942 "GET /favicon.ico HTTP/1.1" 404 2828
+WARNING 2024-02-29 21:32:37,952 Not Found: /favicon.ico
+WARNING 2024-02-29 21:32:37,952 "GET /favicon.ico HTTP/1.1" 404 2828
+INFO 2024-02-29 21:32:41,065 "GET /blogs/authors_all/ HTTP/1.1" 200 1878
+INFO 2024-02-29 21:33:07,940 "GET /blogs/authors_all/ HTTP/1.1" 200 1899
+INFO 2024-02-29 21:36:02,250 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:36:02,662 Watching for file changes with StatReloader
+INFO 2024-02-29 21:36:04,992 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:36:05,402 Watching for file changes with StatReloader
+INFO 2024-02-29 21:36:09,760 D:\codes\Seminar\myproject\blogs\views.py changed, reloading.
+INFO 2024-02-29 21:36:10,154 Watching for file changes with StatReloader
+INFO 2024-02-29 21:36:13,551 "GET /blogs/authors_all/ HTTP/1.1" 200 1899
+INFO 2024-02-29 21:36:14,848 "GET /blogs/authors_all/ HTTP/1.1" 200 1899
+INFO 2024-02-29 21:36:20,973 Watching for file changes with StatReloader
+ERROR 2024-02-29 21:36:23,705 Internal Server Error: /blogs/authors_all/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 40, in authors_all
+    return render(request, 'blogs/authors_all.html', {'authors': authors})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author_posts' with arguments '('',)' not found. 1 pattern(s) tried: ['blogs/author/(?P<author_id>[0-9]+)/\\Z']
+ERROR 2024-02-29 21:36:23,713 "GET /blogs/authors_all/ HTTP/1.1" 500 177148
+INFO 2024-02-29 21:39:38,426 Watching for file changes with StatReloader
+ERROR 2024-02-29 21:39:40,353 Internal Server Error: /blogs/authors_all/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 40, in authors_all
+    return render(request, 'blogs/authors_all.html', {'authors': authors})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author' not found. 'author' is not a valid view function or pattern name.
+ERROR 2024-02-29 21:39:40,361 "GET /blogs/authors_all/ HTTP/1.1" 500 173810
+ERROR 2024-02-29 21:39:41,349 Internal Server Error: /blogs/authors_all/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Seminar\myproject\blogs\views.py", line 40, in authors_all
+    return render(request, 'blogs/authors_all.html', {'authors': authors})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'author' not found. 'author' is not a valid view function or pattern name.
+ERROR 2024-02-29 21:39:41,355 "GET /blogs/authors_all/ HTTP/1.1" 500 173810
+INFO 2024-02-29 21:42:03,960 Watching for file changes with StatReloader
+INFO 2024-02-29 21:42:06,447 "GET /blogs/authors_all/ HTTP/1.1" 200 3026
+INFO 2024-02-29 21:42:09,564 "GET /blogs/posts_all/ HTTP/1.1" 200 7234
+INFO 2024-02-29 21:42:10,574 "GET /blogs/authors_all/ HTTP/1.1" 200 3026
+INFO 2024-02-29 21:43:29,267 "GET /blogs/authors_all/ HTTP/1.1" 200 3096
+INFO 2024-02-29 21:43:36,991 "GET /blogs/authors_all/ HTTP/1.1" 200 3075
+INFO 2024-02-29 21:43:55,408 "GET /blogs/authors_all/ HTTP/1.1" 200 2837
+INFO 2024-02-29 21:44:01,532 "GET /blogs/authors_all/ HTTP/1.1" 200 2837
+INFO 2024-02-29 21:44:45,167 "GET /blogs/author/8/ HTTP/1.1" 200 2067
+INFO 2024-02-29 21:44:49,191 "GET /blogs/posts_all/ HTTP/1.1" 200 7234
+INFO 2024-02-29 21:44:49,885 "GET /blogs/authors_all/ HTTP/1.1" 200 3075
+INFO 2024-02-29 21:44:50,921 "GET /blogs/author/4/ HTTP/1.1" 200 3565
+INFO 2024-02-29 21:44:53,602 "GET /blogs/post/28/ HTTP/1.1" 200 5735

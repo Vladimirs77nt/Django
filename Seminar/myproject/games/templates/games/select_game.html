@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Игра "{{ game }}"{% endblock %}</title>
+</head>
+<body>  
+    {% block content %}
+        <h3>Игра {{ game }}</h3>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_div }}
+            <input type="submit" value="Выбрать">
+        </form>
+    {% endblock %}
+</body>
+</html>

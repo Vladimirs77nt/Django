@@ -1,3 +1,4 @@
+import datetime
 from django.db import models
 
 """
@@ -14,13 +15,17 @@ class Author(models.Model):
     email = models.EmailField()
     biography = models.TextField()
     birthday = models.DateField()
-    full_name = models.CharField(max_length=200)
+    full_name = models.CharField(max_length=200, default='')
+
+    def save(self, *args, **kwargs):
+        self.full_name = f"{self.surname} {self.name}"
+        super().save(*args, **kwargs)
 
     def fullname (self):
         return f"{self.surname} {self.name}"
 
     def __str__(self):
-        return f'Author [{self.pk}], {self.surname} {self.name}, email: {self.email}, birthday: {self.birthday}'
+        return f'{self.full_name}'
 
 """  модель Статья (публикация).
 Авторы из прошлой задачи могут писать статьи.
@@ -65,8 +70,8 @@ class Comment(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     content = models.CharField(max_length=200)
-    date_create = models.DateField()
-    date_edit = models.DateField()
+    date_create = models.DateField(auto_now_add=True)
+    date_edit = models.DateField(auto_now=True)
     
     def __str__(self):
         words = self.content.split()
