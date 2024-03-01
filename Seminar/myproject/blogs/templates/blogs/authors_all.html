@@ -9,7 +9,6 @@
             <tr>
                 {% if author.name %}
                     <td><a href="{% url 'author_posts' author.id %}">{{ author.full_name }}</a>
-                    {{ author.namesd }}
                 {% endif %}
             </tr>
         {% endfor %}
