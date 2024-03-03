@@ -45,6 +45,8 @@ class ProductAdmin(admin.ModelAdmin):
                         }
                     ),
                 ]
+    
+    # не изменяемые поля
     readonly_fields = ['date_added', 'rating']
 
     # сортировка

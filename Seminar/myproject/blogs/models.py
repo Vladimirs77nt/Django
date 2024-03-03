@@ -15,17 +15,14 @@ class Author(models.Model):
     email = models.EmailField()
     biography = models.TextField()
     birthday = models.DateField()
-    full_name = models.CharField(max_length=200, default='')
-
-    def save(self, *args, **kwargs):
-        self.full_name = f"{self.surname} {self.name}"
-        super().save(*args, **kwargs)
-
-    def fullname (self):
-        return f"{self.surname} {self.name}"
+    fullname = models.CharField(max_length=200, default='')
+    
+    def save (self, *args, **kwargs):
+        self.fullname = f"{self.surname} {self.name}"
+        super().save (*args, **kwargs)
 
     def __str__(self):
-        return f'{self.full_name}'
+        return f'{self.fullname}'
 
 """  модель Статья (публикация).
 Авторы из прошлой задачи могут писать статьи.
@@ -50,7 +47,7 @@ class Post(models.Model):
     
     def __str__(self):
         words = self.content.split()
-        return f'Post [{self.pk}], author: {self.author.full_name}, title: {self.title} |  content: {" ".join(words[:8])}...'
+        return f'Title: {self.title} | content: {" ".join(words[:8])}, author: {self.author.full_name},...'
     
     def get_summary(self):
         words = self.content.split()
