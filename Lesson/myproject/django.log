@@ -971,3 +971,617 @@ INFO 2024-02-27 00:04:36,880 Watching for file changes with StatReloader
 INFO 2024-02-27 00:06:07,920 "GET /les4/upload HTTP/1.1" 301 0
 INFO 2024-02-27 00:06:07,938 "GET /les4/upload/ HTTP/1.1" 200 602
 INFO 2024-02-27 00:06:32,257 "POST /les4/upload/ HTTP/1.1" 200 602
+INFO 2024-03-01 07:04:18,188 Watching for file changes with StatReloader
+INFO 2024-03-01 07:04:22,283 "GET / HTTP/1.1" 200 244
+WARNING 2024-03-01 07:04:41,147 Not Found: /upload
+WARNING 2024-03-01 07:04:41,148 "GET /upload HTTP/1.1" 404 2618
+INFO 2024-03-01 07:04:49,420 "GET /les4/upload/ HTTP/1.1" 200 602
+INFO 2024-03-01 07:05:04,224 "POST /les4/upload/ HTTP/1.1" 200 602
+INFO 2024-03-02 09:00:21,007 Watching for file changes with StatReloader
+INFO 2024-03-02 09:00:24,952 "GET / HTTP/1.1" 200 244
+WARNING 2024-03-02 09:00:25,224 Not Found: /favicon.ico
+WARNING 2024-03-02 09:00:25,225 "GET /favicon.ico HTTP/1.1" 404 2633
+WARNING 2024-03-02 09:00:40,505 Not Found: /about/
+WARNING 2024-03-02 09:00:40,505 "GET /about/ HTTP/1.1" 404 2618
+INFO 2024-03-02 09:00:42,334 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:00:42,451 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-03-02 09:00:42,618 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-03-02 09:00:42,628 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-03-02 09:00:42,629 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-03-02 09:00:42,634 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-03-02 09:00:42,635 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-03-02 09:00:42,644 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-03-02 09:00:42,661 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-03-02 09:04:47,862 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-03-02 09:04:48,382 Watching for file changes with StatReloader
+INFO 2024-03-02 09:28:35,802 Watching for file changes with StatReloader
+INFO 2024-03-02 09:28:43,351 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:28:43,573 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-03-02 09:28:43,633 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-03-02 09:28:43,644 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-03-02 09:28:43,644 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-03-02 09:28:48,450 "GET / HTTP/1.1" 200 244
+INFO 2024-03-02 09:28:49,931 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-03-02 09:28:51,863 "GET /admin/password_change/ HTTP/1.1" 200 7626
+INFO 2024-03-02 09:28:51,889 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-03-02 09:28:51,908 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-03-02 09:28:53,499 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-03-02 09:28:55,889 "GET /admin/auth/user/ HTTP/1.1" 200 11922
+INFO 2024-03-02 09:28:55,907 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-03-02 09:28:55,914 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-03-02 09:28:55,940 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-03-02 09:28:55,942 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-03-02 09:28:55,945 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-03-02 09:28:55,945 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-03-02 09:28:55,953 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-03-02 09:28:55,953 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-03-02 09:28:55,963 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-03-02 09:28:55,967 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:28:55,969 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-03-02 09:28:55,999 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-03-02 09:28:56,049 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-03-02 09:28:56,071 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-03-02 09:28:56,072 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-03-02 09:28:56,080 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-03-02 09:30:17,634 "GET /admin/auth/user/ HTTP/1.1" 200 11922
+INFO 2024-03-02 09:30:17,650 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:30:18,895 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-03-02 09:30:18,909 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:30:18,920 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-03-02 09:30:18,922 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-03-02 09:30:44,389 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:30:44,401 "GET /admin/auth/user/add/ HTTP/1.1" 200 11547
+INFO 2024-03-02 09:30:44,416 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:30:55,401 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:30:55,491 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 25023
+INFO 2024-03-02 09:30:55,510 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:30:55,540 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-03-02 09:30:55,540 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-03-02 09:30:55,553 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-03-02 09:30:55,554 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-03-02 09:30:55,612 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-03-02 09:30:55,612 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-03-02 09:30:55,612 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-03-02 09:30:55,627 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-03-02 09:30:55,647 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-03-02 09:31:34,061 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:31:34,075 "GET /admin/auth/user/ HTTP/1.1" 200 13184
+INFO 2024-03-02 09:31:34,093 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:31:34,097 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-03-02 09:31:42,438 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24726
+INFO 2024-03-02 09:31:42,454 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:20,045 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:32:20,058 "GET /admin/auth/user/ HTTP/1.1" 200 13232
+INFO 2024-03-02 09:32:20,076 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:23,813 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 24808
+INFO 2024-03-02 09:32:23,830 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:32,989 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:32:33,002 "GET /admin/auth/user/ HTTP/1.1" 200 13275
+INFO 2024-03-02 09:32:33,023 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:42,496 "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 12665
+INFO 2024-03-02 09:32:42,510 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:44,195 "GET /admin/auth/user/?is_superuser__exact=0 HTTP/1.1" 200 13246
+INFO 2024-03-02 09:32:44,212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:47,094 "GET /admin/auth/user/?is_active__exact=0&is_superuser__exact=0 HTTP/1.1" 200 10595
+INFO 2024-03-02 09:32:47,108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:47,832 "GET /admin/auth/user/?is_active__exact=1&is_superuser__exact=0 HTTP/1.1" 200 13693
+INFO 2024-03-02 09:32:47,848 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:51,263 "GET /admin/auth/user/?is_superuser__exact=0 HTTP/1.1" 200 13246
+INFO 2024-03-02 09:32:51,278 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:56,228 "GET /admin/auth/user/? HTTP/1.1" 200 13054
+INFO 2024-03-02 09:32:56,243 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:32:58,785 "GET /admin/auth/user/?is_active__exact=1 HTTP/1.1" 200 13695
+INFO 2024-03-02 09:32:58,799 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:33:01,649 "GET /admin/auth/user/? HTTP/1.1" 200 13054
+INFO 2024-03-02 09:33:01,664 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 09:33:22,316 "GET /admin/ HTTP/1.1" 200 7827
+INFO 2024-03-02 09:33:24,340 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-03-02 09:33:26,111 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:33:26,117 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-03-02 09:33:32,738 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 09:33:32,747 "GET /admin/ HTTP/1.1" 200 4893
+INFO 2024-03-02 09:34:42,077 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 09:34:42,571 Watching for file changes with StatReloader
+INFO 2024-03-02 09:34:44,921 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 09:34:45,358 Watching for file changes with StatReloader
+INFO 2024-03-02 09:34:51,665 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 09:34:52,081 Watching for file changes with StatReloader
+INFO 2024-03-02 09:34:56,354 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 09:34:56,804 Watching for file changes with StatReloader
+INFO 2024-03-02 10:46:17,142 Watching for file changes with StatReloader
+INFO 2024-03-02 10:46:19,781 "GET /admin/ HTTP/1.1" 200 4893
+INFO 2024-03-02 10:46:22,479 "GET /admin/ HTTP/1.1" 200 4893
+INFO 2024-03-02 10:46:24,659 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-03-02 10:46:26,126 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 10:46:26,137 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-03-02 10:46:33,527 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-03-02 10:46:33,537 "GET /admin/ HTTP/1.1" 200 8977
+INFO 2024-03-02 10:46:36,884 "GET /admin/myapp_5/category/ HTTP/1.1" 200 8294
+INFO 2024-03-02 10:46:36,900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:46:39,735 "GET /admin/myapp_5/category/add/ HTTP/1.1" 200 9135
+INFO 2024-03-02 10:46:39,750 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:46:41,735 "GET /admin/myapp_5/category/ HTTP/1.1" 200 8294
+INFO 2024-03-02 10:46:45,319 "GET /admin/myapp_5/product/ HTTP/1.1" 200 8287
+INFO 2024-03-02 10:46:45,334 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:46:48,107 "GET /admin/myapp_5/category/ HTTP/1.1" 200 8294
+INFO 2024-03-02 10:46:48,120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:46:49,729 "GET /admin/myapp_5/product/ HTTP/1.1" 200 8287
+INFO 2024-03-02 10:46:49,742 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:47:07,749 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:47:08,168 Watching for file changes with StatReloader
+INFO 2024-03-02 10:50:37,187 D:\codes\Lesson\myproject\myapp_3\admin.py changed, reloading.
+INFO 2024-03-02 10:50:37,609 Watching for file changes with StatReloader
+INFO 2024-03-02 10:50:38,911 D:\codes\Lesson\myproject\myapp_3\admin.py changed, reloading.
+INFO 2024-03-02 10:50:39,364 Watching for file changes with StatReloader
+INFO 2024-03-02 10:50:46,643 "GET /admin/ HTTP/1.1" 200 10102
+INFO 2024-03-02 10:51:12,073 "GET /admin/myapp_3/author/ HTTP/1.1" 200 13008
+INFO 2024-03-02 10:51:12,091 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:52:32,765 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:52:33,188 Watching for file changes with StatReloader
+INFO 2024-03-02 10:52:37,456 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:52:37,859 Watching for file changes with StatReloader
+INFO 2024-03-02 10:52:42,126 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:52:42,519 Watching for file changes with StatReloader
+INFO 2024-03-02 10:52:44,770 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:52:45,177 Watching for file changes with StatReloader
+INFO 2024-03-02 10:52:51,466 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 10:52:51,884 Watching for file changes with StatReloader
+INFO 2024-03-02 10:57:38,122 Watching for file changes with StatReloader
+INFO 2024-03-02 10:57:40,183 "GET /admin/ HTTP/1.1" 200 10102
+INFO 2024-03-02 10:57:43,402 "GET /admin/myapp_5/product/ HTTP/1.1" 200 9132
+INFO 2024-03-02 10:57:43,419 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:57:49,746 "GET /admin/myapp_5/product/ HTTP/1.1" 200 9132
+INFO 2024-03-02 10:57:49,759 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:57:52,851 "GET /admin/myapp_5/category/ HTTP/1.1" 200 9139
+INFO 2024-03-02 10:57:52,865 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:57:54,098 "GET /admin/myapp_5/product/ HTTP/1.1" 200 9132
+INFO 2024-03-02 10:57:54,110 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:58:41,189 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14293
+INFO 2024-03-02 10:58:41,205 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:59:41,538 "GET /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4445
+INFO 2024-03-02 10:59:41,551 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 10:59:45,004 "POST /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 385
+INFO 2024-03-02 10:59:45,057 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+ERROR 2024-03-02 10:59:48,509 Internal Server Error: /admin/myapp_5/product/add/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 715, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1803, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1860, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 953, in log_addition
+    object_repr=str(obj),
+                ^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_5\models.py", line 19, in __str__
+    return self.nam
+           ^^^^^^^^
+AttributeError: 'Product' object has no attribute 'nam'
+ERROR 2024-03-02 10:59:48,513 "POST /admin/myapp_5/product/add/ HTTP/1.1" 500 129368
+INFO 2024-03-02 11:00:12,229 D:\codes\Lesson\myproject\myapp_5\models.py changed, reloading.
+INFO 2024-03-02 11:00:12,681 Watching for file changes with StatReloader
+INFO 2024-03-02 11:00:24,283 Watching for file changes with StatReloader
+INFO 2024-03-02 11:00:29,082 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:00:29,128 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14622
+INFO 2024-03-02 11:00:29,145 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:00:32,523 "GET /admin/myapp_5/product/1/change/ HTTP/1.1" 200 14625
+INFO 2024-03-02 11:00:32,537 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:00:44,341 "POST /admin/myapp_5/product/1/change/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:00:44,354 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14605
+INFO 2024-03-02 11:00:44,369 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:01:08,862 "GET /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4445
+INFO 2024-03-02 11:01:08,876 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:01:17,421 "POST /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 409
+INFO 2024-03-02 11:01:45,080 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:01:45,093 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14661
+INFO 2024-03-02 11:01:45,107 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:02:21,023 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:02:21,037 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14669
+INFO 2024-03-02 11:02:21,054 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:02:45,309 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:02:45,322 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14667
+INFO 2024-03-02 11:02:45,336 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:03:30,228 "GET /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4445
+INFO 2024-03-02 11:03:30,240 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:03:33,980 "POST /admin/myapp_5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2024-03-02 11:03:54,825 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:03:54,838 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14708
+INFO 2024-03-02 11:03:54,857 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:04:21,042 "POST /admin/myapp_5/product/add/ HTTP/1.1" 302 0
+INFO 2024-03-02 11:04:21,058 "GET /admin/myapp_5/product/add/ HTTP/1.1" 200 14714
+INFO 2024-03-02 11:04:21,077 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:04:23,629 "GET /admin/myapp_5/product/ HTTP/1.1" 200 12341
+INFO 2024-03-02 11:04:23,647 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:11:40,791 Watching for file changes with StatReloader
+INFO 2024-03-02 11:11:43,763 "GET /admin/myapp_5/product/ HTTP/1.1" 200 13143
+INFO 2024-03-02 11:11:43,777 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:19,901 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:12:20,368 Watching for file changes with StatReloader
+INFO 2024-03-02 11:12:22,695 "GET /admin/myapp_5/product/ HTTP/1.1" 200 13933
+INFO 2024-03-02 11:12:22,710 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:29,284 "GET /admin/myapp_5/product/?o=2.3 HTTP/1.1" 200 14125
+INFO 2024-03-02 11:12:29,300 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:30,411 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:30,426 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:31,412 "GET /admin/myapp_5/product/?o=2.3 HTTP/1.1" 200 14125
+INFO 2024-03-02 11:12:31,425 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:32,205 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:32,220 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:32,836 "GET /admin/myapp_5/product/?o=2.3 HTTP/1.1" 200 14125
+INFO 2024-03-02 11:12:32,852 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:33,354 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:33,367 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:35,953 "GET /admin/myapp_5/product/?o=2.3 HTTP/1.1" 200 14125
+INFO 2024-03-02 11:12:35,967 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:37,469 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:37,484 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:40,220 "GET /admin/myapp_5/product/?o=2.3 HTTP/1.1" 200 14125
+INFO 2024-03-02 11:12:40,235 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:40,931 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:40,945 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:42,697 "GET /admin/myapp_5/product/?o=-2.-3 HTTP/1.1" 200 14147
+INFO 2024-03-02 11:12:42,715 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:43,767 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:43,782 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:45,900 "GET /admin/myapp_5/product/?o=-2.-3 HTTP/1.1" 200 14147
+INFO 2024-03-02 11:12:45,916 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:48,044 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:48,057 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:50,150 "GET /admin/myapp_5/product/?o=1.2.-3 HTTP/1.1" 200 14557
+INFO 2024-03-02 11:12:50,164 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:51,002 "GET /admin/myapp_5/product/?o=-1.2.-3 HTTP/1.1" 200 14570
+INFO 2024-03-02 11:12:51,016 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:53,663 "GET /admin/myapp_5/product/?o=1.2.-3 HTTP/1.1" 200 14557
+INFO 2024-03-02 11:12:53,677 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:54,181 "GET /admin/myapp_5/product/?o=-1.2.-3 HTTP/1.1" 200 14570
+INFO 2024-03-02 11:12:54,195 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:12:55,549 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 14136
+INFO 2024-03-02 11:12:55,565 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:13:30,057 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:13:30,521 Watching for file changes with StatReloader
+INFO 2024-03-02 11:13:33,907 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 15945
+INFO 2024-03-02 11:13:33,924 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:14:04,691 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:05,116 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:09,409 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:09,837 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:11,135 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:11,573 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:14,368 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 16502
+INFO 2024-03-02 11:14:14,382 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:14:22,141 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:22,571 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:23,857 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:24,264 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:25,494 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:25,946 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:30,307 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:30,745 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:34,082 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:34,502 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:38,844 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:39,284 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:40,607 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:41,037 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:45,388 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:45,864 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:48,180 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:48,617 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:50,936 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:51,354 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:53,668 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:54,085 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:55,381 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:55,810 Watching for file changes with StatReloader
+INFO 2024-03-02 11:14:57,102 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:14:57,527 Watching for file changes with StatReloader
+INFO 2024-03-02 11:15:04,938 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:15:05,356 Watching for file changes with StatReloader
+INFO 2024-03-02 11:15:12,765 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:15:13,205 Watching for file changes with StatReloader
+INFO 2024-03-02 11:15:15,531 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:15:15,948 Watching for file changes with StatReloader
+INFO 2024-03-02 11:15:41,695 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:15:42,110 Watching for file changes with StatReloader
+INFO 2024-03-02 11:15:51,469 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:15:51,904 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:04,392 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:04,831 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:06,136 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:06,579 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:09,917 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:10,347 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:13,675 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:14,107 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:19,483 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:19,919 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:21,205 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:16:21,656 Watching for file changes with StatReloader
+INFO 2024-03-02 11:16:22,962 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 16502
+INFO 2024-03-02 11:16:22,978 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:17:00,859 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:17:01,284 Watching for file changes with StatReloader
+INFO 2024-03-02 11:17:03,553 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:17:03,986 Watching for file changes with StatReloader
+INFO 2024-03-02 11:17:08,338 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:17:08,765 Watching for file changes with StatReloader
+INFO 2024-03-02 11:17:30,424 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:17:30,853 Watching for file changes with StatReloader
+INFO 2024-03-02 11:17:35,205 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:17:35,662 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:09,555 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:09,965 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:13,240 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:13,661 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:15,979 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:16,398 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:18,715 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:19,136 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:23,493 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:23,929 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:28,283 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:28,712 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:31,997 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:32,412 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:33,660 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:34,084 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:35,385 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:35,824 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:40,176 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:40,601 Watching for file changes with StatReloader
+INFO 2024-03-02 11:18:42,908 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:18:43,331 Watching for file changes with StatReloader
+INFO 2024-03-02 11:19:47,739 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:19:48,170 Watching for file changes with StatReloader
+INFO 2024-03-02 11:19:54,498 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:19:54,897 Watching for file changes with StatReloader
+INFO 2024-03-02 11:19:57,163 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:19:57,575 Watching for file changes with StatReloader
+INFO 2024-03-02 11:20:00,866 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:20:01,286 Watching for file changes with StatReloader
+INFO 2024-03-02 11:21:54,540 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:21:54,979 Watching for file changes with StatReloader
+INFO 2024-03-02 11:21:57,233 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:21:57,634 Watching for file changes with StatReloader
+INFO 2024-03-02 11:21:58,890 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:21:59,290 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:00,536 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:00,975 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:16,514 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:16,928 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:18,174 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:18,584 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:23,891 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:24,293 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:26,553 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:26,972 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:29,238 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:29,650 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:33,930 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:34,332 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:36,589 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:36,997 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:39,264 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:39,690 Watching for file changes with StatReloader
+INFO 2024-03-02 11:22:45,059 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:22:45,476 Watching for file changes with StatReloader
+INFO 2024-03-02 11:23:02,033 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:23:02,487 Watching for file changes with StatReloader
+INFO 2024-03-02 11:23:07,331 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 16595
+INFO 2024-03-02 11:23:07,350 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:23:08,301 "GET /admin/myapp_5/product/?o=2.-3 HTTP/1.1" 200 16595
+INFO 2024-03-02 11:23:08,315 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:23:19,688 "GET /admin/myapp_5/product/1/change/?_changelist_filters=o%3D2.-3 HTTP/1.1" 200 14029
+INFO 2024-03-02 11:23:19,706 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:25:01,032 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:01,540 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:08,988 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:09,392 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:44,134 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:44,559 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:49,863 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:50,267 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:51,511 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:51,912 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:58,230 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:25:58,638 Watching for file changes with StatReloader
+INFO 2024-03-02 11:25:59,882 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:00,282 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:03,557 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:03,956 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:06,217 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:06,627 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:09,907 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:10,320 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:12,582 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:12,984 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:15,243 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:15,648 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:18,916 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:19,333 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:21,592 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:21,987 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:31,352 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:31,765 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:35,044 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:35,445 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:38,720 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:39,131 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:45,446 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:45,844 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:49,116 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:49,517 Watching for file changes with StatReloader
+INFO 2024-03-02 11:26:53,812 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:26:54,213 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:02,557 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:02,974 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:06,248 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:06,644 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:16,006 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:16,410 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:29,845 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:30,242 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:34,541 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:34,967 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:36,210 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:36,615 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:38,880 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:39,278 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:46,600 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:47,000 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:51,284 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:51,686 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:53,951 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:54,375 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:56,638 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:57,044 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:58,290 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:27:58,689 Watching for file changes with StatReloader
+INFO 2024-03-02 11:27:59,932 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:00,328 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:05,629 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:06,042 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:13,381 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:13,785 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:18,068 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:18,470 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:21,745 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:22,145 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:23,396 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:23,796 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:25,050 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:25,451 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:26,702 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:27,135 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:31,431 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:31,829 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:37,150 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:37,553 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:40,829 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:41,239 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:42,492 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:42,888 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:47,191 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:47,597 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:48,841 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:49,249 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:52,525 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:52,918 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:56,196 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:56,613 Watching for file changes with StatReloader
+INFO 2024-03-02 11:28:58,925 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:28:59,358 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:01,685 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:02,121 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:04,430 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:04,860 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:07,168 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:07,600 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:08,896 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:09,324 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:14,694 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:15,113 Watching for file changes with StatReloader
+INFO 2024-03-02 11:29:20,479 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:29:20,915 Watching for file changes with StatReloader
+ERROR 2024-03-02 11:29:58,836 Internal Server Error: /admin/myapp_5/product/1/change/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 715, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1947, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1803, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\contrib\admin\options.py", line 838, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2024-03-02 11:29:58,842 "GET /admin/myapp_5/product/1/change/?_changelist_filters=o%3D2.-3 HTTP/1.1" 500 154446
+INFO 2024-03-02 11:30:23,443 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:30:23,881 Watching for file changes with StatReloader
+INFO 2024-03-02 11:30:25,176 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:30:25,614 Watching for file changes with StatReloader
+INFO 2024-03-02 11:30:32,013 D:\codes\Lesson\myproject\myapp_5\admin.py changed, reloading.
+INFO 2024-03-02 11:30:32,444 Watching for file changes with StatReloader
+INFO 2024-03-02 11:30:36,124 "GET /admin/myapp_5/product/1/change/?_changelist_filters=o%3D2.-3 HTTP/1.1" 200 15943
+INFO 2024-03-02 11:30:36,143 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-02 11:30:36,197 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
