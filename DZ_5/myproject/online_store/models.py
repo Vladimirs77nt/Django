@@ -25,7 +25,7 @@ class Client(models.Model):
     date_reg = models.DateField()
 
     def __str__(self):
-        return f'{self.name}, email: {self.email}, date_reg: {self.date_reg}'
+        return f'{self.name}'
 
 
 """
