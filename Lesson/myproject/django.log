@@ -1585,3 +1585,157 @@ INFO 2024-03-02 11:30:32,444 Watching for file changes with StatReloader
 INFO 2024-03-02 11:30:36,124 "GET /admin/myapp_5/product/1/change/?_changelist_filters=o%3D2.-3 HTTP/1.1" 200 15943
 INFO 2024-03-02 11:30:36,143 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-03-02 11:30:36,197 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-03-04 21:11:11,476 Watching for file changes with StatReloader
+INFO 2024-03-04 21:11:14,074 "GET / HTTP/1.1" 200 10053
+INFO 2024-03-04 21:11:14,109 "GET /admin/auth/user/6/change/ HTTP/1.1" 302 0
+INFO 2024-03-04 21:11:14,132 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-03-04 21:11:14,133 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-03-04 21:11:14,146 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-03-04 21:11:14,207 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-03-04 21:11:14,228 "GET /admin/login/?next=/admin/auth/user/6/change/ HTTP/1.1" 200 14250
+WARNING 2024-03-04 21:11:14,378 Not Found: /favicon.ico
+WARNING 2024-03-04 21:11:14,379 "GET /favicon.ico HTTP/1.1" 404 12539
+WARNING 2024-03-04 21:11:14,400 Not Found: /favicon.ico
+WARNING 2024-03-04 21:11:14,401 "GET /favicon.ico HTTP/1.1" 404 12539
+INFO 2024-03-04 21:18:04,797 "GET /__debug__/render_panel/?store_id=7508f81e601f4f6d9813593690976f37&panel_id=RequestPanel HTTP/1.1" 200 1844
+INFO 2024-03-04 21:18:13,138 "GET /__debug__/render_panel/?store_id=7508f81e601f4f6d9813593690976f37&panel_id=SignalsPanel HTTP/1.1" 200 2231
+INFO 2024-03-04 21:47:46,110 Watching for file changes with StatReloader
+INFO 2024-03-04 21:47:53,739 "GET /les3/ HTTP/1.1" 200 10026
+INFO 2024-03-04 21:47:53,764 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-04 21:47:53,765 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-03-04 21:47:53,767 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-04 21:47:53,775 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-03-04 21:47:57,241 Not Found: /les6
+WARNING 2024-03-04 21:47:57,241 "GET /les6 HTTP/1.1" 404 12616
+WARNING 2024-03-04 21:48:25,401 Not Found: /les6/
+WARNING 2024-03-04 21:48:25,401 "GET /les6/ HTTP/1.1" 404 13029
+INFO 2024-03-04 21:48:33,120 "GET /les6/db HTTP/1.1" 301 0
+ERROR 2024-03-04 21:48:33,314 Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_6\views.py", line 11, in total_in_db
+    return render(request, 'myapp6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp6/total_count.html
+ERROR 2024-03-04 21:48:33,338 "GET /les6/db/ HTTP/1.1" 500 94123
+INFO 2024-03-04 22:13:21,665 D:\codes\Lesson\myproject\myapp_6\views.py changed, reloading.
+INFO 2024-03-04 22:13:22,157 Watching for file changes with StatReloader
+INFO 2024-03-04 22:13:24,543 D:\codes\Lesson\myproject\myapp_6\views.py changed, reloading.
+INFO 2024-03-04 22:13:25,009 Watching for file changes with StatReloader
+INFO 2024-03-04 22:13:29,416 D:\codes\Lesson\myproject\myapp_6\views.py changed, reloading.
+INFO 2024-03-04 22:13:29,898 Watching for file changes with StatReloader
+INFO 2024-03-04 22:13:35,334 D:\codes\Lesson\myproject\myapp_6\views.py changed, reloading.
+INFO 2024-03-04 22:13:35,792 Watching for file changes with StatReloader
+ERROR 2024-03-04 22:13:47,938 Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\Lesson\myproject\myapp_6\views.py", line 11, in total_in_db
+    return render(request, 'myapp_6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_6/total_count.html
+ERROR 2024-03-04 22:13:47,969 "GET /les6/db/ HTTP/1.1" 500 94149
+INFO 2024-03-04 22:13:47,982 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-04 22:13:47,983 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-03-04 22:13:47,984 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-04 22:13:48,010 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-03-04 22:14:52,703 "GET /les6/db/ HTTP/1.1" 200 10175
+INFO 2024-03-04 22:15:23,537 "GET /les6/view/ HTTP/1.1" 200 10161
+INFO 2024-03-04 22:15:44,160 "GET /les6/template/ HTTP/1.1" 200 10145
+INFO 2024-03-04 22:15:49,783 "GET /__debug__/render_panel/?store_id=7c6f222838044e23bea9a26d63181ced&panel_id=HistoryPanel HTTP/1.1" 200 7447
+INFO 2024-03-04 22:15:49,799 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-03-04 22:16:04,867 "GET /__debug__/history_sidebar/?store_id=7c6f222838044e23bea9a26d63181ced&exclude_history=True HTTP/1.1" 200 10787
+INFO 2024-03-04 22:16:06,975 "GET /__debug__/history_sidebar/?store_id=7ac60a5b9dd449feb20c0f7ccd56d679&exclude_history=True HTTP/1.1" 200 10783
+INFO 2024-03-04 22:16:08,131 "GET /__debug__/history_sidebar/?store_id=ae2f2c28c37f4024ba57e9a9bbb10698&exclude_history=True HTTP/1.1" 200 10781
+INFO 2024-03-04 22:16:09,099 "GET /__debug__/history_sidebar/?store_id=7ac60a5b9dd449feb20c0f7ccd56d679&exclude_history=True HTTP/1.1" 200 10783
+INFO 2024-03-04 22:16:09,977 "GET /__debug__/history_sidebar/?store_id=7c6f222838044e23bea9a26d63181ced&exclude_history=True HTTP/1.1" 200 10787
+INFO 2024-03-04 22:16:45,332 "GET /les6/db/ HTTP/1.1" 200 10602
+INFO 2024-03-04 22:17:04,126 "GET /les6/view/ HTTP/1.1" 200 10588
+INFO 2024-03-04 22:17:15,614 "GET /les6/template/ HTTP/1.1" 200 10572
+INFO 2024-03-04 22:17:23,939 "GET /les6/db/ HTTP/1.1" 200 10602
+INFO 2024-03-04 22:17:30,585 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=HistoryPanel HTTP/1.1" 200 14023
+INFO 2024-03-04 22:17:34,501 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-03-04 22:17:41,678 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SettingsPanel HTTP/1.1" 200 27258
+INFO 2024-03-04 22:17:43,285 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=HeadersPanel HTTP/1.1" 200 5274
+INFO 2024-03-04 22:17:43,892 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=RequestPanel HTTP/1.1" 200 1903
+INFO 2024-03-04 22:17:45,891 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SQLPanel HTTP/1.1" 200 5251
+INFO 2024-03-04 22:17:46,804 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=StaticFilesPanel HTTP/1.1" 200 29674
+INFO 2024-03-04 22:17:53,266 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=TemplatesPanel HTTP/1.1" 200 7037
+INFO 2024-03-04 22:17:57,950 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-03-04 22:17:59,542 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-03-04 22:18:05,948 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:18:08,210 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:18:14,935 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:18:16,719 "GET /__debug__/history_sidebar/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 11365
+INFO 2024-03-04 22:18:17,505 "GET /__debug__/history_sidebar/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 11365
+INFO 2024-03-04 22:18:24,767 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-03-04 22:18:26,884 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SettingsPanel HTTP/1.1" 200 27258
+INFO 2024-03-04 22:18:28,377 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=HeadersPanel HTTP/1.1" 200 5274
+INFO 2024-03-04 22:18:31,647 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=RequestPanel HTTP/1.1" 200 1903
+INFO 2024-03-04 22:18:37,044 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-03-04 22:18:37,821 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-03-04 22:18:47,233 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:19:11,713 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SQLPanel HTTP/1.1" 200 5251
+INFO 2024-03-04 22:19:22,354 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:19:25,031 "GET /__debug__/history_sidebar/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 11365
+INFO 2024-03-04 22:19:25,957 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:19:29,536 "GET /__debug__/render_panel/?store_id=b82679ac221e470caa002057743b84ec&panel_id=SQLPanel HTTP/1.1" 200 22732
+INFO 2024-03-04 22:19:51,904 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:19:54,464 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:19:58,468 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:19:59,362 "GET /__debug__/history_sidebar/?store_id=87d2657c95aa419d8f5722fe00210c86&exclude_history=True HTTP/1.1" 200 11367
+INFO 2024-03-04 22:20:00,320 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:20:02,780 "GET /__debug__/render_panel/?store_id=b82679ac221e470caa002057743b84ec&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-03-04 22:20:03,954 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:20:07,817 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:20:09,888 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:20:11,176 "GET /__debug__/render_panel/?store_id=b82679ac221e470caa002057743b84ec&panel_id=SQLPanel HTTP/1.1" 200 22732
+INFO 2024-03-04 22:20:43,894 "GET /__debug__/history_refresh/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 13446
+INFO 2024-03-04 22:20:45,486 "GET /__debug__/history_sidebar/?store_id=3ae5d154ddbd48e896623bbd6fdfc5b1&exclude_history=True HTTP/1.1" 200 10738
+INFO 2024-03-04 22:20:47,669 "GET /__debug__/history_sidebar/?store_id=ae2f2c28c37f4024ba57e9a9bbb10698&exclude_history=True HTTP/1.1" 200 10781
+INFO 2024-03-04 22:20:49,051 "GET /__debug__/history_sidebar/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 11365
+INFO 2024-03-04 22:20:50,633 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:20:51,906 "GET /__debug__/history_sidebar/?store_id=87d2657c95aa419d8f5722fe00210c86&exclude_history=True HTTP/1.1" 200 11367
+INFO 2024-03-04 22:20:53,436 "GET /__debug__/history_sidebar/?store_id=b82679ac221e470caa002057743b84ec&exclude_history=True HTTP/1.1" 200 11371
+INFO 2024-03-04 22:20:54,068 "GET /__debug__/history_sidebar/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&exclude_history=True HTTP/1.1" 200 11365
+INFO 2024-03-04 22:20:55,707 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=SQLPanel HTTP/1.1" 200 5251
+INFO 2024-03-04 22:21:01,565 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=RequestPanel HTTP/1.1" 200 1903
+INFO 2024-03-04 22:21:07,686 "GET /__debug__/render_panel/?store_id=e9b48f7b34a34a51ac9e6056240ac4c7&panel_id=StaticFilesPanel HTTP/1.1" 200 29674
+INFO 2024-03-04 22:21:38,967 "GET /les6/view/ HTTP/1.1" 200 10604
+INFO 2024-03-04 22:21:38,985 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-03-04 22:21:38,985 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-04 22:21:38,985 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-04 22:21:38,995 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-03-04 22:21:40,908 "GET /__debug__/render_panel/?store_id=3c4bab3ad63d44089ac4d1a1c2328906&panel_id=SQLPanel HTTP/1.1" 200 6480
+INFO 2024-03-04 22:21:45,729 "POST /__debug__/sql_explain/ HTTP/1.1" 200 1740
+INFO 2024-03-04 22:21:52,158 "POST /__debug__/sql_select/ HTTP/1.1" 200 1101
+INFO 2024-03-04 22:22:32,656 "GET /les6/db/ HTTP/1.1" 200 10618
+INFO 2024-03-04 22:22:35,279 "GET /__debug__/render_panel/?store_id=9429467d3c304982981550e10f9db405&panel_id=SQLPanel HTTP/1.1" 200 5252
+INFO 2024-03-04 22:23:51,281 "GET /__debug__/render_panel/?store_id=9429467d3c304982981550e10f9db405&panel_id=ProfilingPanel HTTP/1.1" 200 44705
+INFO 2024-03-04 22:52:03,979 D:\codes\Lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2024-03-05 20:52:17,510 Watching for file changes with StatReloader
